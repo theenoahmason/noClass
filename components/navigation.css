@@ -1,0 +1,58 @@
+*[noClass] nav > ul {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+*[noClass] nav li {
+    position: relative;
+}
+
+*[noClass] nav > ul > li {
+    display: inline-flex;
+}
+
+*[noClass] nav > ul > li > a {
+    padding: 16px;
+}
+
+*[noClass] nav > ul > li > ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: none;
+}
+
+*[noClass] nav > ul > li > ul li {
+	width: 100%;
+}
+
+*[noClass] nav > ul > li > ul li a {
+	height: 1.5;
+	padding: 8px 16px;
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+*[noClass] nav > ul > li > ul li a:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+*[noClass] nav > ul > li:focus > ul, 
+*[noClass] nav > ul > li:active > ul, 
+*[noClass] nav > ul > li:hover > ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: 200px;
+}

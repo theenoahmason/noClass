@@ -23,7 +23,7 @@
 	padding-right: 16px;
 }
 
-*[noClass] header > section > nav > ul {
+/**[noClass] header > section > nav > ul {
     display: flex;
     flex-flow: row;
     align-items: flex-start;
@@ -80,7 +80,7 @@
 	align-items: flex-start;
 	justify-content: flex-start;
 	width: 200px;
-}
+}*/
 
 *[noClass] header a {
 	color: inherit;

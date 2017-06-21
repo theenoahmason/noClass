@@ -22,3 +22,7 @@
 	padding: 16px;
 	display: inline-block;
 }
+
+*[noClass] footer a {
+	color: inherit;
+}
