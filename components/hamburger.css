@@ -41,8 +41,7 @@
 *[noClass] figure[hamburger] > label > span > i:after {
   width: 40px;
   height: 4px;
-  background-color: #000;
-  border-radius: 4px;
+  border-radius: 1px;
   position: absolute;
   transition-property: transform;
   transition-duration: 0.15s;
@@ -53,6 +52,7 @@
 *[noClass] figure[hamburger] > label > span > i:after {
   content: '';
   display: block; 
+  background-color: inherit;
 }
 
 *[noClass] figure[hamburger] > label > span > i:before {
@@ -63,6 +63,10 @@
 *[noClass] figure[hamburger] > label > span > i:after {
   bottom: -10px; 
   transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+*[noClass] figure[hamburger] > input[type="checkbox"] {
+  display: none;
 }
 
 /* Active */
@@ -84,10 +88,11 @@
   transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-figure[hamburger] figcaption {
+*[noClass] figure[hamburger] figcaption {
   display: block;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
