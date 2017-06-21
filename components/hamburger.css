@@ -1,12 +1,12 @@
 /*!
  * Hamburgers
- * @description Tasty CSS-animated hamburgers
+ * @description Hamburgers
  * @author Jonathan Suh @jonsuh
  * @site https://jonsuh.com/hamburgers
  * @link https://github.com/jonsuh/hamburgers
  */
 *[noClass] figure[hamburger] {
-  padding: 15px 15px;
+  padding: 16px;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
