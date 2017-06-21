@@ -3,6 +3,7 @@
 *[noClass] a {
 	font-weight: bolder;
 	text-decoration: none;
+	color: inherit;
 	cursor: pointer;
 	-webkit-user-select: none;       
 	-moz-user-select: none; 
