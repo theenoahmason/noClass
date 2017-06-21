@@ -6,7 +6,7 @@
 }
 
 *[noClass] article[card] > header {
-	min-height: 250px;
+	min-height: 256px;
 	justify-content: flex-end;
 }
 
