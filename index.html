@@ -9,8 +9,17 @@
 	<body bg="light" c="light-contrast">
 
 		<!-- Header -->
-		<header bg="primary" c="primary-contrast" level="3" fix="top">
-			<section><h3>First Row</h3></section>
+		<header bg="primary" c="primary-contrast" level="3">
+			<section>
+				<figure hamburger>
+					<input id="dashboard-toggle" type="checkbox" required />
+					<label hamburger for="dashboard-toggle">
+						<span><i></i></span>
+						<figcaption><small>Menu</small></figcaption>
+					</label>
+				</figure>
+				<h3>First Row</h3>
+			</section>
 			<section>
 				<nav>
 					<ul>
@@ -42,38 +51,40 @@
 			</section>
 		</header>
 
-		<main bg="white" c="black" fixhelp="top">
+		<main>
 			<section>
-				<nav>
-					<ul>
-						<li>
-							<a href="#">Link</a>
-							<ul bg="white" c="black" level="3">
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">Link</a>
-							<ul bg="white" c="black" level="3">
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Link</a></li>
-						<li><a href="#">Link</a></li>
-						<li><a href="#">Link</a></li>
-					</ul>
-				</nav>
+				<div contain>
+					<nav>
+						<ul>
+							<li>
+								<a href="#">Link</a>
+								<ul bg="white" c="black" level="3">
+									<li><a href="#">Link</a></li>
+									<li><a href="#">Link</a></li>
+									<li><a href="#">Link</a></li>
+									<li><a href="#">Link</a></li>
+									<li><a href="#">Link</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Link</a>
+								<ul bg="white" c="black" level="3">
+									<li><a href="#">Link</a></li>
+									<li><a href="#">Link</a></li>
+									<li><a href="#">Link</a></li>
+									<li><a href="#">Link</a></li>
+									<li><a href="#">Link</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+						</ul>
+					</nav>
+				</div>
 			</section>
 			<section>
-				<span contain>
+				<div contain>
 
 					<article bg="white" c="black">
 						<header>
@@ -220,7 +231,7 @@
 						</footer>
 					</article>
 
-				</span>
+				</div>
 			</section>
 		</main>
 
