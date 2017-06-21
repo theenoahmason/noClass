@@ -1,4 +1,9 @@
 /* Typography */
+*[noClass] body {
+	font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
 
 /* Paragraph */
 *[noClass] p {
@@ -12,13 +17,13 @@
 
 /* Headings */
 *[noClass] h1 {
-	font-size:36px;
+	font-size:42px;
 	font-weight: inherit;
 	margin: 0 0 16px;
 }
 
 *[noClass] h2 {
-	font-size:32px;
+	font-size:36px;
 	font-weight: inherit;
 	margin: 0 0 16px;
 }
@@ -30,7 +35,7 @@
 }
 
 *[noClass] h4 {
-	font-size:24px;
+	font-size:22px;
 	font-weight: inherit;
 	margin: 0 0 16px;
 }
