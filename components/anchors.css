@@ -1,0 +1,22 @@
+/* Anchor */
+
+*[noClass] a {
+	font-weight: bolder;
+	text-decoration: none;
+	cursor: pointer;
+	-webkit-user-select: none;       
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	-o-user-select: none;
+	user-select: none;
+}
+
+*[noClass] a[disabled] {
+	color: rgba(0, 0, 0, 0.8);
+	cursor: normal;
+	-webkit-pointer-events: none;
+	-moz-pointer-events: none;
+	-ms-pointer-events: none;
+	-o-pointer-events: none;
+	pointer-events: none;
+}

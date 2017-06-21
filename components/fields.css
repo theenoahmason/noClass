@@ -1,0 +1,71 @@
+/* Form Fields */
+
+/* Placeholders */
+*[noClass] ::-webkit-input-placeholder { color: inherit; opacity: 0.5; }
+*[noClass] ::-moz-placeholder          { color: inherit; opacity: 0.5; }
+*[noClass] :-ms-input-placeholder      { color: inherit; opacity: 0.5; }
+*[noClass] :-moz-placeholder           { color: inherit; opacity: 0.5; }
+
+/* Fieldsets */
+*[noClass] fieldset {
+    border: none;
+    padding: 0;
+    margin: 0 0 16px;
+}
+
+/* Labels */
+*[noClass] label {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;       
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	-o-user-select: none;
+	user-select: none;
+}
+
+/* Inputs & Selects */
+*[noClass] select, 
+*[noClass] input {
+	margin: 0 0 16px;
+	background-color: transparent;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 2px solid;
+	color: inherit;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	font-size: 18px;
+}
+
+*[noClass] select[disabled], 
+*[noClass] input[disabled], 
+*[noClass] select[disabled]:hover, 
+*[noClass] input[disabled]:hover, 
+*[noClass] select[disabled]:active, 
+*[noClass] input[disabled]:active {
+	cursor: normal;
+} 
+
+*[noClass] select[disabled], 
+*[noClass] input[disabled], 
+*[noClass] select[disabled]:hover, 
+*[noClass] input[disabled]:hover, 
+*[noClass] select[disabled]:active, 
+*[noClass] input[disabled]:active, 
+*[noClass] select, 
+*[noClass] input {
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+*[noClass] select:active,
+*[noClass] select:focus,
+*[noClass] input:active,
+*[noClass] input:focus {
+	border-color: inherit;
+}

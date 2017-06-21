@@ -1,0 +1,106 @@
+/* Header & Footer */
+*[noClass] header {
+	position: relative;
+	display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+}
+
+*[noClass] header > section > h1, 
+*[noClass] header > section > h2, 
+*[noClass] header > section > h3, 
+*[noClass] header > section > h4, 
+*[noClass] header > section > h5, 
+*[noClass] header > section > h6, 
+*[noClass] footer > section > h1, 
+*[noClass] footer > section > h2, 
+*[noClass] footer > section > h3, 
+*[noClass] footer > section > h4, 
+*[noClass] footer > section > h5, 
+*[noClass] footer > section > h6 {
+	margin: 0;
+	padding: 16px;
+	display: inline-block;
+}
+
+*[noClass] header > section {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+*[noClass] header > section > nav > ul {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+*[noClass] header > section > nav li {
+    position: relative;
+}
+
+*[noClass] header > section > nav > ul > li {
+    display: inline-flex;
+}
+
+*[noClass] header > section > nav > ul > li > a {
+    padding: 16px;
+}
+
+*[noClass] header > section > nav > ul > li > ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: none;
+}
+
+*[noClass] header > section > nav > ul > li > ul li {
+	width: 100%;
+}
+
+*[noClass] header > section > nav > ul > li > ul li a {
+	height: 1.5;
+	padding: 8px 16px;
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+*[noClass] header > section > nav > ul > li > ul li a:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+*[noClass] header > section > nav > ul > li:focus > ul, 
+*[noClass] header > section > nav > ul > li:active > ul, 
+*[noClass] header > section > nav > ul > li:hover > ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: 200px;
+}
+
+*[noClass] header a {
+	color: inherit;
+}
+
+*[noClass] footer {
+	position: relative;
+	display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+}
+
+*[noClass] footer > section {
+	padding-left: 16px;
+	padding-right: 16px;
+}

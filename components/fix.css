@@ -1,0 +1,7 @@
+/* Fix */
+*[noClass] *[fix="top"]           { position: fixed; top: 0; left: 0; right: 0; z-index: 10000; }
+*[noClass] *[fix="top-left"]      { position: fixed; top: 0; left: 0; z-index: 10000; }
+*[noClass] *[fix="top-right"]     { position: fixed; top: 0; right: 0; z-index: 10000; }
+*[noClass] *[fix="bottom"]        { position: fixed; bottom: 0; left: 0; right: 0; z-index: 10000; }
+*[noClass] *[fix="bottom-left"]   { position: fixed; bottom: 0; left: 0; z-index: 10000; }
+*[noClass] *[fix="bottom-right"]  { position: fixed; bottom: 0; right: 0; z-index: 10000; }

@@ -1,0 +1,13 @@
+/* Details */
+*[noClass] details {
+
+}
+
+*[noClass] details > summary {
+	cursor: pointer;
+	-webkit-user-select: none;       
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	-o-user-select: none;
+	user-select: none;
+}

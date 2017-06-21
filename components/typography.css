@@ -1,0 +1,48 @@
+/* Typography */
+
+/* Paragraph */
+*[noClass] p {
+	margin: 0 0 16px;
+	display: block;
+}
+
+*[noClass] strong {
+	font-weight: bolder;
+}
+
+/* Headings */
+*[noClass] h1 {
+	font-size:36px;
+	font-weight: inherit;
+	margin: 0 0 16px;
+}
+
+*[noClass] h2 {
+	font-size:32px;
+	font-weight: inherit;
+	margin: 0 0 16px;
+}
+
+*[noClass] h3 {
+	font-size:28px;
+	font-weight: inherit;
+	margin: 0 0 16px;
+}
+
+*[noClass] h4 {
+	font-size:24px;
+	font-weight: inherit;
+	margin: 0 0 16px;
+}
+
+*[noClass] h5 {
+	font-size:18px;
+	font-weight: inherit;
+	margin: 0 0 16px;
+}
+
+*[noClass] h6 {
+	font-size:14px;
+	font-weight: inherit;
+	margin: 0 0 16px;
+}
