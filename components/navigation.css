@@ -1,3 +1,7 @@
+*[noClass] nav {
+    display: block;
+}
+
 *[noClass] nav > ul {
     display: flex;
     flex-flow: row;
