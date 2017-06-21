@@ -1,0 +1,15 @@
+*[noClass] article[card] {
+	border-radius: 2px;
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+}
+
+*[noClass] article[card] > header {
+	min-height: 250px;
+	justify-content: flex-end;
+}
+
+*[noClass] article[card] > section {
+	padding: 16px;
+}
