@@ -16,9 +16,9 @@
 *[noClass] *[b="primary-contrast"]   { border-color: lightblue; }
 *[noClass] *[bg="primary-contrast"]  { background-color: lightblue; }
 /* Accent */
-*[noClass] *[c="accent"]             { color: pink; }
-*[noClass] *[b="accent"]             { border-color: pink; }
-*[noClass] *[bg="accent"]            { background-color: pink; }
+*[noClass] *[c="accent"]             { color: deeppink; }
+*[noClass] *[b="accent"]             { border-color: deeppink; }
+*[noClass] *[bg="accent"]            { background-color: deeppink; }
 *[noClass] *[c="accent-contrast"]    { color: lightpink; }
 *[noClass] *[b="accent-contrast"]    { border-color: lightpink; }
 *[noClass] *[bg="accent-contrast"]   { background-color: lightpink; }
