@@ -17,17 +17,15 @@
 
 /* HTML */ 
 html[noClass] {
-	width: 100%;
-	height: 100%;
-    display: table;
+    position: relative;
+    height: auto;
+    width: auto;
 }
 
 /* Body */
 *[noClass] body {
     margin: 0;
-    display: static;
-    align-items: flex-start;
-    flex-flow: column;
+    position: relative;
     width: 100%;
     height: 100%;
 }
