@@ -12,13 +12,7 @@
 *[noClass] header > section > h3, 
 *[noClass] header > section > h4, 
 *[noClass] header > section > h5, 
-*[noClass] header > section > h6, 
-*[noClass] footer > section > h1, 
-*[noClass] footer > section > h2, 
-*[noClass] footer > section > h3, 
-*[noClass] footer > section > h4, 
-*[noClass] footer > section > h5, 
-*[noClass] footer > section > h6 {
+*[noClass] header > section > h6 {
 	margin: 0;
 	padding: 16px;
 	display: inline-block;
@@ -90,17 +84,4 @@
 
 *[noClass] header a {
 	color: inherit;
-}
-
-*[noClass] footer {
-	position: relative;
-	display: flex;
-    flex-flow: column;
-    justify-content: center;
-    width: 100%;
-}
-
-*[noClass] footer > section {
-	padding-left: 16px;
-	padding-right: 16px;
 }

@@ -6,7 +6,7 @@
 @import './components/field.css';
 @import './components/fix.css';
 @import './components/headers.css';
+@import './components/footers.css';
 @import './components/layout.css';
-@import './components/levels.css';
-@import './components/main.css';
 @import './components/typography.css';
+@import './components/levels.css';
