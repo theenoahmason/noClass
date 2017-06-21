@@ -12,8 +12,8 @@
 	padding-left: 16px;
 	padding-right: 16px;
 	display: flex;
-    flex-flow: column;
-    justify-content: center;
+    flex-flow: row;
+    align-items: center;
     width: 100%;
 }
 
