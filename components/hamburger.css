@@ -21,10 +21,14 @@
   overflow: visible; 
 }
 
+*[noClass] figure[hamburger] > label {
+  display: block;
+}
+
 *[noClass] figure[hamburger] > label > span {
   width: 40px;
   height: 24px;
-  display: inline-block;
+  display: block;
   position: relative; 
 }
 
