@@ -1,0 +1,13 @@
+/* Backdrop */
+*[noClass] section[backdrop] {
+	min-height: 500px;
+	margin-bottom: -150px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
