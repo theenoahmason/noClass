@@ -1,2 +1,2 @@
 # noClass
-## A Classless HTML5 Framework
+A Classless HTML5 Framework
