@@ -1,7 +1,7 @@
 /* Backdrop */
 *[noClass] section[backdrop] {
-	min-height: 500px;
-	margin-bottom: -150px;
+	min-height: 72vh;
+	margin-bottom: -36vh;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
