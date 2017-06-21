@@ -15,7 +15,7 @@
 					<input id="dashboard-toggle" type="checkbox" required />
 					<label for="dashboard-toggle">
 						<span><i bg="primary-contrast"></i></span>
-						<figcaption><small>Menu</small></figcaption>
+						<figcaption hidden><small>Menu</small></figcaption>
 					</label>
 				</figure>
 				<h3>First Row</h3>
@@ -52,9 +52,10 @@
 		</header>
 
 		<main>
+			<section backdrop bg="dark" c="dark-contrast" style="background-image:url(./images/demo-bg.jpg);"></section>
 			<section>
 				<div contain>
-					<nav>
+					<nav c="dark-contrast">
 						<ul>
 							<li>
 								<a href="#">Link</a>
@@ -83,7 +84,6 @@
 					</nav>
 				</div>
 			</section>
-			<section backdrop bg="dark" c="dark-contrast"></section>
 			<section>
 				<div contain>
 					<article card bg="white" c="black" level="2">
@@ -114,104 +114,6 @@
 							<a href="#" disabled>Link (Disabled)</a>
 							<button>Button</button>
 							<button disabled>Button (Disabled)</button>
-							<form>
-								<fieldset>
-									<label>
-										<h3>This is the a text field</h3>
-										<input type="text" value="" />
-									</label>
-									<details>
-										<summary>Field Help</summary>
-										<p>This is the field's description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-									</details>
-								</fieldset>
-								<fieldset>
-									<label>
-										<h3>This is the a text field (Disabled)</h3>
-										<input type="text" value="" disabled />
-									</label>
-									<details>
-										<summary>Field Help</summary>
-										<p>This is the field's description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-									</details>
-								</fieldset>
-								<fieldset>
-									<label>
-										<h3>This is the a text field with a placeholder</h3>
-										<input type="text" value="" placeholder="Enter some text here..." />
-									</label>
-									<details>
-										<summary>Field Help</summary>
-										<p>This is the field's description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-									</details>
-								</fieldset>
-								<fieldset>
-									<label>
-										<h3>This is the a Number field</h3>
-										<input type="number" value="0" min="0" max="1000000" step="1" />
-									</label>
-									<details>
-										<summary>Field Help</summary>
-										<p>This is the field's description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-									</details>
-								</fieldset>
-								<fieldset>
-									<label>
-										<h3>This is a Select field.</h3>
-										<select>
-											<option value="">&horbar; Select an Option &horbar;</option>
-											<optgroup label="Option Group One">
-												<option value="1">Option One</option>
-												<option value="2">Option Two</option>
-												<option value="3">Option Three</option>
-											</optgroup>
-											<optgroup label="Option Group Two">
-												<option value="4" disabled>Option Four (Disabled)</option>
-												<option value="5">Option Five</option>
-												<option value="6">Option Six</option>
-											</optgroup>
-										</select>
-									</label>
-									<details>
-										<summary>Field Help</summary>
-										<p>This is the field's description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-									</details>
-								</fieldset>
-								<fieldset>
-									<label>
-										<h3>This is a Select field (Disabled)</h3>
-										<select disabled>
-											<option value="">&horbar; Select an Option &horbar;</option>
-											<optgroup label="Option Group One">
-												<option value="1">Option One</option>
-												<option value="2">Option Two</option>
-												<option value="3">Option Three</option>
-											</optgroup>
-											<optgroup label="Option Group Two">
-												<option value="4" disabled>Option Four (Disabled)</option>
-												<option value="5">Option Five</option>
-												<option value="6">Option Six</option>
-											</optgroup>
-										</select>
-									</label>
-									<details>
-										<summary>Field Help</summary>
-										<p>This is the field's description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-									</details>
-								</fieldset>
-							</form>
 						</section>
 						<footer>
 							<section><p>This is the article Footer.</p></section>
@@ -222,6 +124,105 @@
 							</section>
 						</footer>
 					</article>
+
+					<form>
+						<fieldset>
+							<label>
+								<h3>This is the a text field</h3>
+								<input type="text" value="" />
+							</label>
+							<details>
+								<summary>Field Help</summary>
+								<p>This is the field's description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</details>
+						</fieldset>
+						<fieldset>
+							<label>
+								<h3>This is the a text field (Disabled)</h3>
+								<input type="text" value="" disabled />
+							</label>
+							<details>
+								<summary>Field Help</summary>
+								<p>This is the field's description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</details>
+						</fieldset>
+						<fieldset>
+							<label>
+								<h3>This is the a text field with a placeholder</h3>
+								<input type="text" value="" placeholder="Enter some text here..." />
+							</label>
+							<details>
+								<summary>Field Help</summary>
+								<p>This is the field's description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</details>
+						</fieldset>
+						<fieldset>
+							<label>
+								<h3>This is the a Number field</h3>
+								<input type="number" value="0" min="0" max="1000000" step="1" />
+							</label>
+							<details>
+								<summary>Field Help</summary>
+								<p>This is the field's description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</details>
+						</fieldset>
+						<fieldset>
+							<label>
+								<h3>This is a Select field.</h3>
+								<select>
+									<option value="">&horbar; Select an Option &horbar;</option>
+									<optgroup label="Option Group One">
+										<option value="1">Option One</option>
+										<option value="2">Option Two</option>
+										<option value="3">Option Three</option>
+									</optgroup>
+									<optgroup label="Option Group Two">
+										<option value="4" disabled>Option Four (Disabled)</option>
+										<option value="5">Option Five</option>
+										<option value="6">Option Six</option>
+									</optgroup>
+								</select>
+							</label>
+							<details>
+								<summary>Field Help</summary>
+								<p>This is the field's description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</details>
+						</fieldset>
+						<fieldset>
+							<label>
+								<h3>This is a Select field (Disabled)</h3>
+								<select disabled>
+									<option value="">&horbar; Select an Option &horbar;</option>
+									<optgroup label="Option Group One">
+										<option value="1">Option One</option>
+										<option value="2">Option Two</option>
+										<option value="3">Option Three</option>
+									</optgroup>
+									<optgroup label="Option Group Two">
+										<option value="4" disabled>Option Four (Disabled)</option>
+										<option value="5">Option Five</option>
+										<option value="6">Option Six</option>
+									</optgroup>
+								</select>
+							</label>
+							<details>
+								<summary>Field Help</summary>
+								<p>This is the field's description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</details>
+						</fieldset>
+					</form>
 
 				</div>
 			</section>
