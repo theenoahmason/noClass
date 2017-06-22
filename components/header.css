@@ -11,6 +11,10 @@
 	background-attachment: scroll;
 }
 
+*[noclass] header a {
+	border: none;
+}
+
 *[noclass] header > section {
 	position: relative;
 	padding-left: 16px;
@@ -27,7 +31,7 @@
 *[noclass] header > section > h4, 
 *[noclass] header > section > h5, 
 *[noclass] header > section > h6 {
-	margin: 0;
+	margin: 0 !important;
 	padding: 16px;
 	display: inline-block;
 }

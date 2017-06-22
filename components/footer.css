@@ -28,7 +28,7 @@
 *[noclass] footer > section > h4, 
 *[noclass] footer > section > h5, 
 *[noclass] footer > section > h6 {
-	margin: 0;
+	margin: 0 !important;
 	padding: 16px;
 	display: inline-block;
 }
