@@ -8,6 +8,13 @@
 *[noClass] article[card] > header {
 	min-height: 256px;
 	justify-content: flex-end;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+*[noClass] article[card] > footer {
+	padding-top: 16px;
+	padding-bottom: 16px;
 }
 
 *[noClass] article[card] > section {
