@@ -1,13 +1,13 @@
 /* Global */
-*[noClass] * {
+*[noclass] * {
     outline: 0;
     -webkit-tap-highlight-color: transparent;
 }
 
-*[noClass] footer, 
-*[noClass] header, 
-*[noClass] div, 
-*[noClass] section {
+*[noclass] footer, 
+*[noclass] header, 
+*[noclass] div, 
+*[noclass] section {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -16,14 +16,14 @@
 }
 
 /* HTML */ 
-html[noClass] {
+html[noclass] {
     position: relative;
     height: auto;
     width: auto;
 }
 
 /* Body */
-*[noClass] body {
+*[noclass] body {
     margin: 0;
     position: relative;
     width: 100%;
@@ -31,7 +31,7 @@ html[noClass] {
 }
 
 /* Main */
-*[noClass] main {
+*[noclass] main {
     position: relative;
     display: flex;
     align-items: flex-start;
@@ -39,13 +39,13 @@ html[noClass] {
     width: 100%;
 }
 
-*[noClass] main > section {
+*[noclass] main > section {
     display: block;
     position: relative;
     width: 100%;
 }
 
 /* Helpers */
-*[noClass] *[hidden] {
+*[noclass] *[hidden] {
     display: none !important;
 }

@@ -1,6 +1,6 @@
 /* Footer */
 
-*[noClass] footer {
+*[noclass] footer {
 	position: relative;
 	display: flex;
     flex-flow: column;
@@ -12,16 +12,16 @@
 	background-attachment: fixed;
 }
 
-*[noClass] footer > section {
+*[noclass] footer > section {
 	padding-left: 16px;
 	padding-right: 16px;
 }
-*[noClass] footer > section > h1, 
-*[noClass] footer > section > h2, 
-*[noClass] footer > section > h3, 
-*[noClass] footer > section > h4, 
-*[noClass] footer > section > h5, 
-*[noClass] footer > section > h6 {
+*[noclass] footer > section > h1, 
+*[noclass] footer > section > h2, 
+*[noclass] footer > section > h3, 
+*[noclass] footer > section > h4, 
+*[noclass] footer > section > h5, 
+*[noclass] footer > section > h6 {
 	margin: 0;
 	padding: 16px;
 	display: inline-block;

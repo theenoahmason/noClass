@@ -1,5 +1,5 @@
 /* Backdrop */
-*[noClass] section[backdrop] {
+*[noclass] section[backdrop] {
 	min-height: 68vh;
 	margin-bottom: -36vh;
 	background-size: cover;

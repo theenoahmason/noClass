@@ -1,52 +1,52 @@
 /* Typography */
-*[noClass] body {
+*[noclass] body {
 	font-size: 16px;
     font-family: sans-serif;
     line-height: 1.5;
 }
 
 /* Paragraph */
-*[noClass] p {
+*[noclass] p {
 	margin: 0 0 16px;
 	display: block;
 }
 
-*[noClass] strong {
+*[noclass] strong {
 	font-weight: bolder;
 }
 
 /* Headings */
-*[noClass] h1 {
+*[noclass] h1 {
 	font-size:42px;
 	font-weight: inherit;
 	margin: 0 0 16px;
 }
 
-*[noClass] h2 {
+*[noclass] h2 {
 	font-size:36px;
 	font-weight: inherit;
 	margin: 0 0 16px;
 }
 
-*[noClass] h3 {
+*[noclass] h3 {
 	font-size:28px;
 	font-weight: inherit;
 	margin: 0 0 16px;
 }
 
-*[noClass] h4 {
+*[noclass] h4 {
 	font-size:22px;
 	font-weight: inherit;
 	margin: 0 0 16px;
 }
 
-*[noClass] h5 {
+*[noclass] h5 {
 	font-size:18px;
 	font-weight: inherit;
 	margin: 0 0 16px;
 }
 
-*[noClass] h6 {
+*[noclass] h6 {
 	font-size:14px;
 	font-weight: inherit;
 	margin: 0 0 16px;

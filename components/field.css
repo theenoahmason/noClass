@@ -1,20 +1,20 @@
 /* Form Fields */
 
 /* Placeholders */
-*[noClass] ::-webkit-input-placeholder { color: inherit; opacity: 0.5; }
-*[noClass] ::-moz-placeholder          { color: inherit; opacity: 0.5; }
-*[noClass] :-ms-input-placeholder      { color: inherit; opacity: 0.5; }
-*[noClass] :-moz-placeholder           { color: inherit; opacity: 0.5; }
+*[noclass] ::-webkit-input-placeholder { color: inherit; opacity: 0.5; }
+*[noclass] ::-moz-placeholder          { color: inherit; opacity: 0.5; }
+*[noclass] :-ms-input-placeholder      { color: inherit; opacity: 0.5; }
+*[noclass] :-moz-placeholder           { color: inherit; opacity: 0.5; }
 
 /* Fieldsets */
-*[noClass] fieldset {
+*[noclass] fieldset {
     border: none;
     padding: 0;
     margin: 0 0 16px;
 }
 
 /* Labels */
-*[noClass] label {
+*[noclass] label {
 	display: inline-block;
 	vertical-align: middle;
 	cursor: pointer;
@@ -26,8 +26,8 @@
 }
 
 /* Inputs & Selects */
-*[noClass] select, 
-*[noClass] input {
+*[noclass] select, 
+*[noclass] input {
 	margin: 0 0 16px;
 	background-color: transparent;
 	border-left: none;
@@ -43,29 +43,29 @@
 	font-size: 18px;
 }
 
-*[noClass] select[disabled], 
-*[noClass] input[disabled], 
-*[noClass] select[disabled]:hover, 
-*[noClass] input[disabled]:hover, 
-*[noClass] select[disabled]:active, 
-*[noClass] input[disabled]:active {
+*[noclass] select[disabled], 
+*[noclass] input[disabled], 
+*[noclass] select[disabled]:hover, 
+*[noclass] input[disabled]:hover, 
+*[noclass] select[disabled]:active, 
+*[noclass] input[disabled]:active {
 	cursor: normal;
 } 
 
-*[noClass] select[disabled], 
-*[noClass] input[disabled], 
-*[noClass] select[disabled]:hover, 
-*[noClass] input[disabled]:hover, 
-*[noClass] select[disabled]:active, 
-*[noClass] input[disabled]:active, 
-*[noClass] select, 
-*[noClass] input {
+*[noclass] select[disabled], 
+*[noclass] input[disabled], 
+*[noclass] select[disabled]:hover, 
+*[noclass] input[disabled]:hover, 
+*[noclass] select[disabled]:active, 
+*[noclass] input[disabled]:active, 
+*[noclass] select, 
+*[noclass] input {
 	border-color: rgba(0, 0, 0, 0.1);
 }
 
-*[noClass] select:active,
-*[noClass] select:focus,
-*[noClass] input:active,
-*[noClass] input:focus {
+*[noclass] select:active,
+*[noclass] select:focus,
+*[noclass] input:active,
+*[noclass] input:focus {
 	border-color: inherit;
 }

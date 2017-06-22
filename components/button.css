@@ -1,6 +1,6 @@
 /* Button */
 
-*[noClass] button {
+*[noclass] button {
     background: rgba(0, 0, 0, 0.1);
     color: inherit;
 	-moz-osx-font-smoothing: grayscale;
@@ -33,7 +33,7 @@
 	user-select: none;
 }
 
-*[noClass] button[disabled] {
+*[noclass] button[disabled] {
 	background: rgba(0, 0, 0, 0.2);
 	color: rgba(0, 0, 0, 0.8);
 	cursor: normal;

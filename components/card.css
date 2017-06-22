@@ -1,22 +1,22 @@
-*[noClass] article[card] {
+*[noclass] article[card] {
 	border-radius: 2px;
 	display: flex;
 	flex-flow: column;
 	align-items: flex-start;
 }
 
-*[noClass] article[card] > header {
+*[noclass] article[card] > header {
 	min-height: 256px;
 	justify-content: flex-end;
 	padding-top: 16px;
 	padding-bottom: 16px;
 }
 
-*[noClass] article[card] > footer {
+*[noclass] article[card] > footer {
 	padding-top: 16px;
 	padding-bottom: 16px;
 }
 
-*[noClass] article[card] > section {
+*[noclass] article[card] > section {
 	padding: 16px;
 }

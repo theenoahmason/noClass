@@ -1,8 +1,8 @@
-*[noClass] nav {
+*[noclass] nav {
     display: block;
 }
 
-*[noClass] nav > ul {
+*[noclass] nav > ul {
     display: flex;
     flex-flow: row;
     align-items: flex-start;
@@ -12,19 +12,19 @@
     list-style: none;
 }
 
-*[noClass] nav li {
+*[noclass] nav li {
     position: relative;
 }
 
-*[noClass] nav > ul > li {
+*[noclass] nav > ul > li {
     display: inline-flex;
 }
 
-*[noClass] nav > ul > li > a {
+*[noclass] nav > ul > li > a {
     padding: 16px;
 }
 
-*[noClass] nav > ul > li > ul {
+*[noclass] nav > ul > li > ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -32,11 +32,11 @@
 	border-radius: 2px;
 }
 
-*[noClass] nav > ul > li > ul li {
+*[noclass] nav > ul > li > ul li {
 	width: 100%;
 }
 
-*[noClass] nav > ul > li > ul li a {
+*[noclass] nav > ul > li > ul li a {
 	height: 1.5;
 	padding: 8px 16px;
 	display: block;
@@ -44,13 +44,13 @@
 	width: 100%;
 }
 
-*[noClass] nav > ul > li > ul li a:hover {
+*[noclass] nav > ul > li > ul li a:hover {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
-*[noClass] nav > ul > li:focus > ul, 
-*[noClass] nav > ul > li:active > ul, 
-*[noClass] nav > ul > li:hover > ul {
+*[noclass] nav > ul > li:focus > ul, 
+*[noclass] nav > ul > li:active > ul, 
+*[noclass] nav > ul > li:hover > ul {
 	position: absolute;
 	top: 100%;
 	left: 0;

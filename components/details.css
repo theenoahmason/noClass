@@ -1,6 +1,6 @@
 /* Details */
 
-*[noClass] details {
+*[noclass] details {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	-ms-appearance: none;
@@ -8,7 +8,7 @@
 	appearance: none;
 }
 
-*[noClass] details > summary {
+*[noclass] details > summary {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	-ms-appearance: none;
@@ -22,6 +22,6 @@
 	user-select: none;
 }
 
-*[noClass] details > summary::-webkit-details-marker {
+*[noclass] details > summary::-webkit-details-marker {
 	display: none;
 }

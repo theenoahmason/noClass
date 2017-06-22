@@ -1,38 +1,38 @@
 /* Colors */
 
 /* Black */
-*[noClass] *[c="black"]              { color: black; }
-*[noClass] *[b="black"]              { border-color: black; }
-*[noClass] *[bg="black"]             { background-color: black; }
+*[noclass] *[c="black"]              { color: black; }
+*[noclass] *[b="black"]              { border-color: black; }
+*[noclass] *[bg="black"]             { background-color: black; }
 /* White */
-*[noClass] *[c="white"]              { color: white; }
-*[noClass] *[b="white"]              { border-color: white; }
-*[noClass] *[bg="white"]             { background-color: white; }
+*[noclass] *[c="white"]              { color: white; }
+*[noclass] *[b="white"]              { border-color: white; }
+*[noclass] *[bg="white"]             { background-color: white; }
 /* Primary */
-*[noClass] *[c="primary"]            { color: midnightblue; }
-*[noClass] *[b="primary"]            { border-color: midnightblue; }
-*[noClass] *[bg="primary"]           { background-color: midnightblue; }
-*[noClass] *[c="primary-contrast"]   { color: lightblue; }
-*[noClass] *[b="primary-contrast"]   { border-color: lightblue; }
-*[noClass] *[bg="primary-contrast"]  { background-color: lightblue; }
+*[noclass] *[c="primary"]            { color: midnightblue; }
+*[noclass] *[b="primary"]            { border-color: midnightblue; }
+*[noclass] *[bg="primary"]           { background-color: midnightblue; }
+*[noclass] *[c="primary-contrast"]   { color: lightblue; }
+*[noclass] *[b="primary-contrast"]   { border-color: lightblue; }
+*[noclass] *[bg="primary-contrast"]  { background-color: lightblue; }
 /* Accent */
-*[noClass] *[c="accent"]             { color: deeppink; }
-*[noClass] *[b="accent"]             { border-color: deeppink; }
-*[noClass] *[bg="accent"]            { background-color: deeppink; }
-*[noClass] *[c="accent-contrast"]    { color: lightpink; }
-*[noClass] *[b="accent-contrast"]    { border-color: lightpink; }
-*[noClass] *[bg="accent-contrast"]   { background-color: lightpink; }
+*[noclass] *[c="accent"]             { color: deeppink; }
+*[noclass] *[b="accent"]             { border-color: deeppink; }
+*[noclass] *[bg="accent"]            { background-color: deeppink; }
+*[noclass] *[c="accent-contrast"]    { color: lightpink; }
+*[noclass] *[b="accent-contrast"]    { border-color: lightpink; }
+*[noclass] *[bg="accent-contrast"]   { background-color: lightpink; }
 /* Dark */
-*[noClass] *[c="dark"]               { color: darkslategrey; }
-*[noClass] *[b="dark"]               { border-color: darkslategrey; }
-*[noClass] *[bg="dark"]              { background-color: darkslategrey; }
-*[noClass] *[c="dark-contrast"]      { color: whitesmoke; }
-*[noClass] *[b="dark-contrast"]      { border-color: whitesmoke; }
-*[noClass] *[bg="dark-contrast"]     { background-color: whitesmoke; }
+*[noclass] *[c="dark"]               { color: darkslategrey; }
+*[noclass] *[b="dark"]               { border-color: darkslategrey; }
+*[noclass] *[bg="dark"]              { background-color: darkslategrey; }
+*[noclass] *[c="dark-contrast"]      { color: whitesmoke; }
+*[noclass] *[b="dark-contrast"]      { border-color: whitesmoke; }
+*[noclass] *[bg="dark-contrast"]     { background-color: whitesmoke; }
 /* Light */
-*[noClass] *[c="light"]              { color: whitesmoke; }
-*[noClass] *[b="light"]              { border-color: whitesmoke; }
-*[noClass] *[bg="light"]             { background-color: whitesmoke; }
-*[noClass] *[c="light-contrast"]     { color: darkslategrey; }
-*[noClass] *[b="light-contrast"]     { border-color: darkslategrey; }
-*[noClass] *[bg="light-contrast"]    { background-color: darkslategrey; }
+*[noclass] *[c="light"]              { color: whitesmoke; }
+*[noclass] *[b="light"]              { border-color: whitesmoke; }
+*[noclass] *[bg="light"]             { background-color: whitesmoke; }
+*[noclass] *[c="light-contrast"]     { color: darkslategrey; }
+*[noclass] *[b="light-contrast"]     { border-color: darkslategrey; }
+*[noclass] *[bg="light-contrast"]    { background-color: darkslategrey; }
