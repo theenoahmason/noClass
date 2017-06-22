@@ -75,19 +75,19 @@
 }
 
 /* Active */
-*[noclass] figure[hamburger] > input[type="checkbox"]:valid + label > span > i {
+*[noclass] figure[hamburger] > input[type="checkbox"]:checked + label > span > i {
   transform: rotate(45deg);
   transition-delay: 0.12s;
   transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-*[noclass] figure[hamburger] > input[type="checkbox"]:valid + label > span > i:before {
+*[noclass] figure[hamburger] > input[type="checkbox"]:checked + label > span > i:before {
   top: 0;
   opacity: 0;
   transition: top 0.075s ease, opacity 0.075s 0.12s ease;
 }
 
-*[noclass] figure[hamburger] > input[type="checkbox"]:valid + label > span > i:after {
+*[noclass] figure[hamburger] > input[type="checkbox"]:checked + label > span > i:after {
   bottom: 0;
   transform: rotate(-90deg);
   transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
