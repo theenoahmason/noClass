@@ -1,0 +1,30 @@
+*[noclass] div[grid] {
+	padding: 8px;
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+*[noclass] div[gridcell] {
+	margin: 8px;
+}
+
+*[noclass] div[gridcell="1"] { width: calc(8.3333333333% - 16px); }
+*[noclass] div[gridcell="2"] { width:calc(16.6666666666% - 16px); }
+*[noclass] div[gridcell="3"] { width:calc(25% - 16px); }
+*[noclass] div[gridcell="4"] { width: calc(33.3333333333% - 16px); }
+*[noclass] div[gridcell="5"] { width:calc(100% - 16px); }
+*[noclass] div[gridcell="6"] { width:calc(50% - 16px); }
+*[noclass] div[gridcell="7"] { width:calc(100% - 16px); }
+*[noclass] div[gridcell="8"] { width:calc(100% - 16px); }
+*[noclass] div[gridcell="9"] { width:calc(100% - 16px); }
+*[noclass] div[gridcell="10"] { width:calc(100% - 16px); }
+*[noclass] div[gridcell="11"] { width:calc(100% - 16px); }
+*[noclass] div[gridcell="12"] { width:calc(100% - 16px); }
