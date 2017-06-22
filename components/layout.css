@@ -2,6 +2,7 @@
 *[noclass] * {
     outline: 0;
     -webkit-tap-highlight-color: transparent;
+    border-color: rgba(0, 0, 0, 0.1);
 }
 
 *[noclass] footer, 
