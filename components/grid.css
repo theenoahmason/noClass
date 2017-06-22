@@ -12,8 +12,21 @@
     align-items: stretch;
 }
 
+*[noclass] div[grid="stretch"] {
+	margin-left: -16px;
+	margin-right: -16px;
+}
+
+*[noclass] div[grid="flat"] {
+	padding: 0;
+}
+
 *[noclass] div[grid] > div[gridcell] {
 	margin: 8px;
+}
+
+*[noclass] div[grid="flat"] > div[gridcell] {
+	margin: 0;
 }
 
 *[noclass] div[grid] > div[gridcell="1"]  { width: calc(8.3333333333% - 16px); }
@@ -29,7 +42,21 @@
 *[noclass] div[grid] > div[gridcell="11"] { width: calc(91.6666666666% - 16px); }
 *[noclass] div[grid] > div[gridcell="12"] { width: calc(100% - 16px); }
 
-@media screen and (max-width: 899px) {
+/* Flat */
+*[noclass] div[grid="flat"] > div[gridcell="1"]  { width: 8.3333333333%; }
+*[noclass] div[grid="flat"] > div[gridcell="2"]  { width: 16.6666666666%; }
+*[noclass] div[grid="flat"] > div[gridcell="3"]  { width: 25%; }
+*[noclass] div[grid="flat"] > div[gridcell="4"]  { width: 33.3333333333%; }
+*[noclass] div[grid="flat"] > div[gridcell="5"]  { width: 41.6666666666%; }
+*[noclass] div[grid="flat"] > div[gridcell="6"]  { width: 50%; }
+*[noclass] div[grid="flat"] > div[gridcell="7"]  { width: 58.3333333333%; }
+*[noclass] div[grid="flat"] > div[gridcell="8"]  { width: 66.6666666666%; }
+*[noclass] div[grid="flat"] > div[gridcell="9"]  { width: 75%; }
+*[noclass] div[grid="flat"] > div[gridcell="10"] { width: 83.3333333333%; }
+*[noclass] div[grid="flat"] > div[gridcell="11"] { width: 91.6666666666%; }
+*[noclass] div[grid="flat"] > div[gridcell="12"] { width: 100%; }
+
+@media screen and (max-width: 999px) {
 	*[noclass] div[grid] > div[gridcell-tablet="1"]  { width: calc(8.3333333333% - 16px); }
 	*[noclass] div[grid] > div[gridcell-tablet="2"]  { width: calc(16.6666666666% - 16px); }
 	*[noclass] div[grid] > div[gridcell-tablet="3"]  { width: calc(25% - 16px); }
@@ -42,6 +69,20 @@
 	*[noclass] div[grid] > div[gridcell-tablet="10"] { width: calc(83.3333333333% - 16px); }
 	*[noclass] div[grid] > div[gridcell-tablet="11"] { width: calc(91.6666666666% - 16px); }
 	*[noclass] div[grid] > div[gridcell-tablet="12"] { width: calc(100% - 16px); }
+
+	/* Flat */
+	*[noclass] div[grid="flat"] > div[gridcell-tablet="1"]  { width: 8.3333333333%; }
+	*[noclass] div[grid="flat"] > div[gridcell-tablet="2"]  { width: 16.6666666666%; }
+	*[noclass] div[grid="flat"] > div[gridcell-tablet="3"]  { width: 25%; }
+	*[noclass] div[grid="flat"] > div[gridcell-tablet="4"]  { width: 33.3333333333%; }
+	*[noclass] div[grid="flat"] > div[gridcell-tablet="5"]  { width: 41.6666666666%; }
+	*[noclass] div[grid="flat"] > div[gridcell-tablet="6"]  { width: 50%; }
+	*[noclass] div[grid="flat"] > div[gridcell-tablet="7"]  { width: 58.3333333333%; }
+	*[noclass] div[grid="flat"] > div[gridcell-tablet="8"]  { width: 66.6666666666%; }
+	*[noclass] div[grid="flat"] > div[gridcell-tablet="9"]  { width: 75%; }
+	*[noclass] div[grid="flat"] > div[gridcell-tablet="10"] { width: 83.3333333333%; }
+	*[noclass] div[grid="flat"] > div[gridcell-tablet="11"] { width: 91.6666666666%; }
+	*[noclass] div[grid="flat"] > div[gridcell-tablet="12"] { width: 100%; }
 }
 
 @media screen and (max-width: 499px) {
@@ -57,4 +98,18 @@
 	*[noclass] div[grid] > div[gridcell-phone="10"] { width: calc(83.3333333333% - 16px); }
 	*[noclass] div[grid] > div[gridcell-phone="11"] { width: calc(91.6666666666% - 16px); }
 	*[noclass] div[grid] > div[gridcell-phone="12"] { width: calc(100% - 16px); }
+
+	/* Flat */
+	*[noclass] div[grid="flat"] > div[gridcell-phone="1"]  { width: 8.3333333333%; }
+	*[noclass] div[grid="flat"] > div[gridcell-phone="2"]  { width: 16.6666666666%; }
+	*[noclass] div[grid="flat"] > div[gridcell-phone="3"]  { width: 25%; }
+	*[noclass] div[grid="flat"] > div[gridcell-phone="4"]  { width: 33.3333333333%; }
+	*[noclass] div[grid="flat"] > div[gridcell-phone="5"]  { width: 41.6666666666%; }
+	*[noclass] div[grid="flat"] > div[gridcell-phone="6"]  { width: 50%; }
+	*[noclass] div[grid="flat"] > div[gridcell-phone="7"]  { width: 58.3333333333%; }
+	*[noclass] div[grid="flat"] > div[gridcell-phone="8"]  { width: 66.6666666666%; }
+	*[noclass] div[grid="flat"] > div[gridcell-phone="9"]  { width: 75%; }
+	*[noclass] div[grid="flat"] > div[gridcell-phone="10"] { width: 83.3333333333%; }
+	*[noclass] div[grid="flat"] > div[gridcell-phone="11"] { width: 91.6666666666%; }
+	*[noclass] div[grid="flat"] > div[gridcell-phone="12"] { width: 100%; }
 }
