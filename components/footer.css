@@ -13,9 +13,15 @@
 }
 
 *[noclass] footer > section {
-	padding-left: 16px;
-	padding-right: 16px;
+	position: relative;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    width: 100%;
 }
+
 *[noclass] footer > section > h1, 
 *[noclass] footer > section > h2, 
 *[noclass] footer > section > h3, 
