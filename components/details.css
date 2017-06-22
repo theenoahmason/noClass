@@ -1,9 +1,18 @@
 /* Details */
 *[noClass] details {
-
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
 }
 
 *[noClass] details > summary {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
 	cursor: pointer;
 	-webkit-user-select: none;       
 	-moz-user-select: none; 
