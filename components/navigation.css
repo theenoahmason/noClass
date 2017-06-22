@@ -29,6 +29,7 @@
 	padding: 0;
 	list-style: none;
 	display: none;
+	border-radius: 2px;
 }
 
 *[noClass] nav > ul > li > ul li {
