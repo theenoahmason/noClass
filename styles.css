@@ -1,7 +1,6 @@
 @import './components/anchor.css';
 @import './components/button.css';
 @import './components/colors.css';
-@import './components/contain.css';
 @import './components/field.css';
 @import './components/header.css';
 @import './components/footer.css';
@@ -12,5 +11,4 @@
 @import './components/hamburger.css';
 @import './components/card.css';
 @import './components/backdrop.css';
-@import './components/capsule.css';
 @import './components/grid.css';

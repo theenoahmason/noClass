@@ -1,14 +1,17 @@
 /* Button */
 
 *[noclass] button {
-    background: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     color: inherit;
 	-moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-size: 14px;
     font-weight: bold;
-    line-height: 1;
-    display: inline-block;
+    line-height: 36px;
+    display: inline-flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
     position: relative;
     min-width: 64px;
     height: 36px;
@@ -18,8 +21,6 @@
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    overflow: hidden;
-    vertical-align: middle;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -31,6 +32,8 @@
 	-ms-user-select: none; 
 	-o-user-select: none;
 	user-select: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 *[noclass] button[disabled] {
@@ -42,4 +45,23 @@
 	-ms-pointer-events: none;
 	-o-pointer-events: none;
 	pointer-events: none;
+}
+
+/* Capsule */
+*[noclass] button[capsule] {
+    border-radius: 18px;
+    padding-left: 0;
+}
+
+*[noclass] button[capsule] > i {
+    display: block;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    margin-right: 16px;
+    border-radius: 18px;
+}
+
+*[noclass] button[capsule] > span {
+
 }
