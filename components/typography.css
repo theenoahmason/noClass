@@ -9,6 +9,32 @@
     line-height: 1.5;
 }
 
+/* Anchors */
+*[noclass] a {
+	display: inline-block;
+	font-weight: bolder;
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+	-webkit-user-select: none;       
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	-o-user-select: none;
+	user-select: none;
+	border-bottom: 2px solid;
+}
+
+*[noclass] a[disabled] {
+	color: rgba(0, 0, 0, 0.25);
+	border-color: rgba(0, 0, 0, 0.25);
+	cursor: normal;
+	-webkit-pointer-events: none;
+	-moz-pointer-events: none;
+	-ms-pointer-events: none;
+	-o-pointer-events: none;
+	pointer-events: none;
+}
+
 /* Headings */
 *[noclass] h1, *[noclass] *[t="h1"], 
 *[noclass] h2, *[noclass] *[t="h2"], 
@@ -20,6 +46,15 @@
 	font-weight: inherit;
 	font-size: inherit;
 	display: block;
+}
+
+*[noclass] h1 a, *[noclass] *[t="h1"] a, 
+*[noclass] h2 a, *[noclass] *[t="h2"] a, 
+*[noclass] h3 a, *[noclass] *[t="h3"] a, 
+*[noclass] h4 a, *[noclass] *[t="h4"] a, 
+*[noclass] h5 a, *[noclass] *[t="h5"] a, 
+*[noclass] h6 a, *[noclass] *[t="h6"] {
+	font-weight: inherit;
 }
 
 *[noclass] h1, *[noclass] *[t="h1"] {	font-size: 42px; }
