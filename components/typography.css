@@ -1,53 +1,39 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+
 /* Typography */
 *[noclass] body {
 	font-size: 16px;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
 }
+
+/* Headings */
+*[noclass] h1, *[noclass] *[t="h1"], 
+*[noclass] h2, *[noclass] *[t="h2"], 
+*[noclass] h3, *[noclass] *[t="h3"], 
+*[noclass] h4, *[noclass] *[t="h4"], 
+*[noclass] h5, *[noclass] *[t="h5"], 
+*[noclass] h6, *[noclass] *[t="h6"] {
+	margin: 0 0 16px;
+	font-weight: inherit;
+	display: block;
+}
+
+*[noclass] h1, *[noclass] *[t="h1"] {	font-size: 42px; }
+*[noclass] h2, *[noclass] *[t="h2"] {	font-size: 36px; }
+*[noclass] h3, *[noclass] *[t="h3"] {	font-size: 28px; }
+*[noclass] h4, *[noclass] *[t="h4"] {	font-size: 22px; }
+*[noclass] h5, *[noclass] *[t="h5"] {	font-size: 18px; }
+*[noclass] h6, *[noclass] *[t="h6"] {	font-size: 14px; }
 
 /* Paragraph */
 *[noclass] p {
 	margin: 0 0 16px;
 	display: block;
+	font-weight: inherit;
 }
 
 *[noclass] strong {
 	font-weight: bolder;
-}
-
-/* Headings */
-*[noclass] h1 {
-	font-size:42px;
-	font-weight: inherit;
-	margin: 0 0 16px;
-}
-
-*[noclass] h2 {
-	font-size:36px;
-	font-weight: inherit;
-	margin: 0 0 16px;
-}
-
-*[noclass] h3 {
-	font-size:28px;
-	font-weight: inherit;
-	margin: 0 0 16px;
-}
-
-*[noclass] h4 {
-	font-size:22px;
-	font-weight: inherit;
-	margin: 0 0 16px;
-}
-
-*[noclass] h5 {
-	font-size:18px;
-	font-weight: inherit;
-	margin: 0 0 16px;
-}
-
-*[noclass] h6 {
-	font-size:14px;
-	font-weight: inherit;
-	margin: 0 0 16px;
 }
