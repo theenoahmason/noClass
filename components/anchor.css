@@ -1,6 +1,7 @@
 /* Anchor */
 
 *[noclass] a {
+	display: inline-block;
 	font-weight: bolder;
 	text-decoration: none;
 	color: inherit;
