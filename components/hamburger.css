@@ -6,7 +6,7 @@
  * @link https://github.com/jonsuh/hamburgers
  */
 *[noClass] figure[hamburger] {
-  padding: 16px;
+  padding: 0;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
@@ -23,6 +23,7 @@
 
 *[noClass] figure[hamburger] > label {
   display: block;
+  padding: 16px;
 }
 
 *[noClass] figure[hamburger] > label > span {
