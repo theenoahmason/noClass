@@ -33,10 +33,7 @@
 	user-select: none;
 }
 
-*[noClass] button[disabled], 
-*[noClass] button[disabled]:hover, 
-*[noClass] button[disabled]:active, 
-*[noClass] button[disabled]:focus {
+*[noClass] button[disabled] {
 	background: rgba(0, 0, 0, 0.2);
 	color: rgba(0, 0, 0, 0.8);
 	cursor: normal;
@@ -45,10 +42,4 @@
 	-ms-pointer-events: none;
 	-o-pointer-events: none;
 	pointer-events: none;
-}
-
-*[noClass] button:hover, 
-*[noClass] button:active, 
-*[noClass] button:focus {
-	background: rgba(0, 0, 0, 0.2);
 }
