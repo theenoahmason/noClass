@@ -20,7 +20,6 @@
 <code>	     Defines a piece of computer code
 <col>	     Specifies column properties for each column within a <colgroup> element 
 <colgroup>	 Specifies a group of one or more columns in a table for formatting
-<datalist>	 Specifies a list of pre-defined options for input controls
 <dd>	     Defines a description/value of a term in a description list
 <del>	     Defines text that has been deleted from a document
 <details>	 Defines additional details that the user can view or hide
