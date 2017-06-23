@@ -89,7 +89,7 @@
     flex-flow: column;
 }
 
-*[noclass] nav[nav-vertical] > ul > li > a {
+*[noclass] nav[nav-vertical] > ul > li a {
     width: 100%;
     padding-left: 32px;
     padding-right: 32px;
