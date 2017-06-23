@@ -21,7 +21,6 @@ html[noclass] {
     position: relative;
     height: auto;
     width: auto;
-    overflow-x: hidden;
 }
 
 /* Body */
@@ -34,7 +33,6 @@ html[noclass] {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow-x: hidden;
 }
 
 /* Main */
@@ -44,6 +42,7 @@ html[noclass] {
     align-items: flex-start;
     flex-flow: column;
     width: 100%;
+    overflow-x: hidden;
 }
 
 *[noclass] main > section {
@@ -88,4 +87,10 @@ html[noclass] {
 
 *[noclass] *[darken="inherit"]:before {
     background-color: inherit;
+}
+
+
+*[noclass] *[sticky] {
+    position: sticky;
+    top: 0;
 }
