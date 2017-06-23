@@ -22,13 +22,12 @@
     width: 100%;
 }
 
-*[noclass] footer > section > h1, 
+/**[noclass] footer > section > h1, 
 *[noclass] footer > section > h2, 
 *[noclass] footer > section > h3, 
 *[noclass] footer > section > h4, 
 *[noclass] footer > section > h5, 
 *[noclass] footer > section > h6, 
 *[noclass] footer > section > p {
-	margin: 0 !important;
 	display: inline-block;
-}
+}*/

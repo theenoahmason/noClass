@@ -8,6 +8,7 @@
 *[noclass] footer, 
 *[noclass] header, 
 *[noclass] div, 
+*[noclass] nav, 
 *[noclass] section {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -123,4 +124,21 @@ html[noclass] {
     bottom: unset;
     left: unset;
     right: 0;
+}
+
+/* Margin */
+*[noclass] *[hasmargin] {
+    margin: 16px;
+}
+
+*[noclass] *[nomargin] {
+    margin: 0;
+}
+
+*[noclass] *[haspadding] {
+    padding: 16px;
+}
+
+*[noclass] *[nopadding] {
+    padding: 0;
 }
