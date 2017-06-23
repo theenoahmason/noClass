@@ -18,6 +18,11 @@
     justify-content: flex-end;
 }
 
+*[noclass] aside[drawer] > header > section {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 *[noclass] aside[drawer] > header > section:first-of-type {
 	margin-bottom: auto;
 }
@@ -30,8 +35,8 @@
     display: block;
     font-size: 40px;
     width: 36px;
-    height: 36px;
-    line-height: 36px;
+    height: 24px;
+    line-height: 24px;
     margin-left: -4px;
 }
 
