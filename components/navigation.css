@@ -23,6 +23,7 @@
 
 *[noclass] nav > ul > li {
     display: inline-flex;
+    white-space: nowrap;
 }
 
 *[noclass] nav > ul > li > label, 
