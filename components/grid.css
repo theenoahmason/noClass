@@ -1,4 +1,4 @@
-*[noclass] div[grid] {
+*[noclass] *[grid] {
 	padding: 8px;
 	display: -webkit-flex;
     display: -ms-flexbox;
@@ -6,113 +6,113 @@
     -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    margin: 0 auto;
+    margin: 0;
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
+    width: auto;
 }
 
-*[noclass] div[grid="flat-stretch"], 
-*[noclass] div[grid="stretch"] {
+*[noclass] *[grid="flat-stretch"] {
 	margin-left: -16px;
 	margin-right: -16px;
 }
 
-*[noclass] div[grid="flat-stretch"], 
-*[noclass] div[grid="flat"] {
+*[noclass] *[grid="flat-stretch"], 
+*[noclass] *[grid="flat"] {
 	padding: 0;
 }
 
-*[noclass] div[grid] > div[gridcell] {
+*[noclass] *[grid] > *[gridcell] {
 	margin: 8px;
 }
 
-*[noclass] div[grid="flat-stretch"] > div[gridcell], 
-*[noclass] div[grid="flat"] > div[gridcell] {
+*[noclass] *[grid="flat-stretch"] > *[gridcell], 
+*[noclass] *[grid="flat"] > *[gridcell] {
 	margin: 0;
 }
 
-*[noclass] div[grid] > div[gridcell="1"]  { width: calc(8.3333333333% - 16px); }
-*[noclass] div[grid] > div[gridcell="2"]  { width: calc(16.6666666666% - 16px); }
-*[noclass] div[grid] > div[gridcell="3"]  { width: calc(25% - 16px); }
-*[noclass] div[grid] > div[gridcell="4"]  { width: calc(33.3333333333% - 16px); }
-*[noclass] div[grid] > div[gridcell="5"]  { width: calc(41.6666666666% - 16px); }
-*[noclass] div[grid] > div[gridcell="6"]  { width: calc(50% - 16px); }
-*[noclass] div[grid] > div[gridcell="7"]  { width: calc(58.3333333333% - 16px); }
-*[noclass] div[grid] > div[gridcell="8"]  { width: calc(66.6666666666% - 16px); }
-*[noclass] div[grid] > div[gridcell="9"]  { width: calc(75% - 16px); }
-*[noclass] div[grid] > div[gridcell="10"] { width: calc(83.3333333333% - 16px); }
-*[noclass] div[grid] > div[gridcell="11"] { width: calc(91.6666666666% - 16px); }
-*[noclass] div[grid] > div[gridcell="12"] { width: calc(100% - 16px); }
+*[noclass] *[grid] > *[gridcell="1"]  { width: calc(8.3333333333% - 16px); }
+*[noclass] *[grid] > *[gridcell="2"]  { width: calc(16.6666666666% - 16px); }
+*[noclass] *[grid] > *[gridcell="3"]  { width: calc(25% - 16px); }
+*[noclass] *[grid] > *[gridcell="4"]  { width: calc(33.3333333333% - 16px); }
+*[noclass] *[grid] > *[gridcell="5"]  { width: calc(41.6666666666% - 16px); }
+*[noclass] *[grid] > *[gridcell="6"]  { width: calc(50% - 16px); }
+*[noclass] *[grid] > *[gridcell="7"]  { width: calc(58.3333333333% - 16px); }
+*[noclass] *[grid] > *[gridcell="8"]  { width: calc(66.6666666666% - 16px); }
+*[noclass] *[grid] > *[gridcell="9"]  { width: calc(75% - 16px); }
+*[noclass] *[grid] > *[gridcell="10"] { width: calc(83.3333333333% - 16px); }
+*[noclass] *[grid] > *[gridcell="11"] { width: calc(91.6666666666% - 16px); }
+*[noclass] *[grid] > *[gridcell="12"] { width: calc(100% - 16px); }
 
 /* Flat */
-*[noclass] div[grid="flat"] > div[gridcell="1"], *[noclass] div[grid="flat-stretch"] > div[gridcell="1"]  { width: 8.3333333333%; }
-*[noclass] div[grid="flat"] > div[gridcell="2"], *[noclass] div[grid="flat-stretch"] > div[gridcell="2"]  { width: 16.6666666666%; }
-*[noclass] div[grid="flat"] > div[gridcell="3"], *[noclass] div[grid="flat-stretch"] > div[gridcell="3"]  { width: 25%; }
-*[noclass] div[grid="flat"] > div[gridcell="4"], *[noclass] div[grid="flat-stretch"] > div[gridcell="4"]  { width: 33.3333333333%; }
-*[noclass] div[grid="flat"] > div[gridcell="5"], *[noclass] div[grid="flat-stretch"] > div[gridcell="5"]  { width: 41.6666666666%; }
-*[noclass] div[grid="flat"] > div[gridcell="6"], *[noclass] div[grid="flat-stretch"] > div[gridcell="6"]  { width: 50%; }
-*[noclass] div[grid="flat"] > div[gridcell="7"], *[noclass] div[grid="flat-stretch"] > div[gridcell="7"]  { width: 58.3333333333%; }
-*[noclass] div[grid="flat"] > div[gridcell="8"], *[noclass] div[grid="flat-stretch"] > div[gridcell="8"]  { width: 66.6666666666%; }
-*[noclass] div[grid="flat"] > div[gridcell="9"], *[noclass] div[grid="flat-stretch"] > div[gridcell="9"]  { width: 75%; }
-*[noclass] div[grid="flat"] > div[gridcell="10"], *[noclass] div[grid="flat-stretch"] > div[gridcell="10"] { width: 83.3333333333%; }
-*[noclass] div[grid="flat"] > div[gridcell="11"], *[noclass] div[grid="flat-stretch"] > div[gridcell="11"] { width: 91.6666666666%; }
-*[noclass] div[grid="flat"] > div[gridcell="12"], *[noclass] div[grid="flat-stretch"] > div[gridcell="12"] { width: 100%; }
+*[noclass] *[grid="flat"] > *[gridcell="1"], *[noclass] *[grid="flat-stretch"] > *[gridcell="1"]  { width: 8.3333333333%; }
+*[noclass] *[grid="flat"] > *[gridcell="2"], *[noclass] *[grid="flat-stretch"] > *[gridcell="2"]  { width: 16.6666666666%; }
+*[noclass] *[grid="flat"] > *[gridcell="3"], *[noclass] *[grid="flat-stretch"] > *[gridcell="3"]  { width: 25%; }
+*[noclass] *[grid="flat"] > *[gridcell="4"], *[noclass] *[grid="flat-stretch"] > *[gridcell="4"]  { width: 33.3333333333%; }
+*[noclass] *[grid="flat"] > *[gridcell="5"], *[noclass] *[grid="flat-stretch"] > *[gridcell="5"]  { width: 41.6666666666%; }
+*[noclass] *[grid="flat"] > *[gridcell="6"], *[noclass] *[grid="flat-stretch"] > *[gridcell="6"]  { width: 50%; }
+*[noclass] *[grid="flat"] > *[gridcell="7"], *[noclass] *[grid="flat-stretch"] > *[gridcell="7"]  { width: 58.3333333333%; }
+*[noclass] *[grid="flat"] > *[gridcell="8"], *[noclass] *[grid="flat-stretch"] > *[gridcell="8"]  { width: 66.6666666666%; }
+*[noclass] *[grid="flat"] > *[gridcell="9"], *[noclass] *[grid="flat-stretch"] > *[gridcell="9"]  { width: 75%; }
+*[noclass] *[grid="flat"] > *[gridcell="10"], *[noclass] *[grid="flat-stretch"] > *[gridcell="10"] { width: 83.3333333333%; }
+*[noclass] *[grid="flat"] > *[gridcell="11"], *[noclass] *[grid="flat-stretch"] > *[gridcell="11"] { width: 91.6666666666%; }
+*[noclass] *[grid="flat"] > *[gridcell="12"], *[noclass] *[grid="flat-stretch"] > *[gridcell="12"] { width: 100%; }
 
 @media screen and (max-width: 999px) {
-	*[noclass] div[grid] > div[gridcell-tablet="1"]  { width: calc(8.3333333333% - 16px); }
-	*[noclass] div[grid] > div[gridcell-tablet="2"]  { width: calc(16.6666666666% - 16px); }
-	*[noclass] div[grid] > div[gridcell-tablet="3"]  { width: calc(25% - 16px); }
-	*[noclass] div[grid] > div[gridcell-tablet="4"]  { width: calc(33.3333333333% - 16px); }
-	*[noclass] div[grid] > div[gridcell-tablet="5"]  { width: calc(41.6666666666% - 16px); }
-	*[noclass] div[grid] > div[gridcell-tablet="6"]  { width: calc(50% - 16px); }
-	*[noclass] div[grid] > div[gridcell-tablet="7"]  { width: calc(58.3333333333% - 16px); }
-	*[noclass] div[grid] > div[gridcell-tablet="8"]  { width: calc(66.6666666666% - 16px); }
-	*[noclass] div[grid] > div[gridcell-tablet="9"]  { width: calc(75% - 16px); }
-	*[noclass] div[grid] > div[gridcell-tablet="10"] { width: calc(83.3333333333% - 16px); }
-	*[noclass] div[grid] > div[gridcell-tablet="11"] { width: calc(91.6666666666% - 16px); }
-	*[noclass] div[grid] > div[gridcell-tablet="12"] { width: calc(100% - 16px); }
+	*[noclass] *[grid] > *[gridcell-tablet="1"]  { width: calc(8.3333333333% - 16px); }
+	*[noclass] *[grid] > *[gridcell-tablet="2"]  { width: calc(16.6666666666% - 16px); }
+	*[noclass] *[grid] > *[gridcell-tablet="3"]  { width: calc(25% - 16px); }
+	*[noclass] *[grid] > *[gridcell-tablet="4"]  { width: calc(33.3333333333% - 16px); }
+	*[noclass] *[grid] > *[gridcell-tablet="5"]  { width: calc(41.6666666666% - 16px); }
+	*[noclass] *[grid] > *[gridcell-tablet="6"]  { width: calc(50% - 16px); }
+	*[noclass] *[grid] > *[gridcell-tablet="7"]  { width: calc(58.3333333333% - 16px); }
+	*[noclass] *[grid] > *[gridcell-tablet="8"]  { width: calc(66.6666666666% - 16px); }
+	*[noclass] *[grid] > *[gridcell-tablet="9"]  { width: calc(75% - 16px); }
+	*[noclass] *[grid] > *[gridcell-tablet="10"] { width: calc(83.3333333333% - 16px); }
+	*[noclass] *[grid] > *[gridcell-tablet="11"] { width: calc(91.6666666666% - 16px); }
+	*[noclass] *[grid] > *[gridcell-tablet="12"] { width: calc(100% - 16px); }
 
 	/* Flat */
-	*[noclass] div[grid="flat"] > div[gridcell-tablet="1"], *[noclass] div[grid="flat-stretch"] > div[gridcell-tablet="1"]  { width: 8.3333333333%; }
-	*[noclass] div[grid="flat"] > div[gridcell-tablet="2"], *[noclass] div[grid="flat-stretch"] > div[gridcell-tablet="2"]  { width: 16.6666666666%; }
-	*[noclass] div[grid="flat"] > div[gridcell-tablet="3"], *[noclass] div[grid="flat-stretch"] > div[gridcell-tablet="3"]  { width: 25%; }
-	*[noclass] div[grid="flat"] > div[gridcell-tablet="4"], *[noclass] div[grid="flat-stretch"] > div[gridcell-tablet="4"]  { width: 33.3333333333%; }
-	*[noclass] div[grid="flat"] > div[gridcell-tablet="5"], *[noclass] div[grid="flat-stretch"] > div[gridcell-tablet="5"]  { width: 41.6666666666%; }
-	*[noclass] div[grid="flat"] > div[gridcell-tablet="6"], *[noclass] div[grid="flat-stretch"] > div[gridcell-tablet="6"]  { width: 50%; }
-	*[noclass] div[grid="flat"] > div[gridcell-tablet="7"], *[noclass] div[grid="flat-stretch"] > div[gridcell-tablet="7"]  { width: 58.3333333333%; }
-	*[noclass] div[grid="flat"] > div[gridcell-tablet="8"], *[noclass] div[grid="flat-stretch"] > div[gridcell-tablet="8"]  { width: 66.6666666666%; }
-	*[noclass] div[grid="flat"] > div[gridcell-tablet="9"], *[noclass] div[grid="flat-stretch"] > div[gridcell-tablet="9"]  { width: 75%; }
-	*[noclass] div[grid="flat"] > div[gridcell-tablet="10"], *[noclass] div[grid="flat-stretch"] > div[gridcell-tablet="10"] { width: 83.3333333333%; }
-	*[noclass] div[grid="flat"] > div[gridcell-tablet="11"], *[noclass] div[grid="flat-stretch"] > div[gridcell-tablet="11"] { width: 91.6666666666%; }
-	*[noclass] div[grid="flat"] > div[gridcell-tablet="12"], *[noclass] div[grid="flat-stretch"] > div[gridcell-tablet="12"] { width: 100%; }
+	*[noclass] *[grid="flat"] > *[gridcell-tablet="1"], *[noclass] *[grid="flat-stretch"] > *[gridcell-tablet="1"]  { width: 8.3333333333%; }
+	*[noclass] *[grid="flat"] > *[gridcell-tablet="2"], *[noclass] *[grid="flat-stretch"] > *[gridcell-tablet="2"]  { width: 16.6666666666%; }
+	*[noclass] *[grid="flat"] > *[gridcell-tablet="3"], *[noclass] *[grid="flat-stretch"] > *[gridcell-tablet="3"]  { width: 25%; }
+	*[noclass] *[grid="flat"] > *[gridcell-tablet="4"], *[noclass] *[grid="flat-stretch"] > *[gridcell-tablet="4"]  { width: 33.3333333333%; }
+	*[noclass] *[grid="flat"] > *[gridcell-tablet="5"], *[noclass] *[grid="flat-stretch"] > *[gridcell-tablet="5"]  { width: 41.6666666666%; }
+	*[noclass] *[grid="flat"] > *[gridcell-tablet="6"], *[noclass] *[grid="flat-stretch"] > *[gridcell-tablet="6"]  { width: 50%; }
+	*[noclass] *[grid="flat"] > *[gridcell-tablet="7"], *[noclass] *[grid="flat-stretch"] > *[gridcell-tablet="7"]  { width: 58.3333333333%; }
+	*[noclass] *[grid="flat"] > *[gridcell-tablet="8"], *[noclass] *[grid="flat-stretch"] > *[gridcell-tablet="8"]  { width: 66.6666666666%; }
+	*[noclass] *[grid="flat"] > *[gridcell-tablet="9"], *[noclass] *[grid="flat-stretch"] > *[gridcell-tablet="9"]  { width: 75%; }
+	*[noclass] *[grid="flat"] > *[gridcell-tablet="10"], *[noclass] *[grid="flat-stretch"] > *[gridcell-tablet="10"] { width: 83.3333333333%; }
+	*[noclass] *[grid="flat"] > *[gridcell-tablet="11"], *[noclass] *[grid="flat-stretch"] > *[gridcell-tablet="11"] { width: 91.6666666666%; }
+	*[noclass] *[grid="flat"] > *[gridcell-tablet="12"], *[noclass] *[grid="flat-stretch"] > *[gridcell-tablet="12"] { width: 100%; }
 }
 
 @media screen and (max-width: 499px) {
-	*[noclass] div[grid] > div[gridcell-phone="1"]  { width: calc(8.3333333333% - 16px); }
-	*[noclass] div[grid] > div[gridcell-phone="2"]  { width: calc(16.6666666666% - 16px); }
-	*[noclass] div[grid] > div[gridcell-phone="3"]  { width: calc(25% - 16px); }
-	*[noclass] div[grid] > div[gridcell-phone="4"]  { width: calc(33.3333333333% - 16px); }
-	*[noclass] div[grid] > div[gridcell-phone="5"]  { width: calc(41.6666666666% - 16px); }
-	*[noclass] div[grid] > div[gridcell-phone="6"]  { width: calc(50% - 16px); }
-	*[noclass] div[grid] > div[gridcell-phone="7"]  { width: calc(58.3333333333% - 16px); }
-	*[noclass] div[grid] > div[gridcell-phone="8"]  { width: calc(66.6666666666% - 16px); }
-	*[noclass] div[grid] > div[gridcell-phone="9"]  { width: calc(75% - 16px); }
-	*[noclass] div[grid] > div[gridcell-phone="10"] { width: calc(83.3333333333% - 16px); }
-	*[noclass] div[grid] > div[gridcell-phone="11"] { width: calc(91.6666666666% - 16px); }
-	*[noclass] div[grid] > div[gridcell-phone="12"] { width: calc(100% - 16px); }
+	*[noclass] *[grid] > *[gridcell-phone="1"]  { width: calc(8.3333333333% - 16px); }
+	*[noclass] *[grid] > *[gridcell-phone="2"]  { width: calc(16.6666666666% - 16px); }
+	*[noclass] *[grid] > *[gridcell-phone="3"]  { width: calc(25% - 16px); }
+	*[noclass] *[grid] > *[gridcell-phone="4"]  { width: calc(33.3333333333% - 16px); }
+	*[noclass] *[grid] > *[gridcell-phone="5"]  { width: calc(41.6666666666% - 16px); }
+	*[noclass] *[grid] > *[gridcell-phone="6"]  { width: calc(50% - 16px); }
+	*[noclass] *[grid] > *[gridcell-phone="7"]  { width: calc(58.3333333333% - 16px); }
+	*[noclass] *[grid] > *[gridcell-phone="8"]  { width: calc(66.6666666666% - 16px); }
+	*[noclass] *[grid] > *[gridcell-phone="9"]  { width: calc(75% - 16px); }
+	*[noclass] *[grid] > *[gridcell-phone="10"] { width: calc(83.3333333333% - 16px); }
+	*[noclass] *[grid] > *[gridcell-phone="11"] { width: calc(91.6666666666% - 16px); }
+	*[noclass] *[grid] > *[gridcell-phone="12"] { width: calc(100% - 16px); }
 
 	/* Flat */
-	*[noclass] div[grid="flat"] > div[gridcell-phone="1"], *[noclass] div[grid="flat-stretch"] > div[gridcell-phone="1"]  { width: 8.3333333333%; }
-	*[noclass] div[grid="flat"] > div[gridcell-phone="2"], *[noclass] div[grid="flat-stretch"] > div[gridcell-phone="2"]  { width: 16.6666666666%; }
-	*[noclass] div[grid="flat"] > div[gridcell-phone="3"], *[noclass] div[grid="flat-stretch"] > div[gridcell-phone="3"]  { width: 25%; }
-	*[noclass] div[grid="flat"] > div[gridcell-phone="4"], *[noclass] div[grid="flat-stretch"] > div[gridcell-phone="4"]  { width: 33.3333333333%; }
-	*[noclass] div[grid="flat"] > div[gridcell-phone="5"], *[noclass] div[grid="flat-stretch"] > div[gridcell-phone="5"]  { width: 41.6666666666%; }
-	*[noclass] div[grid="flat"] > div[gridcell-phone="6"], *[noclass] div[grid="flat-stretch"] > div[gridcell-phone="6"]  { width: 50%; }
-	*[noclass] div[grid="flat"] > div[gridcell-phone="7"], *[noclass] div[grid="flat-stretch"] > div[gridcell-phone="7"]  { width: 58.3333333333%; }
-	*[noclass] div[grid="flat"] > div[gridcell-phone="8"], *[noclass] div[grid="flat-stretch"] > div[gridcell-phone="8"]  { width: 66.6666666666%; }
-	*[noclass] div[grid="flat"] > div[gridcell-phone="9"], *[noclass] div[grid="flat-stretch"] > div[gridcell-phone="9"]  { width: 75%; }
-	*[noclass] div[grid="flat"] > div[gridcell-phone="10"], *[noclass] div[grid="flat-stretch"] > div[gridcell-phone="10"] { width: 83.3333333333%; }
-	*[noclass] div[grid="flat"] > div[gridcell-phone="11"], *[noclass] div[grid="flat-stretch"] > div[gridcell-phone="11"] { width: 91.6666666666%; }
-	*[noclass] div[grid="flat"] > div[gridcell-phone="12"], *[noclass] div[grid="flat-stretch"] > div[gridcell-phone="12"] { width: 100%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="1"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="1"]  { width: 8.3333333333%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="2"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="2"]  { width: 16.6666666666%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="3"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="3"]  { width: 25%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="4"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="4"]  { width: 33.3333333333%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="5"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="5"]  { width: 41.6666666666%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="6"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="6"]  { width: 50%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="7"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="7"]  { width: 58.3333333333%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="8"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="8"]  { width: 66.6666666666%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="9"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="9"]  { width: 75%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="10"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="10"] { width: 83.3333333333%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="11"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="11"] { width: 91.6666666666%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="12"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="12"] { width: 100%; }
 }
