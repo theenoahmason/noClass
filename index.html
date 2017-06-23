@@ -17,35 +17,6 @@
 			<section>
 				<nav>
 					<ul>
-						<li>
-							<a href="#">Link</a>
-							<ul bg="white" c="black" level="3">
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">Link</a>
-							<ul bg="white" c="black" level="3">
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Link</a></li>
-						<li><a href="#">Link</a></li>
-						<li><a href="#">Link</a></li>
-					</ul>
-				</nav>
-			</section>
-			<section>
-				<nav>
-					<ul>
 						<li><label for="main-tab-1">Tab 1</label></li>
 						<li><label for="main-tab-2">Tab 2</label></li>
 						<li><label for="main-tab-3">Tab 3</label></li>
@@ -54,6 +25,44 @@
 				</nav>
 			</section>
 		</header>
+
+		<input drawer-toggle id="drawer-toggle" type="checkbox" hidden />
+		<aside drawer id="drawer" bg="light" c="light-contrast" level="4">
+			<header bg="primary" c="primary-contrast">
+				<section><label drawer-trigger for="drawer-toggle"><i icon>arrow_back</i></label></section>
+				<section><h3>noClass</h3></section>
+				<section><p>A Classless HTML Framework</p></section>
+			</header>
+			<section>
+				<nav>
+					<ul>
+						<li>
+							<a href="#">Link</a>
+							<ul bg="white" c="black" level="3">
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Link</a>
+							<ul bg="white" c="black" level="3">
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Link</a></li>
+						<li><a href="#">Link</a></li>
+						<li><a href="#">Link</a></li>
+					</ul>
+				</nav>
+			</section>
+		</aside>
 
 		<main>
 			<input tab-toggle type="radio" name="main-tabs" id="main-tab-1" checked/>
@@ -351,44 +360,6 @@
 			<section><h2>Second Row</h2></section>
 			<section><h2>Second Row</h2></section>
 		</footer>
-
-		<input drawer-toggle id="drawer-toggle" type="checkbox" hidden />
-		<aside drawer id="drawer" bg="light" c="light-contrast" level="4">
-			<header bg="primary" c="primary-contrast">
-				<section><label drawer-trigger for="drawer-toggle"><i icon>menu</i></label></section>
-				<section><h3>noClass</h3></section>
-				<section><p>A Classless HTML Framework</p></section>
-			</header>
-			<section>
-				<nav>
-					<ul>
-						<li>
-							<a href="#">Link</a>
-							<ul bg="white" c="black" level="3">
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">Link</a>
-							<ul bg="white" c="black" level="3">
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Link</a></li>
-						<li><a href="#">Link</a></li>
-						<li><a href="#">Link</a></li>
-					</ul>
-				</nav>
-			</section>
-		</aside>
 		
 	</body>
 </html>
