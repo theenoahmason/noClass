@@ -34,7 +34,7 @@
 
 		<input drawer-toggle id="drawer-toggle" type="checkbox" hidden />
 		<aside drawer id="drawer" bg="light" c="light-contrast" level="6">
-			<header darken bg="primary" c="primary-contrast" style="background-image:url(./images/demo-bg.jpg);">
+			<header darken="inherit" bg="dark" c="white" style="background-image:url(./images/demo-bg.jpg);">
 				<section><label drawer-trigger for="drawer-toggle"><i icon>arrow_back</i></label></section>
 				<section><h3>noClass</h3></section>
 				<section><p>A Classless HTML Framework</p></section>
@@ -69,12 +69,12 @@
 				</nav>
 			</section>
 		</aside>
-		<label drawer-overlay for="drawer-toggle" bg="black" level="5"></label>
+		<label drawer-overlay for="drawer-toggle" bg="black" c="white" level="5"></label>
 
 		<main>
 			<input tab-toggle type="radio" name="main-tabs" id="main-tab-1" checked/>
 			<section tab>
-				<section backdrop bg="dark" c="dark-contrast" style="background-image:url(./images/demo-bg.jpg);"></section>
+				<section backdrop darken bg="dark" c="white" style="background-image:url(./images/demo-bg.jpg);"></section>
 				<div contain>
 					<nav c="dark-contrast">
 						<ul>
@@ -104,7 +104,7 @@
 						</ul>
 					</nav>
 					<article card bg="white" c="black" level="2">
-						<header darken bg="dark" c="dark-contrast" style="background-image:url(./images/demo-bg.jpg);">
+						<header darken="inherit" bg="dark" c="white" style="background-image:url(./images/demo-bg.jpg);">
 							<section>
 								<button>News</button>
 								<h1><a href="#">Hello World!</a></h1>
