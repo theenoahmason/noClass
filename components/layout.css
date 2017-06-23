@@ -69,3 +69,19 @@ html[noclass] {
     padding-left: 16px;
     padding-right: 16px;
 }
+
+/* Darken */
+*[noclass] *[darken] {
+    position: relative;
+}
+
+*[noclass] *[darken]:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.5;
+}
