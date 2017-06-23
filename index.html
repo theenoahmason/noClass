@@ -11,12 +11,7 @@
 		<!-- Header -->
 		<header bg="primary" c="primary-contrast" level="3">
 			<section>
-				<figure hamburger>
-					<label for="drawer-toggle">
-						<span><i bg="primary-contrast"></i></span>
-						<figcaption hidden><small>Menu</small></figcaption>
-					</label>
-				</figure>
+				<label drawer-trigger for="drawer-toggle"><i icon>menu</i></label>
 				<h1 t="h3"><a href="#">noClass</a></h3>
 			</section>
 			<section>
@@ -360,16 +355,9 @@
 		<input drawer-toggle id="drawer-toggle" type="checkbox" hidden />
 		<aside drawer id="drawer" bg="light" c="light-contrast" level="4">
 			<header bg="primary" c="primary-contrast">
-				<section>
-					<figure hamburger>
-						<label for="drawer-toggle">
-							<span><i bg="primary-contrast"></i></span>
-							<figcaption hidden><small>Menu</small></figcaption>
-						</label>
-					</figure>
-					<h3>noClass</h3>
-					<p>A Classless HTML Framework</p>
-				</section>
+				<section><label drawer-trigger for="drawer-toggle"><i icon>menu</i></label></section>
+				<section><h3>noClass</h3></section>
+				<section><p>A Classless HTML Framework</p></section>
 			</header>
 			<section>
 				<nav>
@@ -403,5 +391,4 @@
 		</aside>
 		
 	</body>
-	<script src="./scripts.js"></script>
 </html>
