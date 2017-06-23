@@ -34,6 +34,7 @@
 	user-select: none;
     overflow: hidden;
     text-overflow: ellipsis;
+    vertical-align: middle;
 }
 
 *[noclass] button[disabled] {
