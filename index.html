@@ -15,7 +15,7 @@
 	<body bg="light" c="light-contrast">
 
 		<!-- Header -->
-		<header bg="primary" c="primary-contrast" level="3">
+		<header bg="primary" c="primary-contrast" level="3" sticky>
 			<section>
 				<label drawer-trigger for="drawer-toggle"><i icon>menu</i></label>
 				<h1 t="h3"><a href="#">noClass</a></h3>
@@ -23,10 +23,11 @@
 			<section>
 				<nav>
 					<ul>
-						<li><label for="main-tab-1">Get Started</label></li>
-						<li><label for="main-tab-2">Components</label></li>
-						<li><label for="main-tab-3">Templates</label></li>
-						<li><a target="_blank" href="https://github.com/theenoahmason/noClass">Source</a></li>
+						<li><label for="main-tab-1" onclick="window.scrollTo(0,0)">Overview</label></li>
+						<li><label for="main-tab-2" onclick="window.scrollTo(0,0)">Get Started</label></li>
+						<li><label for="main-tab-3" onclick="window.scrollTo(0,0)">Components</label></li>
+						<li><label for="main-tab-4" onclick="window.scrollTo(0,0)">Templates</label></li>
+						<li><a icon-after="open_in_new" target="_blank" href="https://github.com/theenoahmason/noClass">Source</a></li>
 					</ul>
 				</nav>
 			</section>
@@ -252,6 +253,8 @@
 					<a href="#">Link</a>
 					<a href="#" disabled>Link (Disabled)</a>
 					<button>Button</button>
+					<button icon-before="open_in_new">Button</button>
+					<button icon-after="open_in_new">Button</button>
 					<button disabled>Button (Disabled)</button>
 				</div>
 			</section>
@@ -363,9 +366,17 @@
 		</main>
 
 		<footer bg="dark" c="dark-contrast">
-			<section><h1>First Row</h1></section>
-			<section><h2>Second Row</h2></section>
-			<section><h2>Second Row</h2></section>
+			<section>
+				<nav>
+					<ul>
+						<li><label for="main-tab-1" onclick="window.scrollTo(0,0)">Overview</label></li>
+						<li><label for="main-tab-2" onclick="window.scrollTo(0,0)">Get Started</label></li>
+						<li><label for="main-tab-3" onclick="window.scrollTo(0,0)">Components</label></li>
+						<li><label for="main-tab-4" onclick="window.scrollTo(0,0)">Templates</label></li>
+						<li><a icon-after="open_in_new" target="_blank" href="https://github.com/theenoahmason/noClass">Source</a></li>
+					</ul>
+				</nav>
+			</section>
 		</footer>
 		
 	</body>
