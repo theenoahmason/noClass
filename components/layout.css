@@ -89,8 +89,37 @@ html[noclass] {
     background-color: inherit;
 }
 
+*[noclass] *[darken] > * {
+    position: relative;
+}
 
-*[noclass] *[sticky] {
+/* Sticky */
+*[noclass] *[sticky], 
+*[noclass] *[sticky="top"] {
     position: sticky;
     top: 0;
+    bottom: unset;
+    left: unset;
+    right: unset;
+}
+
+*[noclass] *[sticky="bottom"] {
+    top: unset;
+    bottom: 0;
+    left: unset;
+    right: unset;
+}
+
+*[noclass] *[sticky="left"] {
+    top: unset;
+    bottom: unset;
+    left: 0;
+    right: unset;
+}
+
+*[noclass] *[sticky="right"] {
+    top: unset;
+    bottom: unset;
+    left: unset;
+    right: 0;
 }

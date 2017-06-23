@@ -48,6 +48,7 @@
 	font-weight: inherit;
 	font-size: inherit;
 	display: block;
+	line-height: 1.2;
 }
 
 *[noclass] h1 a, *[noclass] *[t="h1"] a, 
