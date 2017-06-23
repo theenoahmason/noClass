@@ -6,21 +6,16 @@
     bottom: 0;
     overflow-y: auto;
     width: 90%;
-    -webkit-transition: left 0.1s ease-in-out;
-    -moz-transition: left 0.1s ease-in-out;
-    -ms-transition: left 0.1s ease-in-out;
-    -o-transition: left 0.1s ease-in-out;
-    transition: left 0.1s ease-in-out;
+    -webkit-transition: left 0.25s ease-in-out;
+    -moz-transition: left 0.25s ease-in-out;
+    -ms-transition: left 0.25s ease-in-out;
+    -o-transition: left 0.25s ease-in-out;
+    transition: left 0.25s ease-in-out;
 }
 
 *[noclass] aside[drawer] > header {
     min-height: 256px;
     justify-content: flex-end;
-}
-
-*[noclass] aside[drawer] > header > section {
-    /*padding-left: 0;*/
-    /*padding-right: 0;*/
 }
 
 *[noclass] aside[drawer] > header > section:first-of-type {
@@ -43,11 +38,11 @@
     background-color: black;
     pointer-events: none;
     opacity: 0;
-    -webkit-transition: opacity 0.1s ease-in-out;
-    -moz-transition: opacity 0.1s ease-in-out;
-    -ms-transition: opacity 0.1s ease-in-out;
-    -o-transition: opacity 0.1s ease-in-out;
-    transition: opacity 0.1s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -ms-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
 }
 
 *[noclass] label[drawer-trigger] {
