@@ -27,8 +27,8 @@
 }
 
 *[noclass] figure[hamburger] > label > span {
-  width: 40px;
-  height: 24px;
+  width: 36px;
+  height: 36px;
   display: block;
   position: relative; 
 }
@@ -36,7 +36,7 @@
 *[noclass] figure[hamburger] > label > span > i {
   display: block;
   top: 50%;
-  margin-top: -2px; 
+  margin-top: -1px; 
   transition-duration: 0.075s;
   transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
@@ -44,8 +44,8 @@
 *[noclass] figure[hamburger] > label > span > i, 
 *[noclass] figure[hamburger] > label > span > i:before, 
 *[noclass] figure[hamburger] > label > span > i:after {
-  width: 40px;
-  height: 4px;
+  width: 36px;
+  height: 2px;
   border-radius: 1px;
   position: absolute;
   transition-property: transform;
@@ -61,12 +61,12 @@
 }
 
 *[noclass] figure[hamburger] > label > span > i:before {
-  top: -10px; 
+  top: -12px; 
   transition: top 0.075s 0.12s ease, opacity 0.075s ease;
 }
 
 *[noclass] figure[hamburger] > label > span > i:after {
-  bottom: -10px; 
+  bottom: -12px; 
   transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
