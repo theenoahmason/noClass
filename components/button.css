@@ -59,6 +59,9 @@
     line-height: 36px;
     margin-right: 16px;
     border-radius: 18px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 *[noclass] button[capsule] > span {
