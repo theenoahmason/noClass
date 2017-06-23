@@ -33,7 +33,7 @@
 
 *[noclass] nav > ul > li > ul {
 	margin: 0;
-	padding: 0;
+	padding: 8px 0;
 	list-style: none;
 	display: none;
 	border-radius: 2px;
@@ -50,11 +50,6 @@
 	display: block;
 	box-sizing: border-box;
 	width: 100%;
-}
-
-*[noclass] nav > ul > li > ul li label:hover, 
-*[noclass] nav > ul > li > ul li a:hover {
-	background-color: rgba(0, 0, 0, 0.1);
 }
 
 *[noclass] nav > ul > li:focus > ul, 
@@ -82,4 +77,38 @@
 
 *[noclass] input[tab-toggle][type="radio"]:checked + section[tab] {
 	display: block;
+}
+
+*[noclass] nav[nav-vertical] > ul {
+    flex-flow: column;
+    padding: 8px 0;
+}
+
+*[noclass] nav[nav-vertical] > ul > li {
+    width: 100%;
+    flex-flow: column;
+}
+
+*[noclass] nav[nav-vertical] > ul > li > a {
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+}
+
+*[noclass] nav[nav-vertical] > ul > li:focus > ul, 
+*[noclass] nav[nav-vertical] > ul > li:active > ul, 
+*[noclass] nav[nav-vertical] > ul > li:hover > ul {
+	position: relative;
+	top: unset;
+	left: unset;
+	right: unset;
+	bottom: unset;
+	width: 100%;
+}
+
+*[noclass] nav[nav-vertical] > ul > li > a:hover, 
+*[noclass] nav > ul > li > ul li label:hover, 
+*[noclass] nav > ul > li > ul li a:hover {
+	background-color: rgba(0, 0, 0, 0.1);
 }

@@ -19,12 +19,11 @@
 }
 
 *[noclass] aside[drawer] > header > section {
-    padding-left: 0;
-    padding-right: 0;
+    /*padding-left: 0;*/
+    /*padding-right: 0;*/
 }
 
 *[noclass] aside[drawer] > header > section:first-of-type {
-    margin-top: 16px;
     margin-bottom: auto;
 }
 

@@ -17,8 +17,7 @@
 
 *[noclass] header > section {
 	position: relative;
-	padding-left: 16px;
-	padding-right: 16px;
+	padding: 8px 16px;
 	display: flex;
     flex-flow: row;
     align-items: center;
