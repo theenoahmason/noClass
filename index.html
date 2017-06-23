@@ -11,8 +11,7 @@
 		<!-- Header -->
 		<header bg="primary" c="primary-contrast" level="3">
 			<section>
-				<figure hamburger toggle="drawer,open">
-					<input id="drawer-toggle" type="checkbox" />
+				<figure hamburger>
 					<label for="drawer-toggle">
 						<span><i bg="primary-contrast"></i></span>
 						<figcaption hidden><small>Menu</small></figcaption>
@@ -344,15 +343,22 @@
 
 		</main>
 
-		<footer bg="dark" c="dark-contrast" level="5">
+		<footer bg="dark" c="dark-contrast">
 			<section><h1>First Row</h1></section>
 			<section><h2>Second Row</h2></section>
 			<section><h2>Second Row</h2></section>
 		</footer>
 
+		<input drawer-toggle id="drawer-toggle" type="checkbox" hidden />
 		<aside drawer id="drawer" bg="light" c="light-contrast" level="4">
 			<header bg="primary" c="primary-contrast">
 				<section>
+					<figure hamburger>
+						<label for="drawer-toggle">
+							<span><i bg="primary-contrast"></i></span>
+							<figcaption hidden><small>Menu</small></figcaption>
+						</label>
+					</figure>
 					<h3>noClass</h3>
 					<p>A Classless HTML Framework</p>
 				</section>

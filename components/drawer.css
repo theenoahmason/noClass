@@ -6,13 +6,13 @@
     bottom: 0;
     overflow-y: auto;
     width: 80%;
-    -webkit-transition: left 0.25s ease-in-out;
-    -moz-transition: left 0.25s ease-in-out;
-    -ms-transition: left 0.25s ease-in-out;
-    -o-transition: left 0.25s ease-in-out;
-    transition: left 0.25s ease-in-out;
+    -webkit-transition: left 0.1s ease-in-out;
+    -moz-transition: left 0.1s ease-in-out;
+    -ms-transition: left 0.1s ease-in-out;
+    -o-transition: left 0.1s ease-in-out;
+    transition: left 0.1s ease-in-out;
 }
 
-*[noclass] aside[drawer][open] {
+*[noclass] input[drawer-toggle][type="checkbox"]:checked + aside[drawer] {
 	left: 0;
 }
