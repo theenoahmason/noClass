@@ -21,6 +21,7 @@ html[noclass] {
     position: relative;
     height: auto;
     width: auto;
+    overflow-x: hidden;
 }
 
 /* Body */
