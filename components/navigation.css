@@ -2,7 +2,6 @@
     display: block;
     margin-left: -16px;
     margin-right: -16px;
-    overflow: hidden;
 }
 
 *[noclass] nav label, 
@@ -20,8 +19,7 @@
     list-style: none;
     padding-left: 16px;
     padding-right: 16px;
-    overflow-x: scroll;
-    margin-bottom: -17px;
+    overflow-x: auto;
 }
 
 *[noclass] nav li {
