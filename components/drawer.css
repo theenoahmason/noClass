@@ -1,8 +1,8 @@
 *[noclass] aside[drawer] {
-	position: fixed;
-	left: -400px;
+    position: fixed;
+    left: -400px;
     max-width: 400px;
-	top: 0;
+    top: 0;
     bottom: 0;
     overflow-y: auto;
     width: 80%;
@@ -11,6 +11,28 @@
     -ms-transition: left 0.1s ease-in-out;
     -o-transition: left 0.1s ease-in-out;
     transition: left 0.1s ease-in-out;
+}
+
+*[noclass] aside[drawer] > header {
+    min-height: 256px;
+    justify-content: flex-end;
+}
+
+*[noclass] aside[drawer] > header > section:first-of-type {
+	margin-bottom: auto;
+}
+
+*[noclass] label[drawer-trigger] {
+    padding: 16px;
+}
+
+*[noclass] label[drawer-trigger] > i {
+    display: block;
+    font-size: 40px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    margin-left: -4px;
 }
 
 *[noclass] input[drawer-toggle][type="checkbox"]:checked + aside[drawer] {
