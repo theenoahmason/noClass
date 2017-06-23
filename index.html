@@ -48,12 +48,22 @@
 					</ul>
 				</nav>
 			</section>
+			<section>
+				<nav>
+					<ul>
+						<li><label for="main-tab-1">Tab 1</label></li>
+						<li><label for="main-tab-2">Tab 2</label></li>
+						<li><label for="main-tab-3">Tab 3</label></li>
+						<li><label for="main-tab-4">Tab 4</label></li>
+					</ul>
+				</nav>
+			</section>
 		</header>
 
 		<main>
-			
-			<section backdrop bg="dark" c="dark-contrast" style="background-image:url(./images/demo-bg.jpg);"></section>
-			<section>
+			<input tab-toggle type="radio" name="main-tabs" id="main-tab-1" checked/>
+			<section tab>
+				<section backdrop bg="dark" c="dark-contrast" style="background-image:url(./images/demo-bg.jpg);"></section>
 				<div contain>
 					<nav c="dark-contrast">
 						<ul>
@@ -82,11 +92,6 @@
 							<li><a href="#">Link</a></li>
 						</ul>
 					</nav>
-				</div>
-			</section>
-
-			<section>
-				<div contain>
 					<article card bg="white" c="black" level="2">
 						<header bg="dark" c="dark-contrast" style="background-image:url(./images/demo-bg.jpg);">
 							<section>
@@ -117,7 +122,8 @@
 				</div>
 			</section>
 
-			<section>
+			<input tab-toggle type="radio" name="main-tabs" id="main-tab-2" />
+			<section tab>
 				<div contain>
 					<div grid>
 						<div gridcell="12" bg="dark" c="dark-contrast"><i style="height:100px;display:block;"></i></div>
@@ -214,7 +220,8 @@
 				</div>
 			</section>
 
-			<section>
+			<input tab-toggle type="radio" name="main-tabs" id="main-tab-3" />
+			<section tab>
 				<div contain>
 					<p>This is the page's description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -238,7 +245,8 @@
 				</div>
 			</section>
 
-			<section>
+			<input tab-toggle type="radio" name="main-tabs" id="main-tab-4" />
+			<section tab>
 				<div contain>
 					<form>
 						<fieldset>

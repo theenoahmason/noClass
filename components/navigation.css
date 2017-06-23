@@ -2,6 +2,7 @@
     display: block;
 }
 
+*[noclass] nav label, 
 *[noclass] nav a {
     border: none;
 }
@@ -24,8 +25,10 @@
     display: inline-flex;
 }
 
+*[noclass] nav > ul > li > label, 
 *[noclass] nav > ul > li > a {
     padding: 16px;
+    font-weight: bold;
 }
 
 *[noclass] nav > ul > li > ul {
@@ -40,6 +43,7 @@
 	width: 100%;
 }
 
+*[noclass] nav > ul > li > ul li label, 
 *[noclass] nav > ul > li > ul li a {
 	height: 1.5;
 	padding: 8px 16px;
@@ -48,6 +52,7 @@
 	width: 100%;
 }
 
+*[noclass] nav > ul > li > ul li label:hover, 
 *[noclass] nav > ul > li > ul li a:hover {
 	background-color: rgba(0, 0, 0, 0.1);
 }
@@ -64,4 +69,17 @@
 	align-items: flex-start;
 	justify-content: flex-start;
 	width: 200px;
+}
+
+/* Tabs */
+*[noclass] input[tab-toggle][type="radio"] {
+	display: none;
+}
+
+*[noclass] input[tab-toggle][type="radio"] + section[tab] {
+	display: none;
+}
+
+*[noclass] input[tab-toggle][type="radio"]:checked + section[tab] {
+	display: block;
 }
