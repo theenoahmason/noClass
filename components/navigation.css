@@ -1,5 +1,6 @@
 *[noclass] nav {
     display: block;
+    max-width: 100%;
 }
 
 *[noclass] nav label, 
