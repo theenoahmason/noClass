@@ -24,7 +24,12 @@
 }
 
 *[noclass] aside[drawer] > header > section:first-of-type {
-	margin-bottom: auto;
+    margin-top: 16px;
+    margin-bottom: auto;
+}
+
+*[noclass] aside[drawer] > header > section:last-of-type {
+	margin-bottom: 16px;
 }
 
 *[noclass] label[drawer-trigger] {
