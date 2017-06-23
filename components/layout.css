@@ -82,6 +82,10 @@ html[noclass] {
     left: 0;
     right: 0;
     bottom: 0;
-    background: black;
+    background-color: black;
     opacity: 0.5;
+}
+
+*[noclass] *[darken="inherit"]:before {
+    background-color: inherit;
 }
