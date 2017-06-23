@@ -5,7 +5,7 @@
     top: 0;
     bottom: 0;
     overflow-y: auto;
-    width: 80%;
+    width: 90%;
     -webkit-transition: left 0.1s ease-in-out;
     -moz-transition: left 0.1s ease-in-out;
     -ms-transition: left 0.1s ease-in-out;
@@ -31,6 +31,25 @@
 	margin-bottom: 16px;
 }
 
+*[noclass] label[drawer-overlay] {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: auto;
+    background-color: black;
+    pointer-events: none;
+    opacity: 0;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    -moz-transition: opacity 0.1s ease-in-out;
+    -ms-transition: opacity 0.1s ease-in-out;
+    -o-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
 *[noclass] label[drawer-trigger] {
     padding: 16px;
 }
@@ -45,5 +64,10 @@
 }
 
 *[noclass] input[drawer-toggle][type="checkbox"]:checked + aside[drawer] {
-	left: 0;
+    left: 0;
+}
+
+*[noclass] input[drawer-toggle][type="checkbox"]:checked + aside[drawer] + label[drawer-overlay] {
+	opacity: 0.8;
+    pointer-events: all;
 }
