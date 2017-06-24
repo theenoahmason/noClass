@@ -44,7 +44,6 @@ html[noclass] {
     align-items: flex-start;
     flex-flow: column;
     width: 100%;
-    overflow-x: hidden;
 }
 
 *[noclass] main > section {
@@ -98,7 +97,7 @@ html[noclass] {
 /* Sticky */
 *[noclass] *[sticky], 
 *[noclass] *[sticky="top"] {
-    position: sticky;
+    position: sticky !important;
     top: 0;
     bottom: unset;
     left: unset;
@@ -128,17 +127,17 @@ html[noclass] {
 
 /* Margin */
 *[noclass] *[hasmargin] {
-    margin: 16px;
+    margin: 16px !important;
 }
 
 *[noclass] *[nomargin] {
-    margin: 0;
+    margin: 0 !important;
 }
 
 *[noclass] *[haspadding] {
-    padding: 16px;
+    padding: 16px !important;
 }
 
 *[noclass] *[nopadding] {
-    padding: 0;
+    padding: 0 !important;
 }
