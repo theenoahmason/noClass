@@ -126,18 +126,17 @@ html[noclass] {
 }
 
 /* Margin */
-*[noclass] *[hasmargin] {
-    margin: 16px !important;
-}
+*[noclass] *[hasmargin] { margin: 16px !important; }
+*[noclass] *[hasmargin="top"] { margin: 16px 0 0 0 !important; }
+*[noclass] *[hasmargin="bottom"] { margin: 0 0 16px 0 !important; }
+*[noclass] *[hasmargin="left"] { margin: 0 0 0 16px !important; }
+*[noclass] *[hasmargin="right"] { margin: 0 16px 0 0 !important; }
+*[noclass] *[nomargin] { margin: 0 !important; }
 
-*[noclass] *[nomargin] {
-    margin: 0 !important;
-}
-
-*[noclass] *[haspadding] {
-    padding: 16px !important;
-}
-
-*[noclass] *[nopadding] {
-    padding: 0 !important;
-}
+/* Padding */
+*[noclass] *[haspadding] { padding: 16px !important; }
+*[noclass] *[haspadding="top"] { padding: 16px 0 0 0 !important; }
+*[noclass] *[haspadding="bottom"] { padding: 0 0 16px 0 !important; }
+*[noclass] *[haspadding="left"] { padding: 0 0 0 16px !important; }
+*[noclass] *[haspadding="right"] { padding: 0 16px 0 0 !important; }
+*[noclass] *[nopadding] { padding: 0 !important; }
