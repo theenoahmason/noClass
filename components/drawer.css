@@ -50,18 +50,13 @@
 
 *[noclass] label[drawer-trigger] > i {
     display: block;
-    font-size: 40px;
-    width: 36px;
-    height: 24px;
-    line-height: 24px;
-    margin-left: -4px;
 }
 
-*[noclass] input[drawer-toggle][type="checkbox"]:checked + aside[drawer] {
+*[noclass] input[drawer-toggle]:checked + aside[drawer] {
     left: 0;
 }
 
-*[noclass] input[drawer-toggle][type="checkbox"]:checked + aside[drawer] + label[drawer-overlay] {
+*[noclass] input[drawer-toggle]:checked + aside[drawer] + label[drawer-overlay] {
 	opacity: 0.8;
     pointer-events: all;
 }

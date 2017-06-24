@@ -1,8 +1,5 @@
 *[noclass] nav {
     display: block;
-    margin-left: -16px;
-    margin-right: -16px;
-    overflow: hidden;
 }
 
 *[noclass] nav label, 
@@ -12,15 +9,12 @@
 
 *[noclass] nav > ul {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     align-items: flex-start;
     justify-content: flex-start;
     margin: 0;
     padding: 0;
     list-style: none;
-    padding-left: 16px;
-    padding-right: 16px;
-    overflow-x: auto;
 }
 
 *[noclass] nav li {
@@ -74,15 +68,15 @@
 }
 
 /* Tabs */
-*[noclass] input[tab-toggle][type="radio"] {
+*[noclass] input[tab-toggle] {
 	display: none;
 }
 
-*[noclass] input[tab-toggle][type="radio"] + section[tab] {
+*[noclass] input[tab-toggle] + section[tab] {
 	display: none;
 }
 
-*[noclass] input[tab-toggle][type="radio"]:checked + section[tab] {
+*[noclass] input[tab-toggle]:checked + section[tab] {
 	display: block;
 }
 
@@ -93,7 +87,6 @@
 *[noclass] nav[nav-vertical] > ul {
     flex-flow: column;
     padding: 8px 0;
-    overflow: visible;
 }
 
 *[noclass] nav[nav-vertical] > ul > li {
