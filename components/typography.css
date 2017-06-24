@@ -60,12 +60,12 @@
 	font-weight: inherit;
 }
 
-*[noclass] h1, *[noclass] *[t="h1"] {	font-size: 42px; }
-*[noclass] h2, *[noclass] *[t="h2"] {	font-size: 36px; }
-*[noclass] h3, *[noclass] *[t="h3"] {	font-size: 28px; }
-*[noclass] h4, *[noclass] *[t="h4"] {	font-size: 22px; }
-*[noclass] h5, *[noclass] *[t="h5"] {	font-size: 18px; }
-*[noclass] h6, *[noclass] *[t="h6"] {	font-size: 14px; }
+*[noclass] h1, *[noclass] *[t="h1"] { font-size: 42px; }
+*[noclass] h2, *[noclass] *[t="h2"] { font-size: 36px; }
+*[noclass] h3, *[noclass] *[t="h3"] { font-size: 28px; }
+*[noclass] h4, *[noclass] *[t="h4"] { font-size: 22px; }
+*[noclass] h5, *[noclass] *[t="h5"] { font-size: 18px; }
+*[noclass] h6, *[noclass] *[t="h6"] { font-size: 14px; }
 
 /* Paragraph */
 *[noclass] p {
