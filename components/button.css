@@ -1,6 +1,6 @@
 /* Button */
 
-*[noclass] button {
+*[noclass] *[button] {
     background-color: rgba(0, 0, 0, 0.1);
     color: inherit;
 	-moz-osx-font-smoothing: grayscale;
@@ -37,7 +37,7 @@
     vertical-align: middle;
 }
 
-*[noclass] button[disabled] {
+*[noclass] *[button][disabled] {
 	opacity: 0.5;
 	cursor: normal;
 	-webkit-pointer-events: none;
@@ -48,12 +48,12 @@
 }
 
 /* Capsule */
-*[noclass] button[capsule] {
+*[noclass] *[button="capsule"] {
     border-radius: 18px;
     padding-left: 0;
 }
 
-*[noclass] button[capsule] > i {
+*[noclass] *[button="capsule"] > i {
     display: block;
     height: 36px;
     width: 36px;
@@ -63,8 +63,4 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-}
-
-*[noclass] button[capsule] > span {
-
 }
