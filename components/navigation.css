@@ -94,6 +94,7 @@
     flex-flow: column;
 }
 
+*[noclass] nav[nav-vertical] > ul > li label, 
 *[noclass] nav[nav-vertical] > ul > li a {
     width: 100%;
     padding-left: 32px;
@@ -112,9 +113,12 @@
 	width: 100%;
 }
 
-*[noclass] nav[nav-vertical] > ul > li > a:hover, 
-*[noclass] nav[nav-vertical] > ul > li > a:active, 
-*[noclass] nav[nav-vertical] > ul > li > a:focus, 
+*[noclass] nav[nav-vertical] > ul > li a:hover, 
+*[noclass] nav[nav-vertical] > ul > li a:active, 
+*[noclass] nav[nav-vertical] > ul > li a:focus, 
+*[noclass] nav[nav-vertical] > ul > li label:hover, 
+*[noclass] nav[nav-vertical] > ul > li label:active, 
+*[noclass] nav[nav-vertical] > ul > li label:focus, 
 *[noclass] nav > ul > li > ul li label:hover, 
 *[noclass] nav > ul > li > ul li label:active, 
 *[noclass] nav > ul > li > ul li label:focus, 
