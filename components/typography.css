@@ -13,8 +13,6 @@
 
 /* Anchors */
 *[noclass] a {
-	display: inline-block;
-	font-weight: bolder;
 	text-decoration: none;
 	color: inherit;
 	cursor: pointer;
@@ -23,7 +21,11 @@
 	-ms-user-select: none; 
 	-o-user-select: none;
 	user-select: none;
-	border-bottom: 2px solid;
+}
+
+*[noclass] label, 
+*[noclass] a {
+	font-weight: bolder;
 }
 
 *[noclass] a[disabled] {
