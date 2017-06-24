@@ -44,19 +44,7 @@
     transition: opacity 0.25s ease-in-out;
 }
 
-*[noclass] label[drawer-trigger] {
-    padding: 16px;
-}
-
-*[noclass] label[drawer-trigger] > i {
-    display: block;
-}
-
-*[noclass] input[drawer-toggle]:checked + aside[drawer] {
-    left: 0;
-}
-
-*[noclass] input[drawer-toggle]:checked + aside[drawer] + label[drawer-overlay] {
-	opacity: 0.8;
+*[noclass] input[toggle-trigger]:checked + *[toggle-target] + label[drawer-overlay] {
+    opacity: 0.8;
     pointer-events: all;
 }

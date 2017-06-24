@@ -113,7 +113,13 @@
 }
 
 *[noclass] nav[nav-vertical] > ul > li > a:hover, 
+*[noclass] nav[nav-vertical] > ul > li > a:active, 
+*[noclass] nav[nav-vertical] > ul > li > a:focus, 
 *[noclass] nav > ul > li > ul li label:hover, 
-*[noclass] nav > ul > li > ul li a:hover {
+*[noclass] nav > ul > li > ul li label:active, 
+*[noclass] nav > ul > li > ul li label:focus, 
+*[noclass] nav > ul > li > ul li a:hover, 
+*[noclass] nav > ul > li > ul li a:active, 
+*[noclass] nav > ul > li > ul li a:focus {
 	background-color: rgba(0, 0, 0, 0.1);
 }
