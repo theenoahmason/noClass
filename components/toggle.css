@@ -1,13 +1,7 @@
-
-
-/**[noclass] label[toggle-trigger] {
-    padding: 16px;
+*[noclass] input[toggle-trigger] + *[toggle-target] {
+    display: none;
 }
 
-*[noclass] label[toggle-trigger] > i {
-    display: block;
-}*/
-
 *[noclass] input[toggle-trigger]:checked + *[toggle-target] {
-    left: 0;
+    display: block;
 }
