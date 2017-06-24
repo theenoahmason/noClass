@@ -15,8 +15,6 @@
 
 /* Labels */
 *[noclass] label {
-	display: inline-block;
-	vertical-align: middle;
 	cursor: pointer;
 	-webkit-user-select: none;       
 	-moz-user-select: none; 
