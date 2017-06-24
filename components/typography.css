@@ -80,8 +80,6 @@
 }
 
 /* Icons */
-*[noclass] *[icon-before]:before, 
-*[noclass] *[icon-after]:after, 
 *[noclass] i[icon] {
 	font-family: 'Material Icons';
 	text-rendering: optimizeLegibility;
@@ -98,14 +96,4 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	vertical-align: middle;
-}
-
-*[noclass] *[icon-before]:before {
-	content: attr(icon-before);
-	margin-right: 8px;
-}
-
-*[noclass] *[icon-after]:after {
-	content: attr(icon-after);
-	margin-left: 8px;
 }
