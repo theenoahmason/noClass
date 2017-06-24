@@ -13,6 +13,7 @@
     width: auto;
 }
 
+*[noclass] *[grid="stretch"], 
 *[noclass] *[grid="flat-stretch"] {
 	margin-left: -16px;
 	margin-right: -16px;
