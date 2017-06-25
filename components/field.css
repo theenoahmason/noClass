@@ -1,3 +1,5 @@
+@import '_variables.css';
+
 /* Form Fields */
 
 /* Placeholders */
@@ -10,7 +12,10 @@
 *[noclass] fieldset {
     border: none;
     padding: 0;
-    margin: 0 0 16px;
+    margin-top: 0;
+    margin-bottom: 16px; margin-bottom: var(--gutter, 16px);
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* Labels */
@@ -26,7 +31,10 @@
 /* Inputs & Selects */
 *[noclass] select, 
 *[noclass] input {
-	margin: 0 0 16px;
+	margin-top: 0;
+    margin-bottom: 16px; margin-bottom: var(--gutter, 16px);
+    margin-left: 0;
+    margin-right: 0;
 	background-color: transparent;
 	border-left: none;
 	border-right: none;
@@ -38,7 +46,7 @@
 	-ms-box-shadow: none;
 	-o-box-shadow: none;
 	box-shadow: none;
-	font-size: 18px;
+	font-size: inherit;
 }
 
 *[noclass] select[disabled], 

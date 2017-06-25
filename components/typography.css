@@ -1,3 +1,4 @@
+@import '_variables.css';
 /* Google Fonts - Roboto */
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
 /* Google Fonts - Material Icons */
@@ -46,7 +47,10 @@
 *[noclass] h4, *[noclass] *[t="h4"], 
 *[noclass] h5, *[noclass] *[t="h5"], 
 *[noclass] h6, *[noclass] *[t="h6"] {
-	margin: 0 0 16px;
+	margin-top: 0;
+	margin-bottom: var(--gutter, 16px);
+	margin-left: 0;
+	margin-right: 0;
 	font-weight: inherit;
 	font-size: inherit;
 	display: block;
@@ -71,7 +75,10 @@
 
 /* Paragraph */
 *[noclass] p {
-	margin: 0 0 16px;
+	margin-top: 0;
+	margin-bottom: var(--gutter, 16px);
+	margin-left: 0;
+	margin-right: 0;
 	display: block;
 	font-weight: inherit;
 	font-size: inherit;

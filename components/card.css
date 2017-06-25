@@ -1,5 +1,9 @@
+@import '_variables.css';
+
 *[noclass] article[card] {
 	border-radius: 2px;
+	display: -webkit-flex;
+    display: -ms-flexbox;
 	display: flex;
 	flex-flow: column;
 	align-items: flex-start;
@@ -9,16 +13,16 @@
 
 *[noclass] article[card] > header {
 	justify-content: flex-end;
-	padding-top: 16px;
-	padding-bottom: 16px;
+	padding-top: 16px; padding-top: var(--gutter, 16px);
+	padding-bottom: 16px; padding-bottom: var(--gutter, 16px);
 	flex-grow: 1;
 }
 
 *[noclass] article[card] > footer {
-	padding-top: 16px;
-	padding-bottom: 16px;
+	padding-top: 16px; padding-top: var(--gutter, 16px);
+	padding-bottom: 16px; padding-bottom: var(--gutter, 16px);
 }
 
 *[noclass] article[card] > section {
-	padding: 16px;
+	padding: var(--gutter, 16px);
 }

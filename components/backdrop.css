@@ -1,3 +1,5 @@
+@import '_variables.css';
+
 /* Backdrop */
 *[noclass] section[backdrop] {
 	min-height: 500px;
@@ -6,6 +8,8 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	display: -webkit-flex;
+    display: -ms-flexbox;
 	display: flex;
 	flex-flow: column;
 	align-items: center;

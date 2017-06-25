@@ -1,3 +1,5 @@
+@import '_variables.css';
+
 *[noclass] nav {
     display: block;
 }
@@ -8,6 +10,8 @@
 }
 
 *[noclass] nav > ul {
+	display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;
@@ -28,13 +32,16 @@
 
 *[noclass] nav > ul > li > label, 
 *[noclass] nav > ul > li > a {
-    padding: 16px;
+    padding: 16px; padding: var(--gutter, 16px);
     font-weight: bold;
 }
 
 *[noclass] nav > ul > li > ul {
 	margin: 0;
-	padding: 8px 0;
+	padding-top: 8px; padding-top: calc(var(--gutter, 16px) / 2);
+	padding-bottom: 8px; padding-bottom: calc(var(--gutter, 16px) / 2);
+	padding-left: 0;
+	padding-right: 0;
 	list-style: none;
 	display: none;
 	border-radius: 2px;
@@ -47,7 +54,10 @@
 *[noclass] nav > ul > li > ul li label, 
 *[noclass] nav > ul > li > ul li a {
 	height: 1.5;
-	padding: 8px 16px;
+	padding-top: 8px; padding-top: calc(var(--gutter, 16px) / 2);
+	padding-bottom: 8px; padding-bottom: calc(var(--gutter, 16px) / 2);
+	padding-left: 16px; padding-left: var(--gutter, 16px);
+	padding-right: 16px; padding-right: var(--gutter, 16px);
 	display: block;
 	box-sizing: border-box;
 	width: 100%;
@@ -60,6 +70,8 @@
 	top: 100%;
 	left: 0;
 	width: 100%;
+	display: -webkit-flex;
+    display: -ms-flexbox;
 	display: flex;
 	flex-flow: column;
 	align-items: flex-start;
@@ -86,7 +98,10 @@
 
 *[noclass] nav[nav-vertical] > ul {
     flex-flow: column;
-    padding: 8px 0;
+    padding-top: 8px; padding-top: calc(var(--gutter, 16px) / 2);
+	padding-bottom: 8px; padding-bottom: calc(var(--gutter, 16px) / 2);
+	padding-left: 0;
+	padding-right: 0;
 }
 
 *[noclass] nav[nav-vertical] > ul > li {
@@ -97,8 +112,8 @@
 *[noclass] nav[nav-vertical] > ul > li label, 
 *[noclass] nav[nav-vertical] > ul > li a {
     width: 100%;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 32px; padding-left: calc(var(--gutter, 16px) * 2);
+    padding-right: 32px; padding-right: calc(var(--gutter, 16px) * 2);
     box-sizing: border-box;
 }
 

@@ -1,5 +1,6 @@
-/* Button */
+@import '_variables.css';
 
+/* Button */
 *[noclass] *[button] {
     background-color: rgba(0, 0, 0, 0.1);
     color: inherit;
@@ -7,15 +8,18 @@
     -webkit-font-smoothing: antialiased;
     font-size: 14px;
     font-weight: bold;
-    line-height: 36px;
+    line-height: 32px; line-height: calc(var(--gutter, 16px) * 2);
     display: inline-flex;
     flex-flow: row;
     align-items: center;
     justify-content: center;
     position: relative;
-    min-width: 64px;
-    height: 36px;
-    padding: 0 16px;
+    min-width: 64px; min-width: calc(var(--gutter, 16px) * 4);
+    height: 32px; height: calc(var(--gutter, 16px) * 2);
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 16px; padding-left: var(--gutter, 16px);
+    padding-right: 16px; padding-right: var(--gutter, 16px);
     border: none;
     border-radius: 4px;
     text-align: center;
@@ -55,11 +59,11 @@
 
 *[noclass] *[button="capsule"] > i {
     display: block;
-    height: 36px;
-    width: 36px;
-    line-height: 36px;
-    margin-right: 16px;
-    border-radius: 18px;
+    height: 32px; height: calc(var(--gutter, 16px) * 2);
+    width: 32px; width: calc(var(--gutter, 16px) * 2);
+    line-height: 32px; line-height: calc(var(--gutter, 16px) * 2);
+    margin-right: 16px; margin-right: var(--gutter, 16px);
+    border-radius: 16px; border-radius: var(--gutter, 16px);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
