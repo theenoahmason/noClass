@@ -1,7 +1,3 @@
-/* Global Variables */
-:root {
-  --gutter: 16px;
-}
 
 /* Imported Components */
 @import 'components/typography.css';
@@ -18,3 +14,8 @@
 @import 'components/card.css';
 @import 'components/backdrop.css';
 @import 'components/toggle.css';
+
+/* Global Variables */
+:root {
+  --gutter: 16px;
+}
