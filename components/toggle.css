@@ -1,5 +1,3 @@
-@import '_variables.css';
-
 *[noclass] input[toggle-trigger] + *[toggle-target] {
     display: none;
 }

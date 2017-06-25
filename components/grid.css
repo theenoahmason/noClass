@@ -1,5 +1,3 @@
-@import '_variables.css';
-
 *[noclass] *[grid] {
 	padding: 8px; padding: calc(var(--gutter, 16px) / 2);
 	display: -webkit-flex;

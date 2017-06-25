@@ -1,4 +1,9 @@
+/* Global Variables */
+:root {
+  --gutter: 16px;
+}
 
+/* Imported Components */
 @import 'components/typography.css';
 @import 'components/colors.css';
 @import 'components/levels.css';
