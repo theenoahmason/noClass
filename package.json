@@ -1,6 +1,6 @@
 {
   "name": "noclass-css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Classless HTML Framework",
   "author": "Noah Mason",
   "homepage": "https://theenoahmason.github.com/noclass",
@@ -17,10 +17,10 @@
   },
   "directories": {
     "components": "components"
-  }, 
+  },
   "scripts": {},
-  "dependencies": {}, 
-  "devDependencies": {}, 
+  "dependencies": {},
+  "devDependencies": {},
   "optionalDependencies": {},
   "keywords": [
     "html5",
