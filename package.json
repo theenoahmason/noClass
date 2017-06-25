@@ -3,19 +3,25 @@
   "version": "0.0.1",
   "description": "A Classless HTML Framework",
   "author": "Noah Mason",
+  "homepage": "https://theenoahmason.github.com/noclass",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theenoahmason/noclass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theenoahmason/noclass/issues"
+  },
   "files": {
     "noclass": "noclass.css"
   },
   "directories": {
     "components": "components"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/theenoahmason/noclass"
-  },
-  "bugs": {
-    "url": "https://github.com/theenoahmason/noclass/issues"
-  },
+  }, 
+  "scripts": {},
+  "dependencies": {}, 
+  "devDependencies": {}, 
+  "optionalDependencies": {},
   "keywords": [
     "html5",
     "css3",
