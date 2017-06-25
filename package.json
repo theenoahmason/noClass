@@ -12,16 +12,6 @@
   "bugs": {
     "url": "https://github.com/theenoahmason/noclass/issues"
   },
-  "files": {
-    "noclass": "noclass.css"
-  },
-  "directories": {
-    "components": "components"
-  },
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {},
-  "optionalDependencies": {},
   "keywords": [
     "html5",
     "css3",
