@@ -1,0 +1,20 @@
+{
+  "name": "noclass",
+  "version": "0.0.0",
+  "description": "A Classless HTML Framework",
+  "author": "Noah Mason",
+  "main": "noclass.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theenoahmason/noClass"
+  },
+  "bugs": {
+    "url": "https://github.com/theenoahmason/noClass/issues"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "material-design"
+  ],
+  "license": "MIT"
+}
