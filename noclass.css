@@ -17,6 +17,7 @@
 
 /* Global Variables */
 :root {
+	/* Gutter */
 	--gutter: 16px;
 	/* Grid */
 	--gridcell-1:  8.3333333333%;  --gridcell-2:  calc(100% / 12); 
@@ -30,5 +31,18 @@
 	--gridcell-9:  75%;            --gridcell-9:  calc(100% / 12 * 9);
 	--gridcell-10: 83.3333333333%; --gridcell-10: calc(100% / 12 * 10);
 	--gridcell-11: 91.6666666666%; --gridcell-11: calc(100% / 12 * 11);
-	--gridcell-12: 100%;           
+	--gridcell-12: 100%;  
+	/* Levels */ 
+	--level-z-index-offset: 100;
+	--level-0--z-index:     0;    
+	--level-1--z-index:     100;  --level-1--z-index:  var(--level-z-index-offset, 100);
+	--level-2--z-index:     200;  --level-2--z-index:  calc(var(--level-z-index-offset, 100) * 2);
+	--level-3--z-index:     300;  --level-3--z-index:  calc(var(--level-z-index-offset, 100) * 3);
+	--level-4--z-index:     400;  --level-4--z-index:  calc(var(--level-z-index-offset, 100) * 4);
+	--level-5--z-index:     500;  --level-5--z-index:  calc(var(--level-z-index-offset, 100) * 5);
+	--level-6--z-index:     600;  --level-6--z-index:  calc(var(--level-z-index-offset, 100) * 6);
+	--level-7--z-index:     700;  --level-7--z-index:  calc(var(--level-z-index-offset, 100) * 7);
+	--level-8--z-index:     800;  --level-8--z-index:  calc(var(--level-z-index-offset, 100) * 8);
+	--level-9--z-index:     900;  --level-9--z-index:  calc(var(--level-z-index-offset, 100) * 9);
+	--level-10--z-index:    1000; --level-10--z-index: calc(var(--level-z-index-offset, 100) * 10);
 }
