@@ -68,7 +68,7 @@ html[noclass] {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding-left: 16px; padding-left: var(--gutter, 16px);
+    padding-left: 16px;  padding-left: var(--gutter, 16px);
     padding-right: 16px; padding-right: var(--gutter, 16px);
 }
 
@@ -97,25 +97,32 @@ html[noclass] {
 }
 
 /* Sticky */
-*[noclass] *[sticky]          { position: sticky !important; } 
+*[noclass] *[sticky] { 
+    position: -webkit-sticky !important; 
+    position: -moz-sticky !important; 
+    position: -ms-sticky !important; 
+    position: -o-sticky !important; 
+    position: sticky !important; 
+} 
+
 *[noclass] *[sticky="top"]    { top: 0; }
 *[noclass] *[sticky="bottom"] { bottom: 0 !important; }
 *[noclass] *[sticky="left"]   { left: 0 !important; }
 *[noclass] *[sticky="right"]  { right: 0 !important; }
 
 /* Margin */
-*[noclass] *[hasmargin="all"]    { margin: 16px !important; margin: var(--gutter, 16px) !important; }
-*[noclass] *[hasmargin="top"]    { margin-top: 16px !important; margin-top: var(--gutter, 16px) !important; }
+*[noclass] *[hasmargin="all"]    { margin: 16px !important;        margin: var(--gutter, 16px) !important; }
+*[noclass] *[hasmargin="top"]    { margin-top: 16px !important;    margin-top: var(--gutter, 16px) !important; }
 *[noclass] *[hasmargin="bottom"] { margin-bottom: 16px !important; margin-bottom: var(--gutter, 16px) !important; }
-*[noclass] *[hasmargin="left"]   { margin-left: 16px !important; margin-left: var(--gutter, 16px) !important; }
+*[noclass] *[hasmargin="left"]   { margin-left: 16px !important;   margin-left: var(--gutter, 16px) !important; }
 *[noclass] *[hasmargin="right"]  { margin-right: 16px !important;  margin-right: var(--gutter, 16px) !important; }
 *[noclass] *[hasmargin="none"]   { margin: 0 !important; }
 
 
 /* Padding */
-*[noclass] *[haspadding="all"]    { padding: 16px !important; padding: var(--gutter, 16px) !important; }
-*[noclass] *[haspadding="top"]    { padding-top: 16px !important; padding-top: var(--gutter, 16px) !important; }
+*[noclass] *[haspadding="all"]    { padding: 16px !important;        padding: var(--gutter, 16px) !important; }
+*[noclass] *[haspadding="top"]    { padding-top: 16px !important;    padding-top: var(--gutter, 16px) !important; }
 *[noclass] *[haspadding="bottom"] { padding-bottom: 16px !important; padding-bottom: var(--gutter, 16px) !important; }
-*[noclass] *[haspadding="left"]   { padding-left: 16px !important; padding-left: var(--gutter, 16px) !important; }
+*[noclass] *[haspadding="left"]   { padding-left: 16px !important;   padding-left: var(--gutter, 16px) !important; }
 *[noclass] *[haspadding="right"]  { padding-right: 16px !important;  padding-right: var(--gutter, 16px) !important; }
 *[noclass] *[haspadding="none"]   { padding: 0 !important; }
