@@ -1,38 +1,38 @@
 /* Colors */
 
 /* Black */
-*[noclass] *[c="black"]              { color: black !important; }
-*[noclass] *[b="black"]              { border-color: black !important; }
-*[noclass] *[bg="black"]             { background-color: black !important; }
+*[noclass] *[c="black"]              { color:            black !important;         color:            var(--color-black, black) !important; }
+*[noclass] *[b="black"]              { border-color:     black !important;         border-color:     var(--color-black, black) !important; }
+*[noclass] *[bg="black"]             { background-color: black !important;         background-color: var(--color-black, black) !important; }
 /* White */
-*[noclass] *[c="white"]              { color: white !important; }
-*[noclass] *[b="white"]              { border-color: white !important; }
-*[noclass] *[bg="white"]             { background-color: white !important; }
+*[noclass] *[c="white"]              { color:            white !important;         color:            var(--color-white, white) !important; }
+*[noclass] *[b="white"]              { border-color:     white !important;         border-color:     var(--color-white, white) !important; }
+*[noclass] *[bg="white"]             { background-color: white !important;         background-color: var(--color-white, white) !important; }
 /* Primary */
-*[noclass] *[c="primary"]            { color: midnightblue !important; }
-*[noclass] *[b="primary"]            { border-color: midnightblue !important; }
-*[noclass] *[bg="primary"]           { background-color: midnightblue !important; }
-*[noclass] *[c="primary-contrast"]   { color: lightblue !important; }
-*[noclass] *[b="primary-contrast"]   { border-color: lightblue !important; }
-*[noclass] *[bg="primary-contrast"]  { background-color: lightblue !important; }
+*[noclass] *[c="primary"]            { color:            midnightblue !important;  color:            var(--color-primary, midnightblue) !important; }
+*[noclass] *[b="primary"]            { border-color:     midnightblue !important;  border-color:     var(--color-primary, midnightblue) !important; }
+*[noclass] *[bg="primary"]           { background-color: midnightblue !important;  background-color: var(--color-primary, midnightblue) !important; }
+*[noclass] *[c="primary-contrast"]   { color:            lightblue !important;     color:            var(--color-primary-contrast, lightblue) !important; }
+*[noclass] *[b="primary-contrast"]   { border-color:     lightblue !important;     border-color:     var(--color-primary-contrast, lightblue) !important; }
+*[noclass] *[bg="primary-contrast"]  { background-color: lightblue !important;     background-color: var(--color-primary-contrast, lightblue) !important; }
 /* Accent */
-*[noclass] *[c="accent"]             { color: deeppink !important; }
-*[noclass] *[b="accent"]             { border-color: deeppink !important; }
-*[noclass] *[bg="accent"]            { background-color: deeppink !important; }
-*[noclass] *[c="accent-contrast"]    { color: lightpink !important; }
-*[noclass] *[b="accent-contrast"]    { border-color: lightpink !important; }
-*[noclass] *[bg="accent-contrast"]   { background-color: lightpink !important; }
+*[noclass] *[c="accent"]             { color:            deeppink !important;      color:            var(--color-accent, deeppink) !important; }
+*[noclass] *[b="accent"]             { border-color:     deeppink !important;      border-color:     var(--color-accent, deeppink) !important; }
+*[noclass] *[bg="accent"]            { background-color: deeppink !important;      background-color: var(--color-accent, deeppink) !important; }
+*[noclass] *[c="accent-contrast"]    { color:            lightpink !important;     color:            var(--color-accent-contrast, lightpink) !important; }
+*[noclass] *[b="accent-contrast"]    { border-color:     lightpink !important;     border-color:     var(--color-accent-contrast, lightpink) !important; }
+*[noclass] *[bg="accent-contrast"]   { background-color: lightpink !important;     background-color: var(--color-accent-contrast, lightpink) !important; }
 /* Dark */
-*[noclass] *[c="dark"]               { color: darkslategrey !important; }
-*[noclass] *[b="dark"]               { border-color: darkslategrey !important; }
-*[noclass] *[bg="dark"]              { background-color: darkslategrey !important; }
-*[noclass] *[c="dark-contrast"]      { color: whitesmoke !important; }
-*[noclass] *[b="dark-contrast"]      { border-color: whitesmoke !important; }
-*[noclass] *[bg="dark-contrast"]     { background-color: whitesmoke !important; }
+*[noclass] *[c="dark"]               { color:            darkslategrey !important; color:            var(--color-dark, darkslategrey) !important; }
+*[noclass] *[b="dark"]               { border-color:     darkslategrey !important; border-color:     var(--color-dark, darkslategrey) !important; }
+*[noclass] *[bg="dark"]              { background-color: darkslategrey !important; background-color: var(--color-dark, darkslategrey) !important; }
+*[noclass] *[c="dark-contrast"]      { color:            whitesmoke !important;    color:            var(--color-dark-contrast, whitesmoke) !important; }
+*[noclass] *[b="dark-contrast"]      { border-color:     whitesmoke !important;    border-color:     var(--color-dark-contrast, whitesmoke) !important; }
+*[noclass] *[bg="dark-contrast"]     { background-color: whitesmoke !important;    background-color: var(--color-dark-contrast, whitesmoke) !important; }
 /* Light */
-*[noclass] *[c="light"]              { color: whitesmoke !important; }
-*[noclass] *[b="light"]              { border-color: whitesmoke !important; }
-*[noclass] *[bg="light"]             { background-color: whitesmoke !important; }
-*[noclass] *[c="light-contrast"]     { color: darkslategrey !important; }
-*[noclass] *[b="light-contrast"]     { border-color: darkslategrey !important; }
-*[noclass] *[bg="light-contrast"]    { background-color: darkslategrey !important; }
+*[noclass] *[c="light"]              { color:            whitesmoke !important;    color:            var(--color-light, whitesmoke) !important; }
+*[noclass] *[b="light"]              { border-color:     whitesmoke !important;    border-color:     var(--color-light, whitesmoke) !important; }
+*[noclass] *[bg="light"]             { background-color: whitesmoke !important;    background-color: var(--color-light, whitesmoke) !important; }
+*[noclass] *[c="light-contrast"]     { color:            darkslategrey !important; color:            var(--color-light-contrast, darkslategrey) !important; }
+*[noclass] *[b="light-contrast"]     { border-color:     darkslategrey !important; border-color:     var(--color-light-contrast, darkslategrey) !important; }
+*[noclass] *[bg="light-contrast"]    { background-color: darkslategrey !important; background-color: var(--color-light-contrast, darkslategrey) !important; }
