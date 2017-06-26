@@ -21,7 +21,7 @@
 	position: relative;
 	padding-top: 0;
 	padding-bottom: 0;
-	padding-left: 16px; padding-left: var(--gutter, 16px);
+	padding-left: 16px;  padding-left: var(--gutter, 16px);
 	padding-right: 16px; padding-right: var(--gutter, 16px);
 	display: -webkit-flex;
     display: -ms-flexbox;
