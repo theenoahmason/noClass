@@ -17,5 +17,18 @@
 
 /* Global Variables */
 :root {
-  --gutter: 16px;
+	--gutter: 16px;
+	/* Grid */
+	--gridcell-1: 8.3333333333%;
+	--gridcell-2: 16.6666666666%;
+	--gridcell-3: 25%;
+	--gridcell-4: 33.3333333333%;
+	--gridcell-5: 41.6666666666%;
+	--gridcell-6: 50%;
+	--gridcell-7: 58.3333333333%;
+	--gridcell-8: 66.6666666666%;
+	--gridcell-9: 75%;
+	--gridcell-10: 83.3333333333%;
+	--gridcell-11: 91.6666666666%;
+	--gridcell-12: 100%;
 }
