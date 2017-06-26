@@ -19,7 +19,7 @@
 :root {
 	--gutter: 16px;
 	/* Grid */
-	--gridcell-1:  8.3333333333%;   
+	--gridcell-1:  8.3333333333%;  --gridcell-2:  calc(100% / 12); 
 	--gridcell-2:  16.6666666666%; --gridcell-2:  calc(100% / 12 * 2);
 	--gridcell-3:  25%;            --gridcell-3:  calc(100% / 12 * 3);
 	--gridcell-4:  33.3333333333%; --gridcell-4:  calc(100% / 12 * 4);
