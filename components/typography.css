@@ -25,7 +25,7 @@
 
 *[noclass] label, 
 *[noclass] a {
-	font-weight: bolder;
+	font-weight: inherit;
 }
 
 *[noclass] a[disabled] {
