@@ -19,16 +19,16 @@
 :root {
 	--gutter: 16px;
 	/* Grid */
-	--gridcell-1: 8.3333333333%;
-	--gridcell-2: 16.6666666666%;
-	--gridcell-3: 25%;
-	--gridcell-4: 33.3333333333%;
-	--gridcell-5: 41.6666666666%;
-	--gridcell-6: 50%;
-	--gridcell-7: 58.3333333333%;
-	--gridcell-8: 66.6666666666%;
-	--gridcell-9: 75%;
-	--gridcell-10: 83.3333333333%;
-	--gridcell-11: 91.6666666666%;
-	--gridcell-12: 100%;
+	--gridcell-1:  8.3333333333%;   
+	--gridcell-2:  16.6666666666%; --gridcell-2:  calc(100% / 12 * 2);
+	--gridcell-3:  25%;            --gridcell-3:  calc(100% / 12 * 3);
+	--gridcell-4:  33.3333333333%; --gridcell-4:  calc(100% / 12 * 4);
+	--gridcell-5:  41.6666666666%; --gridcell-5:  calc(100% / 12 * 5);
+	--gridcell-6:  50%;            --gridcell-6:  calc(100% / 12 * 6);
+	--gridcell-7:  58.3333333333%; --gridcell-7:  calc(100% / 12 * 7);
+	--gridcell-8:  66.6666666666%; --gridcell-8:  calc(100% / 12 * 8);
+	--gridcell-9:  75%;            --gridcell-9:  calc(100% / 12 * 9);
+	--gridcell-10: 83.3333333333%; --gridcell-10: calc(100% / 12 * 10);
+	--gridcell-11: 91.6666666666%; --gridcell-11: calc(100% / 12 * 11);
+	--gridcell-12: 100%;           
 }
