@@ -3,6 +3,7 @@
 	display: -webkit-flex;
     display: -ms-flexbox;
 	display: flex;
+	flex-basis: 100%;
 	flex-flow: column;
 	align-items: flex-start;
 	position: relative;
@@ -23,4 +24,5 @@
 
 *[noclass] article[card] > section {
 	padding: var(--gutter, 16px);
+	width: 100%;
 }
