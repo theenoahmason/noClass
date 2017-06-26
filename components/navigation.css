@@ -2,11 +2,6 @@
     display: block;
 }
 
-*[noclass] nav label, 
-*[noclass] nav a {
-    border: none;
-}
-
 *[noclass] nav > ul {
 	display: -webkit-flex;
     display: -ms-flexbox;
