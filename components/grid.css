@@ -16,7 +16,7 @@
 
 *[noclass] *[grid="stretch"], 
 *[noclass] *[grid="flat-stretch"] {
-	margin-left: -16px; margin-left: calc(var(--gutter, 16px) - var(--gutter, 16px) * 2);
+	margin-left: -16px;  margin-left: calc(var(--gutter, 16px) - var(--gutter, 16px) * 2);
 	margin-right: -16px; margin-right: calc(var(--gutter, 16px) - var(--gutter, 16px) * 2);
 }
 
@@ -105,15 +105,15 @@
 	*[noclass] *[grid] > *[gridcell-phone="12"] { width: calc(100% - 16px);           width: calc(var(--gridcell-12, 100%) - var(--gutter, 16px)); }
 
 	/* Flat & Flat Stretch */
-	*[noclass] *[grid="flat"] > *[gridcell-phone="1"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="1"]  { width: 8.3333333333%; }
-	*[noclass] *[grid="flat"] > *[gridcell-phone="2"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="2"]  { width: 16.6666666666%; }
-	*[noclass] *[grid="flat"] > *[gridcell-phone="3"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="3"]  { width: 25%; }
-	*[noclass] *[grid="flat"] > *[gridcell-phone="4"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="4"]  { width: 33.3333333333%; }
-	*[noclass] *[grid="flat"] > *[gridcell-phone="5"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="5"]  { width: 41.6666666666%; }
-	*[noclass] *[grid="flat"] > *[gridcell-phone="6"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="6"]  { width: 50%; }
-	*[noclass] *[grid="flat"] > *[gridcell-phone="7"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="7"]  { width: 58.3333333333%; }
-	*[noclass] *[grid="flat"] > *[gridcell-phone="8"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="8"]  { width: 66.6666666666%; }
-	*[noclass] *[grid="flat"] > *[gridcell-phone="9"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="9"]  { width: 75%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="1"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="1"]   { width: 8.3333333333%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="2"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="2"]   { width: 16.6666666666%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="3"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="3"]   { width: 25%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="4"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="4"]   { width: 33.3333333333%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="5"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="5"]   { width: 41.6666666666%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="6"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="6"]   { width: 50%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="7"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="7"]   { width: 58.3333333333%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="8"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="8"]   { width: 66.6666666666%; }
+	*[noclass] *[grid="flat"] > *[gridcell-phone="9"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="9"]   { width: 75%; }
 	*[noclass] *[grid="flat"] > *[gridcell-phone="10"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="10"] { width: 83.3333333333%; }
 	*[noclass] *[grid="flat"] > *[gridcell-phone="11"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="11"] { width: 91.6666666666%; }
 	*[noclass] *[grid="flat"] > *[gridcell-phone="12"], *[noclass] *[grid="flat-stretch"] > *[gridcell-phone="12"] { width: 100%; }
