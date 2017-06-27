@@ -1,0 +1,18 @@
+/* Quote */
+*[noclass] blockquote {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    padding: 16px; padding: var(--gutter, 16px);
+    margin-bottom: 16px; margin-bottom: var(--gutter, 16px);
+    margin-left: 32px; margin-left: calc(var(--gutter, 16px) * 2);
+    margin-right: 32px; margin-right: calc(var(--gutter, 16px) * 2); 
+    margin-top: 0;
+    border-radius: 2px;
+    font-size: 125%;
+}
+
+*[noclass] blockquote cite {
+    font-weight: inherit;
+    display: flex;
+    font-size: 80%;
+}
