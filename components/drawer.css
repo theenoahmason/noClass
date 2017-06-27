@@ -1,4 +1,4 @@
-*[noclass] aside[drawer] {
+*[noclass] *[drawer] {
     display: block !important;
     position: fixed;
     left: -416px;
@@ -14,24 +14,24 @@
     transition: left 0.25s ease-in-out;
 }
 
-*[noclass] aside[drawer] > header {
+*[noclass] *[drawer] > header {
     min-height: 256px;
     justify-content: flex-end;
 }
 
-*[noclass] aside[drawer] > header > section:first-of-type {
+*[noclass] *[drawer] > header > section:first-of-type {
     margin-bottom: auto;
 }
 
-*[noclass] aside[drawer] > header > section:last-of-type {
+*[noclass] *[drawer] > header > section:last-of-type {
     margin-bottom: 16px; margin-bottom: var(--gutter, 16px);
 }
 
-*[noclass] input[toggle-trigger]:checked + aside[drawer] {
+*[noclass] input[toggle-trigger]:checked + *[drawer] {
     left: 0px;
 }
 
-*[noclass] label[drawer-overlay] {
+*[noclass] *[drawer-overlay] {
     display: block;
     position: fixed;
     top: 0;
@@ -41,7 +41,6 @@
     height: auto;
     width: auto;
     pointer-events: none;
-    opacity: 0;
     -webkit-transition: opacity 0.25s ease-in-out;
     -moz-transition: opacity 0.25s ease-in-out;
     -ms-transition: opacity 0.25s ease-in-out;
@@ -49,7 +48,11 @@
     transition: opacity 0.25s ease-in-out;
 }
 
-*[noclass] input[toggle-trigger]:checked + *[toggle-target] + label[drawer-overlay] {
+*[noclass] input[toggle-trigger] + *[toggle-target] + *[drawer-overlay] {
+    opacity: 0.0;
+}
+
+*[noclass] input[toggle-trigger]:checked + *[toggle-target] + *[drawer-overlay] {
     opacity: 0.8;
     pointer-events: all;
 }
