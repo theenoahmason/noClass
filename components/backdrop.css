@@ -1,5 +1,6 @@
 /* Backdrop */
-*[noclass] section[backdrop] {
+*[noclass] *[backdrop] {
+	width: auto;
 	min-height: 500px;
 	margin-bottom: -360px;
 	background-size: cover;
@@ -14,6 +15,11 @@
 	justify-content: center;
 }
 
-*[noclass] section[backdrop] + * {
+*[noclass] *[backdrop="stretch"] {
+	margin-left:  -16px; margin-left:  calc(var(--gutter,16) - var(--gutter,16) * 2);
+	margin-right: -16px; margin-right: calc(var(--gutter,16) - var(--gutter,16) * 2);
+}
+
+*[noclass] *[backdrop] + * {
 	position: relative;
 }
