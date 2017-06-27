@@ -21,7 +21,7 @@
 	--gutter: 16px;
 	/* Grid */
 	--grid-columns: 12;
-	--gridcell-1:   8.3333333333%;  --gridcell-2:  calc(100% / var(--grid-columns, 12)); 
+	--gridcell-1:   8.3333333333%;  --gridcell-1:  calc(100% / var(--grid-columns, 12)); 
 	--gridcell-2:   16.6666666666%; --gridcell-2:  calc(100% / var(--grid-columns, 12) * 2);
 	--gridcell-3:   25%;            --gridcell-3:  calc(100% / var(--grid-columns, 12) * 3);
 	--gridcell-4:   33.3333333333%; --gridcell-4:  calc(100% / var(--grid-columns, 12) * 4);
@@ -47,17 +47,17 @@
 	--level-9--z-index:      900;  --level-9--z-index:  calc(var(--level--z-index-offset, 100) * 9);
 	--level-10--z-index:     1000; --level-10--z-index: calc(var(--level--z-index-offset, 100) * 10);
 	/* Levels - Shadow */ 
-	--level--ambiance:  0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+	--level--ambiance:  0px 0px 2px 1px rgba(0, 0, 0, 0.1);
 	--level-1--shadow:  0px 1px 1px 0px rgba(0, 0, 0, 0.1);
-	--level-2--shadow:  0px 2px 2px 0px rgba(0, 0, 0, 0.2);
-	--level-3--shadow:  0px 3px 3px 0px rgba(0, 0, 0, 0.3);
-	--level-4--shadow:  0px 4px 4px 1px rgba(0, 0, 0, 0.4);
-	--level-5--shadow:  0px 5px 5px 1px rgba(0, 0, 0, 0.5);
-	--level-6--shadow:  0px 6px 6px 1px rgba(0, 0, 0, 0.6);
-	--level-7--shadow:  0px 7px 7px 2px rgba(0, 0, 0, 0.7);
-	--level-8--shadow:  0px 8px 8px 2px rgba(0, 0, 0, 0.8);
-	--level-9--shadow:  0px 9px 9px 2px rgba(0, 0, 0, 0.9);
-	--level-10--shadow: 0px 10px 10px 3px rgba(0, 0, 0, 1.0);
+	--level-2--shadow:  0px 2px 2px 0px rgba(0, 0, 0, 0.13);
+	--level-3--shadow:  0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+	--level-4--shadow:  0px 4px 4px 1px rgba(0, 0, 0, 0.2);
+	--level-5--shadow:  0px 5px 5px 1px rgba(0, 0, 0, 0.23);
+	--level-6--shadow:  0px 6px 6px 1px rgba(0, 0, 0, 0.26);
+	--level-7--shadow:  0px 7px 7px 2px rgba(0, 0, 0, 0.3);
+	--level-8--shadow:  0px 8px 8px 2px rgba(0, 0, 0, 0.33);
+	--level-9--shadow:  0px 9px 9px 2px rgba(0, 0, 0, 0.36);
+	--level-10--shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.4);
 	/* Colors */ 
 	--color-black:            black;
 	--color-white:            white;
