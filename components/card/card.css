@@ -1,7 +1,7 @@
 *[noclass] *[card] {
 	border-radius: 2px;
 	display: -webkit-flex;
-    display: -ms-flexbox;
+	display: -ms-flexbox;
 	display: flex;
 	flex-basis: 100%;
 	flex-flow: column;

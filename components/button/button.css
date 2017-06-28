@@ -1,42 +1,42 @@
 /* Button */
 *[noclass] *[button] {
-    background-color: rgba(0, 0, 0, 0.1);
-    color: inherit;
+	background-color: rgba(0, 0, 0, 0.1);
+	color: inherit;
 	-moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 32px; line-height: calc(var(--gutter, 16px) * 2);
-    display: inline-flex;
-    flex-flow: row;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    min-width: 64px; min-width: calc(var(--gutter, 16px) * 4);
-    height: 32px; height: calc(var(--gutter, 16px) * 2);
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 16px; padding-left: var(--gutter, 16px);
-    padding-right: 16px; padding-right: var(--gutter, 16px);
-    border: none;
-    border-radius: 4px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 32px; line-height: calc(var(--gutter, 16px) * 2);
+	display: inline-flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	min-width: 64px; min-width: calc(var(--gutter, 16px) * 4);
+	height: 32px; height: calc(var(--gutter, 16px) * 2);
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 16px; padding-left: var(--gutter, 16px);
+	padding-right: 16px; padding-right: var(--gutter, 16px);
+	border: none;
+	border-radius: 4px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
 	cursor: pointer;
-	-webkit-user-select: none;       
+	-webkit-user-select: none;  
 	-moz-user-select: none; 
 	-ms-user-select: none; 
 	-o-user-select: none;
 	user-select: none;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    vertical-align: middle;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: middle;
 }
 
 *[noclass] *[button][disabled] {
@@ -51,18 +51,18 @@
 
 /* Capsule */
 *[noclass] *[button="capsule"] {
-    border-radius: 18px;
-    padding-left: 0;
+	border-radius: 18px;
+	padding-left: 0;
 }
 
 *[noclass] *[button="capsule"] > i {
-    display: block;
-    height: 32px; height: calc(var(--gutter, 16px) * 2);
-    width: 32px; width: calc(var(--gutter, 16px) * 2);
-    line-height: 32px; line-height: calc(var(--gutter, 16px) * 2);
-    margin-right: 16px; margin-right: var(--gutter, 16px);
-    border-radius: 16px; border-radius: var(--gutter, 16px);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+	display: block;
+	height: 32px; height: calc(var(--gutter, 16px) * 2);
+	width: 32px; width: calc(var(--gutter, 16px) * 2);
+	line-height: 32px; line-height: calc(var(--gutter, 16px) * 2);
+	margin-right: 16px; margin-right: var(--gutter, 16px);
+	border-radius: 16px; border-radius: var(--gutter, 16px);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }

@@ -2,13 +2,13 @@
 
 *[noclass] footer {
 	position: relative;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-    flex-flow: column;
-    justify-content: center;
-    width: 100%;
-    background-size: cover;
+	flex-flow: column;
+	justify-content: center;
+	width: 100%;
+	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -16,12 +16,12 @@
 
 *[noclass] footer > section {
 	position: relative;
-    padding-left: 16px; padding-left: var(--gutter, 16px);
-    padding-right: 16px; padding-right: var(--gutter, 16px);
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    width: 100%;
+	padding-left: 16px; padding-left: var(--gutter, 16px);
+	padding-right: 16px; padding-right: var(--gutter, 16px);
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	width: 100%;
 }

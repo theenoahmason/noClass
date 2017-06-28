@@ -1,17 +1,17 @@
 *[noclass] *[grid] {
 	padding: 8px; padding: calc(var(--gutter, 16px) / 2);
 	display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    margin: 0;
-    -webkit-align-items: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: auto;
-    flex-basis: 100%;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	margin: 0;
+	-webkit-align-items: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+	width: auto;
+	flex-basis: 100%;
 }
 
 *[noclass] *[grid="stretch"], 

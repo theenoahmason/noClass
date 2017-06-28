@@ -1,23 +1,23 @@
 /* Default */
 *[noclass] input[toggle-trigger] + *[toggle-target] {
-    display: none;
-    overflow: hidden;
+	display: none;
+	overflow: hidden;
 }
 
 *[noclass] input[toggle-trigger]:checked + *[toggle-target] {
-    display: block;
+	display: block;
 }
 
 /* Mobile Only */
 @media screen and (min-width: 1000px) {
 	*[noclass] input[type="checkbox"][toggle-trigger="mobile-only"] + *[toggle-target] {
-	    display: block;
+		display: block;
 	}
 }
 
 /* Desktop Only */
 @media screen and (max-width: 999px) {
 	*[noclass] input[type="checkbox"][toggle-trigger="desktop-only"] + *[toggle-target] {
-	    display: block;
+		display: block;
 	}
 }

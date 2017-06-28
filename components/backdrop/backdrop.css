@@ -8,7 +8,7 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	display: -webkit-flex;
-    display: -ms-flexbox;
+	display: -ms-flexbox;
 	display: flex;
 	flex-flow: column;
 	align-items: center;

@@ -6,9 +6,9 @@
 /* Typography */
 *[noclass] body {
 	font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	line-height: 1.5;
 }
 
 /* Anchors */
@@ -16,7 +16,7 @@
 	text-decoration: none;
 	color: inherit;
 	cursor: pointer;
-	-webkit-user-select: none;       
+	-webkit-user-select: none; 
 	-moz-user-select: none; 
 	-ms-user-select: none; 
 	-o-user-select: none;
