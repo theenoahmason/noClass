@@ -1,20 +1,20 @@
 
 /* Imported Components */
-@import 'components/typography.css';
-@import 'components/colors.css';
-@import 'components/levels.css';
-@import 'components/layout.css';
-@import 'components/grid.css';
-@import 'components/header.css';
-@import 'components/footer.css';
-@import 'components/drawer.css';
-@import 'components/button.css';
-@import 'components/field.css';
-@import 'components/navigation.css';
-@import 'components/card.css';
-@import 'components/backdrop.css';
-@import 'components/toggle.css';
-@import 'components/quote.css';
+@import 'components/typography/typography.css';
+@import 'components/colors/colors.css';
+@import 'components/levels/levels.css';
+@import 'components/layout/layout.css';
+@import 'components/grid/grid.css';
+@import 'components/header/header.css';
+@import 'components/footer/footer.css';
+@import 'components/drawer/drawer.css';
+@import 'components/button/button.css';
+@import 'components/field/field.css';
+@import 'components/navigation/navigation.css';
+@import 'components/card/card.css';
+@import 'components/backdrop/backdrop.css';
+@import 'components/toggle/toggle.css';
+@import 'components/quote/quote.css';
 
 /* Global Variables */
 :root {
