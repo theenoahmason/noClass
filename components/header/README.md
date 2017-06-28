@@ -1,3 +1,3 @@
-# Component
+# Header
 
-Component documentation
+### Component documentation

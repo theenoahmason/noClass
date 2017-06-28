@@ -1,3 +1,3 @@
-# Component
+# Toggle
 
-Component documentation
+### Component documentation

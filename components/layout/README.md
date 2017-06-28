@@ -1,3 +1,3 @@
-# Component
+# Layout
 
-Component documentation
+### Component documentation

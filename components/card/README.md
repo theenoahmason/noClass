@@ -1,3 +1,3 @@
-# Component
+# Card
 
-Component documentation
+### Component documentation

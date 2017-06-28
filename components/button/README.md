@@ -1,3 +1,3 @@
-# Component
+# Button
 
-Component documentation
+### Component documentation

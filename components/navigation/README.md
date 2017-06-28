@@ -1,3 +1,3 @@
-# Component
+# Navigation
 
-Component documentation
+### Component documentation

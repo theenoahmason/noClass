@@ -1,3 +1,3 @@
-# Component
+# Colors
 
-Component documentation
+### Component documentation

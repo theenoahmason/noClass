@@ -1,3 +1,3 @@
-# Component
+# Grid
 
-Component documentation
+### Component documentation

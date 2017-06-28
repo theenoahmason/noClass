@@ -1,3 +1,3 @@
-# Component
+# Quote
 
-Component documentation
+### Component documentation
