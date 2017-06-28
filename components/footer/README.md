@@ -1,3 +1,3 @@
-# Component
+# Footer
 
-Component documentation
+### Component documentation
