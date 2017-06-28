@@ -1,3 +1,3 @@
-#Component
+# Component
 
-Component description
+Component documentation
