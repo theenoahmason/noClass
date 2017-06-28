@@ -10,14 +10,14 @@
 
 /* Mobile Only */
 @media screen and (min-width: 1000px) {
-	*[noclass] input[toggle-trigger="mobile-only"] + *[toggle-target] {
+	*[noclass] input[type="checkbox"][toggle-trigger="mobile-only"] + *[toggle-target] {
 	    display: block;
 	}
 }
 
 /* Desktop Only */
 @media screen and (max-width: 999px) {
-	*[noclass] input[toggle-trigger="desktop-only"] + *[toggle-target] {
+	*[noclass] input[type="checkbox"][toggle-trigger="desktop-only"] + *[toggle-target] {
 	    display: block;
 	}
 }
