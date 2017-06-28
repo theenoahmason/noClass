@@ -39,6 +39,12 @@
 	pointer-events: none;
 }
 
+/* Small */
+*[noclass] *[t="small"], 
+*[noclass] small {
+	font-size: 80%;
+}
+
 /* Headings */
 *[noclass] h1, *[noclass] *[t="h1"], 
 *[noclass] h2, *[noclass] *[t="h2"], 
