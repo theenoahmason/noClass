@@ -1366,14 +1366,14 @@
 												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 											</legend>
 											<div field>
-												<label for="demo-field-tel-1" t="small">Enter a telephone number</label>
-												<input id="demo-field-tel-1" type="tel" value="" placeholder="Enter a telephone number" />
-												<p field-error c="danger" t="small">This value must be a valid telephone number.</p>
+												<label for="demo-field-tel-1" t="small">Enter a telephone number (Exactly 10 characters, only numbers)</label>
+												<input id="demo-field-tel-1" type="tel" value="" pattern="\d{10}" placeholder="Enter a telephone number" />
+												<p field-error c="danger" t="small">This value must be 10 characters long and contain only numbers.</p>
 											</div>
 											<div field hasmargin="none">
-												<label for="demo-field-tel-2" t="small">Enter a telephone number (Required) <span c="danger">*</span></label>
-												<input id="demo-field-tel-2" type="tel" value="" placeholder="Enter a telephone number" required />
-												<p field-error c="danger" t="small">This value must be a valid telephone number, and is required.</p>
+												<label for="demo-field-tel-2" t="small">Enter a telephone number as (###) ###-#### (Required) <span c="danger">*</span></label>
+												<input id="demo-field-tel-2" type="tel" value="" placeholder="Enter a telephone number" pattern="[\(]\d{3}[\)][ ]\d{3}[\-]\d{4}" required />
+												<p field-error c="danger" t="small">This value must match the pattern (###) ###-####, and is required.</p>
 											</div>
 										</fieldset>
 										
