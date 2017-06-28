@@ -2,7 +2,6 @@
 *[noclass] * {
     outline: 0;
     -webkit-tap-highlight-color: transparent;
-    border-color: rgba(0, 0, 0, 0.1);
 }
 
 *[noclass] blockquote, 
@@ -16,6 +15,10 @@
     -ms-box-sizing: border-box;
     -o-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+*[noclass] label {
+    cursor: pointer;
 }
 
 *[noclass] i, 
@@ -68,6 +71,11 @@ html[noclass] {
 /* Hidden */
 *[noclass] *[hidden] {
     display: none !important;
+}
+
+/* Disabled */
+*[noclass] *[disabled] {
+    cursor: default;
 }
 
 /* Remove */
