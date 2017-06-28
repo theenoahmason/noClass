@@ -1275,10 +1275,9 @@
 							</article>
 						</div>
 						<div gridcell="9" gridcell-tablet="8" gridcell-phone="12">
-							<article card bg="white" c="black" level="2">
-								<section>
-									<form>
-
+							<form>
+								<article card bg="white" c="black" level="2" hasmargin="bottom">
+									<section>
 										<fieldset>
 											<legend>
 												<h3>Text Fields</h3>
@@ -1294,7 +1293,7 @@
 												<input id="demo-field-text-2" type="text" value="" placeholder="Enter text" required />
 												<p field-error c="danger" t="small">This field is required.</p>
 											</div>
-											<div field>
+											<div field hasmargin="none">
 												<label for="demo-field-text-3" t="small">Enter Text (Maximum 50 characters)</label>
 												<input id="demo-field-text-3" type="text" value="" pattern=".{0,50}" placeholder="Enter text" />
 												<p field-error c="danger" t="small">This value must be between 0 and 140 characters.</p>
@@ -1317,7 +1316,7 @@
 												<input id="demo-field-number-2" type="number" value="" min="0" max="100" step="1" placeholder="Enter a number" required />
 												<p field-error c="danger" t="small">This value must be between 0 and 100, with a step of 1, and is required.</p>
 											</div>
-											<div field>
+											<div field hasmargin="none">
 												<label for="demo-field-number-3" t="small">Enter a float</label>
 												<input id="demo-field-number-3" type="number" min="0.01" max="100.00" step="0.01" placeholder="Enter a float" />
 												<p field-error c="danger" t="small">This value must be between 0.01 and 100.00, with a step of 0.01, and is required.</p>
@@ -1335,7 +1334,7 @@
 												<input id="demo-field-email-1" type="email" value="" placeholder="Enter an email" />
 												<p field-error c="danger" t="small">This value must be a valid email address.</p>
 											</div>
-											<div field>
+											<div field hasmargin="none">
 												<label for="demo-field-email-2" t="small">Enter an email (Required) <span c="danger">*</span></label>
 												<input id="demo-field-email-2" type="email" value="" placeholder="Enter an email" required />
 												<p field-error c="danger" t="small">This value must be a valid email address, and is required.</p>
@@ -1353,10 +1352,28 @@
 												<input id="demo-field-url-1" type="url" value="" placeholder="Enter a URL" />
 												<p field-error c="danger" t="small">This value must be a valid URL.</p>
 											</div>
-											<div field>
+											<div field hasmargin="none">
 												<label for="demo-field-url-2" t="small">Enter a URL (Required) <span c="danger">*</span></label>
 												<input id="demo-field-url-2" type="url" value="" placeholder="Enter a URL" required />
 												<p field-error c="danger" t="small">This value must be a valid URL, and is required.</p>
+											</div>
+										</fieldset>
+
+										<fieldset>
+											<legend>
+												<h3>Telephone Fields</h3>
+												<p>Lorem ipsum dolor sit amet. A descipling consectetur adipiscing elit, 
+												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+											</legend>
+											<div field>
+												<label for="demo-field-tel-1" t="small">Enter a telephone number</label>
+												<input id="demo-field-tel-1" type="tel" value="" placeholder="Enter a telephone number" />
+												<p field-error c="danger" t="small">This value must be a valid telephone number.</p>
+											</div>
+											<div field hasmargin="none">
+												<label for="demo-field-tel-2" t="small">Enter a telephone number (Required) <span c="danger">*</span></label>
+												<input id="demo-field-tel-2" type="tel" value="" placeholder="Enter a telephone number" required />
+												<p field-error c="danger" t="small">This value must be a valid telephone number, and is required.</p>
 											</div>
 										</fieldset>
 										
@@ -1367,18 +1384,23 @@
 												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 											</legend>
 											<div field>
-												<label for="demo-field-password-1" t="small">Enter a password</label>
-												<input id="demo-field-password-1" type="password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter a password" />
-												<p field-error c="danger" t="small">This value must be at least 8 characters and contain at least 1 number, 1 lowercase letter, and 1 uppercase number.</p>
+												<label for="demo-field-password-1" t="small">Enter a password (Min 8 Characters, 1 lowercase, 1 uppercase)</label>
+												<input id="demo-field-password-1" type="password" value="" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter a password" />
+												<p field-error c="danger" t="small">This value must be at least 8 characters and contain at least 1 number, 1 lowercase letter, and 1 uppercase letter.</p>
 											</div>
 											<div field>
-												<label for="demo-field-password-2" t="small">Enter a password (Required) <span c="danger">*</span></label>
+												<label for="demo-field-password-2" t="small">Enter a password (Min 8 Characters, 1 number, 1 lowercase, 1 uppercase, Required) <span c="danger">*</span></label>
 												<input id="demo-field-password-2" type="password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter a password" required />
-												<p field-error c="danger" t="small">This value must be at least 8 characters and contain at least 1 number, 1 lowercase letter, and 1 uppercase number, and is required.</p>
+												<p field-error c="danger" t="small">This value must be at least 8 characters and contain at least 1 number, 1 lowercase letter, and 1 uppercase letter, and is required.</p>
+											</div>
+											<div field hasmargin="none">
+												<label for="demo-field-password-3" t="small">Enter a password (Min 8 Characters, 1 number, 1 lowercase, 1 uppercase, 1 special character, Required) <span c="danger">*</span></label>
+												<input id="demo-field-password-3" type="password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W+)(?![.\n]).{8,}" placeholder="Enter a password" required />
+												<p field-error c="danger" t="small">This value must be at least 8 characters and contain at least 1 number, 1 lowercase letter, and 1 uppercase letter, one special character, and is required.</p>
 											</div>
 										</fieldset>
 
-										<fieldset>
+										<fieldset hasmargin="none">
 											<legend>
 												<h3>Textarea Fields</h3>
 												<p>Lorem ipsum dolor sit amet. A descipling consectetur adipiscing elit, 
@@ -1402,16 +1424,18 @@
 												<textarea id="demo-field-textarea-4" rows="5" maxlength="140" placeholder="Enter multiline text"></textarea>
 												<p field-error c="danger" t="small">This value must be equal to or less than 140 characters.</p>
 											</div>
-											<div field>
+											<div field hasmargin="none">
 												<label for="demo-field-textarea-5" t="small">Enter multiline text (Max 140 characters, Required) <span c="danger">*</span></label>
 												<textarea id="demo-field-textarea-5" rows="5" maxlength="140" placeholder="Enter multiline text" required></textarea>
 												<p field-error c="danger" t="small">This value must be equal to or less than 140 characters, and is required.</p>
 											</div>
 										</fieldset>
-
-									</form>
-								</section>
-							</article>
+									</section>
+									<footer>
+										<section><button button type="submit" value="1">Submit</button></section>
+									</footer>
+								</article>
+							</form>
 							<script src="https://gist.github.com/theenoahmason/7860fa43c84c558172dcd8b0da349e4a.js"></script>
 						</div>
 					</div>
