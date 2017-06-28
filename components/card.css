@@ -1,4 +1,4 @@
-*[noclass] article[card] {
+*[noclass] *[card] {
 	border-radius: 2px;
 	display: -webkit-flex;
     display: -ms-flexbox;
@@ -10,19 +10,19 @@
 	min-height: 300px;
 }
 
-*[noclass] article[card] > header {
+*[noclass] *[card] > header {
 	justify-content: flex-end;
 	padding-top: 16px; padding-top: var(--gutter, 16px);
 	padding-bottom: 16px; padding-bottom: var(--gutter, 16px);
 	flex-grow: 1;
 }
 
-*[noclass] article[card] > footer {
+*[noclass] *[card] > footer {
 	padding-top: 16px; padding-top: var(--gutter, 16px);
 	padding-bottom: 16px; padding-bottom: var(--gutter, 16px);
 }
 
-*[noclass] article[card] > section {
+*[noclass] *[card] > section {
 	padding: var(--gutter, 16px);
 	width: 100%;
 }
