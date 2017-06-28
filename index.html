@@ -978,32 +978,90 @@
 							<label button for="demo-toggle" hasmargin="bottom">Click to Toggle</label>
 							<input toggle-trigger id="demo-toggle" type="checkbox" hidden />
 							<div toggle-target haspadding="all" bg="white" c="black" level="3" hasmargin="bottom">
-								<p hasmargin="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<label button for="demo-toggle">Close</label>
 							</div>
 							<script src="https://gist.github.com/theenoahmason/7860fa43c84c558172dcd8b0da349e4a.js"></script>
 
 							<h3>Mobile Only</h3>
-							<label button for="demo-toggle-mobile-only" hasmargin="bottom">Click to Toggle</label>
+							<label button for="demo-toggle-mobile-only" hasmargin="bottom" remove="desktop">Click to Toggle</label>
 							<input toggle-trigger="mobile-only" id="demo-toggle-mobile-only" type="checkbox" hidden />
 							<div toggle-target haspadding="all" bg="white" c="black" level="3" hasmargin="bottom">
-								<p hasmargin="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<label button for="demo-toggle-mobile-only" remove="desktop">Close</label>
+								<a button href="#" remove="mobile">Desktop Action</a>
 							</div>
 							<script src="https://gist.github.com/theenoahmason/7860fa43c84c558172dcd8b0da349e4a.js"></script>
 
 							<h3>Desktop Only</h3>
-							<label button for="demo-toggle-desktop-only" hasmargin="bottom">Click to Toggle</label>
+							<label button for="demo-toggle-desktop-only" hasmargin="bottom" remove="mobile">Click to Toggle</label>
 							<input toggle-trigger="desktop-only" id="demo-toggle-desktop-only" type="checkbox" hidden />
 							<div toggle-target haspadding="all" bg="white" c="black" level="3" hasmargin="bottom">
-								<p hasmargin="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<label button for="demo-toggle-desktop-only" remove="mobile">Close</label>
+								<a button href="#" remove="desktop">Mobile Action</a>
 							</div>
 							<script src="https://gist.github.com/theenoahmason/7860fa43c84c558172dcd8b0da349e4a.js"></script>
+
+							<h3>Tabs</h3>
+							<div hasmargin="bottom">
+								<label button level="3" bg="white" c="black" for="demo-tabs-1">Tab 1</label>
+								<label button level="3" bg="primary" c="primary-contrast" for="demo-tabs-2">Tab 2</label>
+								<label button level="3" bg="accent" c="accent-contrast" for="demo-tabs-3">Tab 3</label>
+								<label button level="3" bg="dark" c="dark-contrast" for="demo-tabs-4">Tab 4</label>
+								<label button level="3" bg="light" c="light-contrast" for="demo-tabs-5">Tab 5</label>
+							</div>
 							
+							<input toggle-trigger="desktop-only" id="demo-tabs-1" type="radio" name="demo-tabs" hidden checked />
+							<div toggle-target haspadding="all" bg="white" c="black" level="3" hasmargin="bottom">
+								<p><strong>Tab 1.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<label button level="3" bg="primary" c="primary-contrast" for="demo-tabs-2">Next</label>
+							</div>
+
+							<input toggle-trigger="desktop-only" id="demo-tabs-2" type="radio" name="demo-tabs" hidden />
+							<div toggle-target haspadding="all" bg="primary" c="primary-contrast" level="3" hasmargin="bottom">
+								<p><strong>Tab 2.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<label button level="3" bg="white" c="black" for="demo-tabs-1">Previous</label>
+								<label button level="3" bg="accent" c="accent-contrast" for="demo-tabs-3">Next</label>
+							</div>
+
+							<input toggle-trigger="desktop-only" id="demo-tabs-3" type="radio" name="demo-tabs" hidden />
+							<div toggle-target haspadding="all" bg="accent" c="accent-contrast" level="3" hasmargin="bottom">
+								<p><strong>Tab 3.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<label button level="3" bg="primary" c="primary-contrast" for="demo-tabs-2">Previous</label>
+								<label button level="3" bg="dark" c="dark-contrast" for="demo-tabs-4">Next</label>
+							</div>
+
+							<input toggle-trigger="desktop-only" id="demo-tabs-4" type="radio" name="demo-tabs" hidden />
+							<div toggle-target haspadding="all" bg="dark" c="dark-contrast" level="3" hasmargin="bottom">
+								<p><strong>Tab 4.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<label button level="3" bg="accent" c="accent-contrast" for="demo-tabs-3">Previous</label>
+							<label button level="3" bg="light" c="light-contrast" for="demo-tabs-5">Next</label>
+							</div>
+
+							<input toggle-trigger="desktop-only" id="demo-tabs-5" type="radio" name="demo-tabs" hidden />
+							<div toggle-target haspadding="all" bg="light" c="light-contrast" level="3" hasmargin="bottom">
+								<p><strong>Tab 5.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<label button level="3" bg="dark" c="dark-contrast" for="demo-tabs-4">Previous</label>
+							</div>
+
+							<script src="https://gist.github.com/theenoahmason/7860fa43c84c558172dcd8b0da349e4a.js"></script>
 						</div>
 					</div>
 				</div>
