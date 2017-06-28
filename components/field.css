@@ -1,10 +1,10 @@
 /* Form Fields */
 
 /* Placeholders */
-*[noclass] ::-webkit-input-placeholder { color: inherit; opacity: 0.5; }
-*[noclass] ::-moz-placeholder          { color: inherit; opacity: 0.5; }
-*[noclass] :-ms-input-placeholder      { color: inherit; opacity: 0.5; }
-*[noclass] :-moz-placeholder           { color: inherit; opacity: 0.5; }
+*[noclass] ::-webkit-input-placeholder { color: inherit; opacity: 0.25; }
+*[noclass] ::-moz-placeholder          { color: inherit; opacity: 0.25; }
+*[noclass] :-ms-input-placeholder      { color: inherit; opacity: 0.25; }
+*[noclass] :-moz-placeholder           { color: inherit; opacity: 0.25; }
 
 /* Fieldsets */
 *[noclass] fieldset {
@@ -16,8 +16,35 @@
     margin-right: 0;
 }
 
+/* Field */
+*[noclass] *[field] {
+	position: relative;
+	display: -webkit-flex;
+    display: -ms-flexbox;
+	display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-basis: 100%;
+    width: 100%;
+    border: none;
+    margin-bottom: 16px; margin-bottom: var(--gutter, 16px);
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+*[noclass] fieldset legend {
+    margin-bottom: 32px; margin-bottom: calc(var(--gutter, 16px) * 2);
+}
+
 /* Labels */
-*[noclass] label {
+*[noclass] *[field] label {
+	margin-bottom: 8px; margin-top: calc(var(--gutter, 16px) / 2);
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
 	cursor: pointer;
 	-webkit-user-select: none;       
 	-moz-user-select: none; 
@@ -26,13 +53,15 @@
 	user-select: none;
 }
 
-/* Inputs & Selects */
-*[noclass] select, 
-*[noclass] input {
-	margin-top: 0;
-    margin-bottom: 16px; margin-bottom: var(--gutter, 16px);
-    margin-left: 0;
-    margin-right: 0;
+/* Inputs, Textareas & Selects */
+*[noclass] *[field] textarea, 
+*[noclass] *[field] select, 
+*[noclass] *[field] input {
+	margin: 0;
+	padding-top: 4px; padding-top: calc(var(--gutter, 16px) / 4);
+	padding-bottom: 4px; padding-top: calc(var(--gutter, 16px) / 4);
+	padding-left: 0;
+	padding-right: 0;
 	background-color: transparent;
 	border-left: none;
 	border-right: none;
@@ -45,31 +74,95 @@
 	-o-box-shadow: none;
 	box-shadow: none;
 	font-size: inherit;
+	line-height: 1.5;
+	font-family: inherit;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	width: 100%;
+	height: auto;
+	-webkit-transition: border-color 0.25s ease-in-out;
+	-moz-transition: border-color 0.25s ease-in-out;
+	-ms-transition: border-color 0.25s ease-in-out;
+	-o-transition: border-color 0.25s ease-in-out;
+	transition: border-color 0.25s ease-in-out;
 }
 
-*[noclass] select[disabled], 
-*[noclass] input[disabled], 
-*[noclass] select[disabled]:hover, 
-*[noclass] input[disabled]:hover, 
-*[noclass] select[disabled]:active, 
-*[noclass] input[disabled]:active {
+*[noclass] *[field] textarea {
+	height: auto;
+}
+
+*[noclass] *[field] input[type="radio"], 
+*[noclass] *[field] input[type="checkbox"] {
+	width: 16px;
+	height: 16px;
+	border: 1px solid;
+}
+
+*[noclass] *[field] select[disabled], 
+*[noclass] *[field] input[disabled], 
+*[noclass] *[field] textarea[disabled], 
+*[noclass] *[field] select[disabled]:hover, 
+*[noclass] *[field] input[disabled]:hover, 
+*[noclass] *[field] textarea[disabled]:hover, 
+*[noclass] *[field] select[disabled]:active, 
+*[noclass] *[field] input[disabled]:active, 
+*[noclass] *[field] textarea[disabled]:active {
 	cursor: normal;
 } 
 
-*[noclass] select[disabled], 
-*[noclass] input[disabled], 
-*[noclass] select[disabled]:hover, 
-*[noclass] input[disabled]:hover, 
-*[noclass] select[disabled]:active, 
-*[noclass] input[disabled]:active, 
-*[noclass] select, 
-*[noclass] input {
+*[noclass] *[field] select[disabled], 
+*[noclass] *[field] input[disabled], 
+*[noclass] *[field] textarea[disabled], 
+*[noclass] *[field] select[disabled]:hover, 
+*[noclass] *[field] input[disabled]:hover, 
+*[noclass] *[field] textarea[disabled]:hover, 
+*[noclass] *[field] select[disabled]:active, 
+*[noclass] *[field] input[disabled]:active, 
+*[noclass] *[field] textarea[disabled]:active, 
+*[noclass] *[field] textarea, 
+*[noclass] *[field] select, 
+*[noclass] *[field] input {
 	border-color: rgba(0, 0, 0, 0.1);
 }
 
-*[noclass] select:active,
-*[noclass] select:focus,
-*[noclass] input:active,
-*[noclass] input:focus {
-	border-color: inherit;
+*[noclass] *[field] textarea:valid,
+*[noclass] *[field] select:valid,
+*[noclass] *[field] input:valid {
+	border-color: limegreen; border-color: var(--color-success, limegreen);
+}
+
+*[noclass] *[field] select:active,
+*[noclass] *[field] select:focus,
+*[noclass] *[field] input:active,
+*[noclass] *[field] input:focus,
+*[noclass] *[field] textarea:active,
+*[noclass] *[field] textarea:focus {
+	border-color: midnightblue; border-color: var(--color-primary, midnightblue);
+}
+
+*[noclass] *[field] textarea:invalid,
+*[noclass] *[field] select:invalid,
+*[noclass] *[field] input:invalid {
+	border-color: red; border-color: var(--color-danger, red);
+}
+
+/* Field Error */
+*[noclass] *[field] *[field-error] {
+	display: none;
+	color: red; color: var(--color-danger, red);
+	margin-top: 8px; margin-top: calc(var(--gutter, 16px) / 2);
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+*[noclass] *[field] textarea:invalid + *[field-error], 
+*[noclass] *[field] select:invalid + *[field-error], 
+*[noclass] *[field] input:invalid + *[field-error], 
+*[noclass] *[field] input[type="checkbox"]:invalid + label + *[field-error], 
+*[noclass] *[field] input[type="radio"]:invalid + label + *[field-error] {
+	display: block;
 }
