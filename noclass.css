@@ -70,4 +70,12 @@
 	--color-light-contrast:   darkslategrey;
 	--color-dark:             darkslategrey;
 	--color-dark-contrast:    whitesmoke;
+	--color-success:          limegreen;
+	--color-success-contrast: springgreen;
+	--color-info:             dodgerblue;
+	--color-info-contrast:    lightskyblue;
+	--color-warning:          darkorange;
+	--color-warning-contrast: gold;
+	--color-danger:           red;
+	--color-danger-contrast:  yellow;
 }

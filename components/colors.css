@@ -36,3 +36,31 @@
 *[noclass] *[c="light-contrast"]     { color:            darkslategrey !important; color:            var(--color-light-contrast, darkslategrey) !important; }
 *[noclass] *[b="light-contrast"]     { border-color:     darkslategrey !important; border-color:     var(--color-light-contrast, darkslategrey) !important; }
 *[noclass] *[bg="light-contrast"]    { background-color: darkslategrey !important; background-color: var(--color-light-contrast, darkslategrey) !important; }
+/* Success */
+*[noclass] *[c="success"]            { color:            limegreen !important;     color:            var(--color-success, limegreen) !important; }
+*[noclass] *[b="success"]            { border-color:     limegreen !important;     border-color:     var(--color-success, limegreen) !important; }
+*[noclass] *[bg="success"]           { background-color: limegreen !important;     background-color: var(--color-success, limegreen) !important; }
+*[noclass] *[c="success-contrast"]   { color:            springgreen !important;   color:            var(--color-success-contrast, springgreen) !important; }
+*[noclass] *[b="success-contrast"]   { border-color:     springgreen !important;   border-color:     var(--color-success-contrast, springgreen) !important; }
+*[noclass] *[bg="success-contrast"]  { background-color: springgreen !important;   background-color: var(--color-success-contrast, springgreen) !important; }
+/* Info */
+*[noclass] *[c="info"]               { color:            dodgerblue !important;    color:            var(--color-info, dodgerblue) !important; }
+*[noclass] *[b="info"]               { border-color:     dodgerblue !important;    border-color:     var(--color-info, dodgerblue) !important; }
+*[noclass] *[bg="info"]              { background-color: dodgerblue !important;    background-color: var(--color-info, dodgerblue) !important; }
+*[noclass] *[c="info-contrast"]      { color:            lightskyblue !important;  color:            var(--color-info-contrast, lightskyblue) !important; }
+*[noclass] *[b="info-contrast"]      { border-color:     lightskyblue !important;  border-color:     var(--color-info-contrast, lightskyblue) !important; }
+*[noclass] *[bg="info-contrast"]     { background-color: lightskyblue !important;  background-color: var(--color-info-contrast, lightskyblue) !important; }
+/* Warning */
+*[noclass] *[c="warning"]            { color:            darkorange !important;    color:            var(--color-warning, darkorange) !important; }
+*[noclass] *[b="warning"]            { border-color:     darkorange !important;    border-color:     var(--color-warning, darkorange) !important; }
+*[noclass] *[bg="warning"]           { background-color: darkorange !important;    background-color: var(--color-warning, darkorange) !important; }
+*[noclass] *[c="warning-contrast"]   { color:            gold !important;          color:            var(--color-warning-contrast, gold) !important; }
+*[noclass] *[b="warning-contrast"]   { border-color:     gold !important;          border-color:     var(--color-warning-contrast, gold) !important; }
+*[noclass] *[bg="warning-contrast"]  { background-color: gold !important;          background-color: var(--color-warning-contrast, gold) !important; }
+/* Danger */
+*[noclass] *[c="danger"]             { color:            red !important;           color:            var(--color-danger, red) !important; }
+*[noclass] *[b="danger"]             { border-color:     red !important;           border-color:     var(--color-danger, red) !important; }
+*[noclass] *[bg="danger"]            { background-color: red !important;           background-color: var(--color-danger, red) !important; }
+*[noclass] *[c="danger-contrast"]    { color:            yellow !important;        color:            var(--color-danger-contrast, yellow) !important; }
+*[noclass] *[b="danger-contrast"]    { border-color:     yellow !important;        border-color:     var(--color-danger-contrast, yellow) !important; }
+*[noclass] *[bg="danger-contrast"]   { background-color: yellow !important;        background-color: var(--color-danger-contrast, yellow) !important; }
