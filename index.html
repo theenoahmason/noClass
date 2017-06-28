@@ -1293,10 +1293,20 @@
 												<input id="demo-field-text-2" type="text" value="" placeholder="Enter text" required />
 												<p field-error c="danger" t="small">This field is required.</p>
 											</div>
-											<div field hasmargin="none">
+											<div field>
 												<label for="demo-field-text-3" t="small">Enter Text (Maximum 50 characters)</label>
 												<input id="demo-field-text-3" type="text" value="" pattern=".{0,50}" placeholder="Enter text" />
 												<p field-error c="danger" t="small">This value must be between 0 and 140 characters.</p>
+											</div>
+											<div field>
+												<label for="demo-field-text-4" t="small">Enter Text (Alphanumeric with spaces and [-_])</label>
+												<input id="demo-field-text-4" type="text" value="" placeholder="Enter text" pattern="[A-Za-z0-9-_ ]+" />
+												<p field-error c="danger" t="small">This value must be only uppercase and lowercase letters, numbers, and certain special characters.</p>
+											</div>
+											<div field>
+												<label for="demo-field-text-5" t="small">Enter Text (Alphanumeric with spaces and [-_+=;,.()*&amp;%#@!?"])</label>
+												<input id="demo-field-text-5" type="text" value="" placeholder="Enter text" pattern='[A-Za-z0-9-_+=;,.()*&%#@!?" ]+' />
+												<p field-error c="danger" t="small">This value must be only uppercase and lowercase letters, numbers, and certain special characters.</p>
 											</div>
 										</fieldset>
 
@@ -1384,8 +1394,8 @@
 												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 											</legend>
 											<div field>
-												<label for="demo-field-password-1" t="small">Enter a password (Min 8 Characters, 1 lowercase, 1 uppercase)</label>
-												<input id="demo-field-password-1" type="password" value="" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter a password" />
+												<label for="demo-field-password-1" t="small">Enter a password (Min 8 Characters, 1 number, 1 lowercase, 1 uppercase)</label>
+												<input id="demo-field-password-1" type="password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter a password" />
 												<p field-error c="danger" t="small">This value must be at least 8 characters and contain at least 1 number, 1 lowercase letter, and 1 uppercase letter.</p>
 											</div>
 											<div field>
@@ -1393,10 +1403,20 @@
 												<input id="demo-field-password-2" type="password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter a password" required />
 												<p field-error c="danger" t="small">This value must be at least 8 characters and contain at least 1 number, 1 lowercase letter, and 1 uppercase letter, and is required.</p>
 											</div>
-											<div field hasmargin="none">
+											<div field>
 												<label for="demo-field-password-3" t="small">Enter a password (Min 8 Characters, 1 number, 1 lowercase, 1 uppercase, 1 special character, Required) <span c="danger">*</span></label>
 												<input id="demo-field-password-3" type="password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W+)(?![.\n]).{8,}" placeholder="Enter a password" required />
 												<p field-error c="danger" t="small">This value must be at least 8 characters and contain at least 1 number, 1 lowercase letter, and 1 uppercase letter, one special character, and is required.</p>
+											</div>
+											<div field>
+												<label for="demo-field-password-4" t="small">Enter a 4 digit PIN (Exactly 4 Characters, only numbers)</label>
+												<input id="demo-field-password-4" type="password" value="" pattern="\d{4}" placeholder="Enter a 4 digit PIN" />
+												<p field-error c="danger" t="small">This value must be exactly 4 characters and contain only numbers.</p>
+											</div>
+											<div field hasmargin="none">
+												<label for="demo-field-password-5" t="small">Enter a 6 digit PIN (Exactly 6 Characters, only numbers, required) <span c="danger">*</span></label>
+												<input id="demo-field-password-5" type="password" value="" pattern="\d{6}" placeholder="Enter a 6 digit PIN" required />
+												<p field-error c="danger" t="small">This value must be exactly 6 characters and contain only numbers, and is required.</p>
 											</div>
 										</fieldset>
 
