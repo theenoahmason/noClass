@@ -11,7 +11,7 @@
     border: none;
     padding: 0;
     margin-top: 0;
-    margin-bottom: 16px; margin-bottom: var(--gutter, 16px);
+    margin-bottom: 32px; margin-bottom: calc(var(--gutter, 16px) * 2);
     margin-left: 0;
     margin-right: 0;
 }
@@ -41,10 +41,7 @@
 
 /* Labels */
 *[noclass] *[field] label {
-	margin-bottom: 8px; margin-top: calc(var(--gutter, 16px) / 2);
-	margin-left: 0;
-	margin-right: 0;
-	margin-top: 0;
+	margin: 0;
 	cursor: pointer;
 	-webkit-user-select: none;       
 	-moz-user-select: none; 
