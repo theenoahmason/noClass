@@ -7,7 +7,7 @@
 | field          | Creates a field for use with forms, containing a label, input, and optional error.                |
 | field-error    | Creates a field error to be shown if the field's input is invalid.                                |
 
-> **Note:** The field error should be placed directly after the input element.
+> **Note:** The field error should be placed directly after the field's input/select element, inside the field container.
 
 ### Nodes
 
