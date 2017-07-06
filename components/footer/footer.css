@@ -1,6 +1,5 @@
 /* Footer */
-
-*[noclass] footer {
+*[noclass] *[footer] {
 	position: relative;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -11,17 +10,17 @@
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 }
 
-*[noclass] footer > section {
+*[noclass] *[footer] > section {
 	position: relative;
-	padding-left: 16px; padding-left: var(--gutter, 16px);
-	padding-right: 16px; padding-right: var(--gutter, 16px);
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
+	display: inherit;
 	flex-flow: row;
 	align-items: center;
 	width: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 16px;  padding-left: var(--gutter, 16px);
+	padding-right: 16px; padding-right: var(--gutter, 16px);
 }

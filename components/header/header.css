@@ -1,5 +1,5 @@
-/* Header & Footer */
-*[noclass] header {
+/* Header */
+*[noclass] *[header] {
 	position: relative;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -13,20 +13,14 @@
 	background-attachment: scroll;
 }
 
-*[noclass] header a {
-	border: none;
-}
-
-*[noclass] header > section {
+*[noclass] *[header] > section {
 	position: relative;
+	display: inherit;
+	flex-flow: row;
+	align-items: center;
+	width: 100%;
 	padding-top: 0;
 	padding-bottom: 0;
 	padding-left: 16px;  padding-left: var(--gutter, 16px);
 	padding-right: 16px; padding-right: var(--gutter, 16px);
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	flex-flow: row;
-	align-items: center;
-	width: 100%;
 }

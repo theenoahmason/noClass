@@ -14,9 +14,32 @@
 	transition: left 0.25s ease-in-out;
 }
 
+*[noclass] *[drawer] > footer, 
 *[noclass] *[drawer] > header {
-	min-height: 256px;
+	position: relative;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-flow: column;
 	justify-content: flex-end;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 256px;
+}
+
+*[noclass] *[drawer] > footer > section, 
+*[noclass] *[drawer] > header > section {
+	position: relative;
+	display: inherit;
+	flex-flow: row;
+	align-items: center;
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 16px;  padding-left: var(--gutter, 16px);
+	padding-right: 16px; padding-right: var(--gutter, 16px);
 }
 
 *[noclass] *[drawer] > header > section:first-of-type {

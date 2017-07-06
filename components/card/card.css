@@ -10,16 +10,38 @@
 	min-height: 300px;
 }
 
+*[noclass] *[card] > footer, 
 *[noclass] *[card] > header {
+	position: relative;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-flow: column;
 	justify-content: flex-end;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 	padding-top: 16px; padding-top: var(--gutter, 16px);
 	padding-bottom: 16px; padding-bottom: var(--gutter, 16px);
+}
+
+*[noclass] *[card] > header {
+	justify-content: flex-end;
 	flex-grow: 1;
 }
 
-*[noclass] *[card] > footer {
-	padding-top: 16px; padding-top: var(--gutter, 16px);
-	padding-bottom: 16px; padding-bottom: var(--gutter, 16px);
+*[noclass] *[card] > footer > section, 
+*[noclass] *[card] > header > section {
+	position: relative;
+	display: inherit;
+	flex-flow: row;
+	align-items: center;
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 16px; padding-left: var(--gutter, 16px);
+	padding-right: 16px; padding-right: var(--gutter, 16px);
 }
 
 *[noclass] *[card] > section {
