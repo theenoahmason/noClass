@@ -1,10 +1,12 @@
 # Backdrop
 
-### Component documentation
+### Block
 
 | Block    | Description                                                 |
 | -------- | ----------------------------------------------------------- |
 | backdrop | Creates a backdrop section that pulls all content after it. |
+
+### Modifiers
 
 | Modifier | Description                                                 |
 | -------- | ----------------------------------------------------------- |

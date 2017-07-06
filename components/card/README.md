@@ -1,10 +1,12 @@
 # Card
 
-### Component documentation
+### Block
 
 | Block    | Description                                                                                                       |
 | -------- | ----------------------------------------------------------------------------------------------------------------- |
 | card     | Creates a card, used for displaying self contained pieces of information, or teaser content for a larger article. |
+
+### Nodes
 
 | Nodes    | Description                        |
 | -------- | ---------------------------------- |

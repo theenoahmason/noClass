@@ -1,6 +1,6 @@
 # Button
 
-### Component documentation
+### Block
 
 | Block    | Description                                                 |
 | -------- | ----------------------------------------------------------- |

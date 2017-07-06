@@ -1,12 +1,14 @@
 # Colors
 
-### Component documentation
+### Block
 
 | Block    | Description                   |
 | -------- | ----------------------------- |
 | bg       | Defines the background color. |
 | c        | Defines the text color.       |
 | b        | Defines the border color.     |
+
+### Modifiers
 
 | Modifier          | Description                                                               |
 | ----------------- | ------------------------------------------------------------------------- |
