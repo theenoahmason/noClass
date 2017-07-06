@@ -1,6 +1,6 @@
 # Colors
 
-### Block
+### Blocks
 
 | Block    | Description                   |
 | -------- | ----------------------------- |
