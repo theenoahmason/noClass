@@ -16,5 +16,5 @@
 | label        | Defines the field label.                                                                |
 | input/select | Defines the field input. This can be an input element of any type, or a select element. |
 
-> **Note:** Inputs with `type="checkbox"` or `type="radio"` should be placed after their corresponding labels, 
+> **Note:** Inputs with `type="checkbox"` or `type="radio"` should be placed before their corresponding labels, 
 > while selects and all other input types should be placed after their corresponding labels.
