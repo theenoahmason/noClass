@@ -8,7 +8,7 @@
 
 ### Nodes
 
-| Nodes    | Description                        |
+| Node     | Description                        |
 | -------- | ---------------------------------- |
 | header   | Defines the card header.           |
 | section  | Defines the card content sections. |

@@ -9,7 +9,7 @@
 
 ### Nodes
 
-| Nodes    | Description                          |
+| Node     | Description                          |
 | -------- | ------------------------------------ |
 | header   | Defines the drawer header.           |
 | section  | Defines the drawer content sections. |

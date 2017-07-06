@@ -11,7 +11,7 @@
 
 ### Nodes
 
-| Nodes        | Description                                                                             |
+| Node         | Description                                                                             |
 | ------------ | --------------------------------------------------------------------------------------- |
 | label        | Defines the field label.                                                                |
 | input/select | Defines the field input. This can be an input element of any type, or a select element. |

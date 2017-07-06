@@ -2,6 +2,6 @@
 
 ### Blocks
 
-| Block    | Description                                                 |
-| -------- | ----------------------------------------------------------- |
-| button   | Creates a button.                                           |
+| Block    | Description       |
+| -------- | ----------------- |
+| button   | Creates a button. |
