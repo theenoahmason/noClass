@@ -14,12 +14,18 @@
 @import 'components/card/card.css';
 @import 'components/backdrop/backdrop.css';
 @import 'components/toggle/toggle.css';
-@import 'components/quote/quote.css';
+@import 'components/darken/darken.css';
+@import 'components/remove/remove.css';
+@import 'components/sticky/sticky.css';
+@import 'components/gutter/gutter.css';
+@import 'components/contain/contain.css';
 
 /* Global Variables */
 :root {
 	/* Gutter */
 	--gutter: 16px;
+	/* Contain */
+	--contain: 1200px;
 	/* Grid */
 	--grid-columns: 12;
 	--gridcell-1:   8.3333333333%;  --gridcell-1:  calc(100% / var(--grid-columns, 12)); 

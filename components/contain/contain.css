@@ -1,0 +1,8 @@
+/* Contain */
+*[noclass] *[contain] {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1200px;   max-width: var(--contain, 1200px);
+	padding-left: 16px;  padding-left: var(--gutter, 16px);
+	padding-right: 16px; padding-right: var(--gutter, 16px);
+}
