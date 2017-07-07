@@ -75,6 +75,6 @@ html[noclass] {
 
 /* Disabled */
 *[noclass] *[disabled] {
-	cursor: default;
+	cursor: default !important;
 }
 
