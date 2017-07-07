@@ -1,8 +1,8 @@
-*[noclass] nav {
+*[noclass] *[navigation] {
 	display: block;
 }
 
-*[noclass] nav > ul {
+*[noclass] *[navigation] > ul {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
@@ -14,22 +14,22 @@
 	list-style: none;
 }
 
-*[noclass] nav li {
+*[noclass] *[navigation] li {
 	position: relative;
 }
 
-*[noclass] nav > ul > li {
+*[noclass] *[navigation] > ul > li {
 	display: inline-flex;
 	white-space: nowrap;
 }
 
-*[noclass] nav > ul > li > label, 
-*[noclass] nav > ul > li > a {
+*[noclass] *[navigation] > ul > li > label, 
+*[noclass] *[navigation] > ul > li > a {
 	padding: 16px; padding: var(--gutter, 16px);
 	font-weight: bold;
 }
 
-*[noclass] nav > ul > li > ul {
+*[noclass] *[navigation] > ul > li > ul {
 	margin: 0;
 	padding-top: 8px; padding-top: calc(var(--gutter, 16px) / 2);
 	padding-bottom: 8px; padding-bottom: calc(var(--gutter, 16px) / 2);
@@ -40,12 +40,12 @@
 	border-radius: 2px;
 }
 
-*[noclass] nav > ul > li > ul li {
+*[noclass] *[navigation] > ul > li > ul li {
 	width: 100%;
 }
 
-*[noclass] nav > ul > li > ul li label, 
-*[noclass] nav > ul > li > ul li a {
+*[noclass] *[navigation] > ul > li > ul li label, 
+*[noclass] *[navigation] > ul > li > ul li a {
 	height: 1.5;
 	padding-top: 8px; padding-top: calc(var(--gutter, 16px) / 2);
 	padding-bottom: 8px; padding-bottom: calc(var(--gutter, 16px) / 2);
@@ -56,9 +56,9 @@
 	width: 100%;
 }
 
-*[noclass] nav > ul > li:focus > ul, 
-*[noclass] nav > ul > li:active > ul, 
-*[noclass] nav > ul > li:hover > ul {
+*[noclass] *[navigation] > ul > li:focus > ul, 
+*[noclass] *[navigation] > ul > li:active > ul, 
+*[noclass] *[navigation] > ul > li:hover > ul {
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -85,11 +85,11 @@
 	display: block;
 }
 
-*[noclass] nav[nav-vertical] {
+*[noclass] *[navigation="vertical"] {
 	margin: 0;
 }
 
-*[noclass] nav[nav-vertical] > ul {
+*[noclass] *[navigation="vertical"] > ul {
 	flex-flow: column;
 	padding-top: 8px; padding-top: calc(var(--gutter, 16px) / 2);
 	padding-bottom: 8px; padding-bottom: calc(var(--gutter, 16px) / 2);
@@ -97,22 +97,22 @@
 	padding-right: 0;
 }
 
-*[noclass] nav[nav-vertical] > ul > li {
+*[noclass] *[navigation="vertical"] > ul > li {
 	width: 100%;
 	flex-flow: column;
 }
 
-*[noclass] nav[nav-vertical] > ul > li label, 
-*[noclass] nav[nav-vertical] > ul > li a {
+*[noclass] *[navigation="vertical"] > ul > li label, 
+*[noclass] *[navigation="vertical"] > ul > li a {
 	width: 100%;
 	padding-left: 32px; padding-left: calc(var(--gutter, 16px) * 2);
 	padding-right: 32px; padding-right: calc(var(--gutter, 16px) * 2);
 	box-sizing: border-box;
 }
 
-*[noclass] nav[nav-vertical] > ul > li:focus > ul, 
-*[noclass] nav[nav-vertical] > ul > li:active > ul, 
-*[noclass] nav[nav-vertical] > ul > li:hover > ul {
+*[noclass] *[navigation="vertical"] > ul > li:focus > ul, 
+*[noclass] *[navigation="vertical"] > ul > li:active > ul, 
+*[noclass] *[navigation="vertical"] > ul > li:hover > ul {
 	position: relative;
 	top: unset;
 	left: unset;
@@ -121,17 +121,17 @@
 	width: 100%;
 }
 
-*[noclass] nav[nav-vertical] > ul > li a:hover, 
-*[noclass] nav[nav-vertical] > ul > li a:active, 
-*[noclass] nav[nav-vertical] > ul > li a:focus, 
-*[noclass] nav[nav-vertical] > ul > li label:hover, 
-*[noclass] nav[nav-vertical] > ul > li label:active, 
-*[noclass] nav[nav-vertical] > ul > li label:focus, 
-*[noclass] nav > ul > li > ul li label:hover, 
-*[noclass] nav > ul > li > ul li label:active, 
-*[noclass] nav > ul > li > ul li label:focus, 
-*[noclass] nav > ul > li > ul li a:hover, 
-*[noclass] nav > ul > li > ul li a:active, 
-*[noclass] nav > ul > li > ul li a:focus {
+*[noclass] *[navigation="vertical"] > ul > li a:hover, 
+*[noclass] *[navigation="vertical"] > ul > li a:active, 
+*[noclass] *[navigation="vertical"] > ul > li a:focus, 
+*[noclass] *[navigation="vertical"] > ul > li label:hover, 
+*[noclass] *[navigation="vertical"] > ul > li label:active, 
+*[noclass] *[navigation="vertical"] > ul > li label:focus, 
+*[noclass] *[navigation] > ul > li > ul li label:hover, 
+*[noclass] *[navigation] > ul > li > ul li label:active, 
+*[noclass] *[navigation] > ul > li > ul li label:focus, 
+*[noclass] *[navigation] > ul > li > ul li a:hover, 
+*[noclass] *[navigation] > ul > li > ul li a:active, 
+*[noclass] *[navigation] > ul > li > ul li a:focus {
 	background-color: rgba(0, 0, 0, 0.1);
 }
