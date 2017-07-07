@@ -53,6 +53,11 @@
 								<li><label for="tab-components--field" onclick="window.scrollTo(0,0)">Field</label></li>
 								<li><label for="tab-components--layout" onclick="window.scrollTo(0,0)">Layout</label></li>
 								<li><label for="tab-components--drawer" onclick="window.scrollTo(0,0)">Drawer</label></li>
+								<li><label for="tab-components--darken" onclick="window.scrollTo(0,0)">Darken</label></li>
+								<li><label for="tab-components--remove" onclick="window.scrollTo(0,0)">Remove</label></li>
+								<li><label for="tab-components--gutter" onclick="window.scrollTo(0,0)">Gutter</label></li>
+								<li><label for="tab-components--sticky" onclick="window.scrollTo(0,0)">Sticky</label></li>
+								<li><label for="tab-components--contain" onclick="window.scrollTo(0,0)">Contain</label></li>
 							</ul>
 						</li>
 						<li><label for="tab-templates" onclick="window.scrollTo(0,0)">Templates</label></li>
@@ -350,6 +355,86 @@
 								<footer>
 									<section>
 										<label button for="tab-components--typography" level="2" onclick="window.scrollTo(0,0)">Expand</label>
+									</section>
+								</footer>
+							</article>
+						</div>
+
+						<div gridcell="3" gridcell-tablet="6" gridcell-phone="12">
+							<article card bg="primary" c="primary-contrast" level="2">
+								<header darken="inherit" bg="primary" c="white" style="background-image:url(images/demo-bg.jpg);">
+									<section><h3 hasmargin="none"><label for="tab-components--gutter" onclick="window.scrollTo(0,0)">Gutter</label></h3></section>
+								</header>
+								<section>
+									<p hasmargin="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</section>
+								<footer>
+									<section>
+										<label button for="tab-components--gutter" level="2" onclick="window.scrollTo(0,0)">Expand</label>
+									</section>
+								</footer>
+							</article>
+						</div>
+
+						<div gridcell="3" gridcell-tablet="6" gridcell-phone="12">
+							<article card bg="primary" c="primary-contrast" level="2">
+								<header darken="inherit" bg="primary" c="white" style="background-image:url(images/demo-bg.jpg);">
+									<section><h3 hasmargin="none"><label for="tab-components--darken" onclick="window.scrollTo(0,0)">Darken</label></h3></section>
+								</header>
+								<section>
+									<p hasmargin="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</section>
+								<footer>
+									<section>
+										<label button for="tab-components--darken" level="2" onclick="window.scrollTo(0,0)">Expand</label>
+									</section>
+								</footer>
+							</article>
+						</div>
+
+						<div gridcell="3" gridcell-tablet="6" gridcell-phone="12">
+							<article card bg="primary" c="primary-contrast" level="2">
+								<header darken="inherit" bg="primary" c="white" style="background-image:url(images/demo-bg.jpg);">
+									<section><h3 hasmargin="none"><label for="tab-components--sticky" onclick="window.scrollTo(0,0)">Sticky</label></h3></section>
+								</header>
+								<section>
+									<p hasmargin="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</section>
+								<footer>
+									<section>
+										<label button for="tab-components--sticky" level="2" onclick="window.scrollTo(0,0)">Expand</label>
+									</section>
+								</footer>
+							</article>
+						</div>
+
+						<div gridcell="3" gridcell-tablet="6" gridcell-phone="12">
+							<article card bg="primary" c="primary-contrast" level="2">
+								<header darken="inherit" bg="primary" c="white" style="background-image:url(images/demo-bg.jpg);">
+									<section><h3 hasmargin="none"><label for="tab-components--remove" onclick="window.scrollTo(0,0)">Remove</label></h3></section>
+								</header>
+								<section>
+									<p hasmargin="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</section>
+								<footer>
+									<section>
+										<label button for="tab-components--remove" level="2" onclick="window.scrollTo(0,0)">Remove</label>
+									</section>
+								</footer>
+							</article>
+						</div>
+
+						<div gridcell="3" gridcell-tablet="6" gridcell-phone="12">
+							<article card bg="primary" c="primary-contrast" level="2">
+								<header darken="inherit" bg="primary" c="white" style="background-image:url(images/demo-bg.jpg);">
+									<section><h3 hasmargin="none"><label for="tab-components--contain" onclick="window.scrollTo(0,0)">Contain</label></h3></section>
+								</header>
+								<section>
+									<p hasmargin="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</section>
+								<footer>
+									<section>
+										<label button for="tab-components--contain" level="2" onclick="window.scrollTo(0,0)">Expand</label>
 									</section>
 								</footer>
 							</article>
@@ -1603,6 +1688,151 @@
 								<label drawer-overlay for="demo-drawer-toggle" bg="black" c="white" level="3" style="position: absolute;"></label>
 							</div>
 							<script src="https://gist-it.appspot.com/https://github.com/theenoahmason/noclass/blob/master/components/drawer/drawer.html"></script>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<input tab-toggle type="radio" name="page-tabs" id="tab-components--darken" />
+			<section tab id="components-darken">
+				<section backdrop darken="inherit" bg="dark" c="white" style="background-image:url(images/demo-bg.jpg);"></section>
+				<div contain>
+					<h2 t="h1" c="dark-contrast"><i icon style="margin-top:-6px;">dashboard</i>&nbsp;<label for="tab-components">Components</label> > Darken</h2>
+					<div grid="stretch">
+						<div gridcell="3" gridcell-tablet="4" gridcell-phone="12">
+							<article card bg="primary" c="primary-contrast" level="2" sticky="top" style="top:138px;" hasmargin="bottom">
+								<header darken="inherit" bg="primary" c="white" style="background-image:url(images/demo-bg.jpg);">
+									<section><h3 hasmargin="none">Darken</h3></section>
+								</header>
+								<section>
+									<p hasmargin="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</section>
+								<footer>
+									<section>
+										<label button for="card-toggle" level="2">Expand</label>
+									</section>
+								</footer>
+							</article>
+						</div>
+						<div gridcell="9" gridcell-tablet="8" gridcell-phone="12">
+
+							<script src="https://gist-it.appspot.com/https://github.com/theenoahmason/noclass/blob/master/components/darken/darken.html"></script>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<input tab-toggle type="radio" name="page-tabs" id="tab-components--gutter" />
+			<section tab id="components-gutter">
+				<section backdrop darken="inherit" bg="dark" c="white" style="background-image:url(images/demo-bg.jpg);"></section>
+				<div contain>
+					<h2 t="h1" c="dark-contrast"><i icon style="margin-top:-6px;">dashboard</i>&nbsp;<label for="tab-components">Components</label> > Gutter</h2>
+					<div grid="stretch">
+						<div gridcell="3" gridcell-tablet="4" gridcell-phone="12">
+							<article card bg="primary" c="primary-contrast" level="2" sticky="top" style="top:138px;" hasmargin="bottom">
+								<header darken="inherit" bg="primary" c="white" style="background-image:url(images/demo-bg.jpg);">
+									<section><h3 hasmargin="none">Gutter</h3></section>
+								</header>
+								<section>
+									<p hasmargin="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</section>
+								<footer>
+									<section>
+										<label button for="card-toggle" level="2">Expand</label>
+									</section>
+								</footer>
+							</article>
+						</div>
+						<div gridcell="9" gridcell-tablet="8" gridcell-phone="12">
+
+							<script src="https://gist-it.appspot.com/https://github.com/theenoahmason/noclass/blob/master/components/gutter/gutter.html"></script>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<input tab-toggle type="radio" name="page-tabs" id="tab-components--sticky" />
+			<section tab id="components-sticky">
+				<section backdrop darken="inherit" bg="dark" c="white" style="background-image:url(images/demo-bg.jpg);"></section>
+				<div contain>
+					<h2 t="h1" c="dark-contrast"><i icon style="margin-top:-6px;">dashboard</i>&nbsp;<label for="tab-components">Components</label> > Sticky</h2>
+					<div grid="stretch">
+						<div gridcell="3" gridcell-tablet="4" gridcell-phone="12">
+							<article card bg="primary" c="primary-contrast" level="2" sticky="top" style="top:138px;" hasmargin="bottom">
+								<header darken="inherit" bg="primary" c="white" style="background-image:url(images/demo-bg.jpg);">
+									<section><h3 hasmargin="none">Sticky</h3></section>
+								</header>
+								<section>
+									<p hasmargin="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</section>
+								<footer>
+									<section>
+										<label button for="card-toggle" level="2">Expand</label>
+									</section>
+								</footer>
+							</article>
+						</div>
+						<div gridcell="9" gridcell-tablet="8" gridcell-phone="12">
+
+							<script src="https://gist-it.appspot.com/https://github.com/theenoahmason/noclass/blob/master/components/sticky/sticky.html"></script>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<input tab-toggle type="radio" name="page-tabs" id="tab-components--remove" />
+			<section tab id="components-remove">
+				<section backdrop darken="inherit" bg="dark" c="white" style="background-image:url(images/demo-bg.jpg);"></section>
+				<div contain>
+					<h2 t="h1" c="dark-contrast"><i icon style="margin-top:-6px;">dashboard</i>&nbsp;<label for="tab-components">Components</label> > Remove</h2>
+					<div grid="stretch">
+						<div gridcell="3" gridcell-tablet="4" gridcell-phone="12">
+							<article card bg="primary" c="primary-contrast" level="2" sticky="top" style="top:138px;" hasmargin="bottom">
+								<header darken="inherit" bg="primary" c="white" style="background-image:url(images/demo-bg.jpg);">
+									<section><h3 hasmargin="none">Remove</h3></section>
+								</header>
+								<section>
+									<p hasmargin="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</section>
+								<footer>
+									<section>
+										<label button for="card-toggle" level="2">Expand</label>
+									</section>
+								</footer>
+							</article>
+						</div>
+						<div gridcell="9" gridcell-tablet="8" gridcell-phone="12">
+
+							<script src="https://gist-it.appspot.com/https://github.com/theenoahmason/noclass/blob/master/components/remove/remove.html"></script>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<input tab-toggle type="radio" name="page-tabs" id="tab-components--contain" />
+			<section tab id="components-contain">
+				<section backdrop darken="inherit" bg="dark" c="white" style="background-image:url(images/demo-bg.jpg);"></section>
+				<div contain>
+					<h2 t="h1" c="dark-contrast"><i icon style="margin-top:-6px;">dashboard</i>&nbsp;<label for="tab-components">Components</label> > Contain</h2>
+					<div grid="stretch">
+						<div gridcell="3" gridcell-tablet="4" gridcell-phone="12">
+							<article card bg="primary" c="primary-contrast" level="2" sticky="top" style="top:138px;" hasmargin="bottom">
+								<header darken="inherit" bg="primary" c="white" style="background-image:url(images/demo-bg.jpg);">
+									<section><h3 hasmargin="none">Contain</h3></section>
+								</header>
+								<section>
+									<p hasmargin="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</section>
+								<footer>
+									<section>
+										<label button for="card-toggle" level="2">Expand</label>
+									</section>
+								</footer>
+							</article>
+						</div>
+						<div gridcell="9" gridcell-tablet="8" gridcell-phone="12">
+
+							<script src="https://gist-it.appspot.com/https://github.com/theenoahmason/noclass/blob/master/components/contain/contain.html"></script>
 						</div>
 					</div>
 				</div>
