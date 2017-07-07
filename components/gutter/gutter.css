@@ -1,0 +1,20 @@
+/* Margin */
+*[noclass] *[hasmargin="all"]        { margin: 16px !important;                                     margin: var(--gutter, 16px) !important; }
+*[noclass] *[hasmargin="top"]        { margin-top: 16px !important;                                 margin-top: var(--gutter, 16px) !important; }
+*[noclass] *[hasmargin="bottom"]     { margin-bottom: 16px !important;                              margin-bottom: var(--gutter, 16px) !important; }
+*[noclass] *[hasmargin="top-bottom"] { margin-top: 16px !important; margin-bottom: 16px !important; margin-top: var(--gutter, 16px) !important; margin-bottom: var(--gutter, 16px) !important; }
+*[noclass] *[hasmargin="left"]       { margin-left: 16px !important;                                margin-left: var(--gutter, 16px) !important; }
+*[noclass] *[hasmargin="right"]      { margin-right: 16px !important;                               margin-right: var(--gutter, 16px) !important; }
+*[noclass] *[hasmargin="left-right"] { margin-left: 16px !important; margin-right: 16px !important; margin-left: var(--gutter, 16px) !important; margin-right: var(--gutter, 16px) !important; }
+*[noclass] *[hasmargin="none"]       { margin: 0 !important; }
+
+
+/* Padding */
+*[noclass] *[haspadding="all"]        { padding: 16px !important;                                      padding: var(--gutter, 16px) !important; }
+*[noclass] *[haspadding="top"]        { padding-top: 16px !important;                                  padding-top: var(--gutter, 16px) !important; }
+*[noclass] *[haspadding="bottom"]     { padding-bottom: 16px !important;                               padding-bottom: var(--gutter, 16px) !important; }
+*[noclass] *[haspadding="top-bottom"] { padding-top: 16px !important; padding-bottom: 16px !important; padding-top: var(--gutter, 16px) !important; padding-bottom: var(--gutter, 16px) !important; }
+*[noclass] *[haspadding="left"]       { padding-left: 16px !important;                                 padding-left: var(--gutter, 16px) !important; }
+*[noclass] *[haspadding="right"]      { padding-right: 16px !important;                                padding-right: var(--gutter, 16px) !important; }
+*[noclass] *[haspadding="left-right"] { padding-left: 16px !important; padding-right: 16px !important; padding-left: var(--gutter, 16px) !important; padding-right: var(--gutter, 16px) !important; }
+*[noclass] *[haspadding="none"]       { padding: 0 !important; }
