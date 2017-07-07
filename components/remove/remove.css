@@ -1,0 +1,12 @@
+/* Remove */
+@media screen and (min-width: 1000px) {
+	*[noclass] *[remove="desktop"] {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 999px) {
+	*[noclass] *[remove="mobile"] {
+		display: none !important;
+	}
+}
