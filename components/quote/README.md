@@ -1,3 +1,0 @@
-# Quote
-
-### Component documentation
