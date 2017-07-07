@@ -85,6 +85,41 @@
 	font-weight: bolder;
 }
 
+/* Quotes */
+*[noclass] *[t="blockquote"], 
+*[noclass] blockquote {
+	font-family: 'Times New Roman', serif;
+	font-style: italic;
+	padding: 16px; padding: var(--gutter, 16px);
+	margin-bottom: 16px; margin-bottom: var(--gutter, 16px);
+	margin-left: 32px; margin-left: var(--gutter, 16px);
+	margin-right: 32px; margin-right: var(--gutter, 16px); 
+	margin-top: 0;
+	border-radius: 2px;
+	border-left: 4px solid;
+}
+
+/* Citations */
+*[noclass] *[t="cite"], 
+*[noclass] cite {
+	font-weight: inherit;
+	font-family: 'Times New Roman', serif;
+	font-style: italic;
+}
+
+/* Strikes */
+*[noclass] *[t="strike"], 
+*[noclass] strike {
+	text-decoration: line-through;
+}
+
+/* Strikes */
+*[noclass] *[t="em"], 
+*[noclass] em {
+	font-style: italic;
+	font-family: 'Times New Roman', serif;
+}
+
 /* Icons */
 *[noclass] i[icon] {
 	font-family: 'Material Icons';
@@ -102,25 +137,4 @@
 	font-feature-settings: 'liga' 1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-
-/* Quote */
-*[noclass] *[t="blockquote"], 
-*[noclass] blockquote {
-	font-family: 'Times New Roman', serif;
-	font-style: italic;
-	padding: 16px; padding: var(--gutter, 16px);
-	margin-bottom: 16px; margin-bottom: var(--gutter, 16px);
-	margin-left: 32px; margin-left: var(--gutter, 16px);
-	margin-right: 32px; margin-right: var(--gutter, 16px); 
-	margin-top: 0;
-	border-radius: 2px;
-	border-left: 4px solid;
-}
-
-*[noclass] *[t="cite"], 
-*[noclass] cite {
-	font-weight: inherit;
-	font-family: 'Times New Roman', serif;
-	font-style: italic;
 }
