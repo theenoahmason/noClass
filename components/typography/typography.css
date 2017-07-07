@@ -68,15 +68,6 @@
 *[noclass] h5, *[noclass] *[t="h5"] { font-size: 18px; }
 *[noclass] h6, *[noclass] *[t="h6"] { font-size: 14px; }
 
-*[noclass] h1 a, *[noclass] *[t="h1"] a, 
-*[noclass] h2 a, *[noclass] *[t="h2"] a, 
-*[noclass] h3 a, *[noclass] *[t="h3"] a, 
-*[noclass] h4 a, *[noclass] *[t="h4"] a, 
-*[noclass] h5 a, *[noclass] *[t="h5"] a, 
-*[noclass] h6 a, *[noclass] *[t="h6"] {
-	font-weight: inherit;
-}
-
 /* Paragraph */
 *[noclass] *[t="p"], 
 *[noclass] p {
@@ -111,7 +102,6 @@
 /* Citations */
 *[noclass] *[t="cite"], 
 *[noclass] cite {
-	font-weight: inherit;
 	font-family: 'Times New Roman', serif;
 	font-style: italic;
 }
