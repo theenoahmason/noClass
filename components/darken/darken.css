@@ -1,0 +1,23 @@
+/* Darken */
+*[noclass] *[darken] {
+	position: relative;
+}
+
+*[noclass] *[darken]:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	opacity: 0.5;
+}
+
+*[noclass] *[darken="inherit"]:before {
+	background-color: inherit;
+}
+
+*[noclass] *[darken] > * {
+	position: relative;
+}
