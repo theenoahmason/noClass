@@ -1,0 +1,13 @@
+/* Sticky */
+*[noclass] *[sticky] { 
+	position: -webkit-sticky !important; 
+	position: -moz-sticky !important; 
+	position: -ms-sticky !important; 
+	position: -o-sticky !important; 
+	position: sticky !important; 
+} 
+
+*[noclass] *[sticky="top"]    { top: 0; }
+*[noclass] *[sticky="bottom"] { bottom: 0 !important; }
+*[noclass] *[sticky="left"]   { left: 0 !important; }
+*[noclass] *[sticky="right"]  { right: 0 !important; }
