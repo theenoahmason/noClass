@@ -1375,22 +1375,22 @@
 											<div field>
 												<label for="demo-field-text-2" t="small">Enter Text (Required) <span c="danger">*</span></label>
 												<input id="demo-field-text-2" type="text" value="" placeholder="Enter text" required />
-												<p field-error c="danger" t="small">This field is required.</p>
+												<ul><li>This field is required.</li></ul>
 											</div>
 											<div field>
 												<label for="demo-field-text-3" t="small">Enter Text (Maximum 50 characters)</label>
 												<input id="demo-field-text-3" type="text" value="" pattern=".{0,50}" maxlength="50" placeholder="Enter text" />
-												<p field-error c="danger" t="small">This value must be between 0 and 50 characters.</p>
+												<ul><li>This value must be between 0 and 50 characters.</li></ul>
 											</div>
 											<div field>
 												<label for="demo-field-text-4" t="small">Enter Text (Alphanumeric with spaces and [-_])</label>
 												<input id="demo-field-text-4" type="text" value="" placeholder="Enter text" pattern="[A-Za-z0-9-_ ]+" />
-												<p field-error c="danger" t="small">This value must be only uppercase and lowercase letters, numbers, and certain special characters.</p>
+												<ul><li>This value must be only uppercase and lowercase letters, numbers, and certain special characters.</li></ul>
 											</div>
 											<div field hasmargin="none">
 												<label for="demo-field-text-5" t="small">Enter Text (Alphanumeric with spaces and [-_+=;,.()*&amp;%#@!?"])</label>
 												<input id="demo-field-text-5" type="text" value="" placeholder="Enter text" pattern='[A-Za-z0-9-_+=;,.()*&%#@!?" ]+' />
-												<p field-error c="danger" t="small">This value must be only uppercase and lowercase letters, numbers, and certain special characters.</p>
+												<ul><li>This value must be only uppercase and lowercase letters, numbers, and certain special characters.</li></ul>
 											</div>
 										</fieldset>
 									</section>
@@ -1412,17 +1412,17 @@
 											<div field>
 												<label for="demo-field-number-1" t="small">Enter a number</label>
 												<input id="demo-field-number-1" type="number" value="" min="0" max="100" step="1" placeholder="Enter a number" />
-												<p field-error c="danger" t="small">This value must be between 0 and 100, with a step of 1.</p>
+												<ul><li>This value must be between 0 and 100, with a step of 1.</li></ul>
 											</div>
 											<div field>
 												<label for="demo-field-number-2" t="small">Enter a number (Required) <span c="danger">*</span></label>
 												<input id="demo-field-number-2" type="number" value="" min="0" max="100" step="1" placeholder="Enter a number" required />
-												<p field-error c="danger" t="small">This value must be between 0 and 100, with a step of 1, and is required.</p>
+												<ul><li>This value must be between 0 and 100, with a step of 1, and is required.</li></ul>
 											</div>
 											<div field hasmargin="none">
 												<label for="demo-field-number-3" t="small">Enter a float</label>
 												<input id="demo-field-number-3" type="number" min="0.01" max="100.00" step="0.01" placeholder="Enter a float" />
-												<p field-error c="danger" t="small">This value must be between 0.01 and 100.00, with a step of 0.01, and is required.</p>
+												<ul><li>This value must be between 0.01 and 100.00, with a step of 0.01, and is required.</li></ul>
 											</div>
 										</fieldset>
 									</section>
@@ -1444,12 +1444,12 @@
 											<div field>
 												<label for="demo-field-email-1" t="small">Enter an email</label>
 												<input id="demo-field-email-1" type="email" value="" placeholder="Enter an email" />
-												<p field-error c="danger" t="small">This value must be a valid email address.</p>
+												<ul><li>This value must be a valid email address.</li></ul>
 											</div>
 											<div field hasmargin="none">
 												<label for="demo-field-email-2" t="small">Enter an email (Required) <span c="danger">*</span></label>
 												<input id="demo-field-email-2" type="email" value="" placeholder="Enter an email" required />
-												<p field-error c="danger" t="small">This value must be a valid email address, and is required.</p>
+												<ul><li>This value must be a valid email address, and is required.</li></ul>
 											</div>
 										</fieldset>
 									</section>
@@ -1471,12 +1471,12 @@
 											<div field>
 												<label for="demo-field-url-1" t="small">Enter a URL</label>
 												<input id="demo-field-url-1" type="url" value="" placeholder="Enter a URL" />
-												<p field-error c="danger" t="small">This value must be a valid URL.</p>
+												<ul><li>This value must be a valid URL.</li></ul>
 											</div>
 											<div field hasmargin="none">
 												<label for="demo-field-url-2" t="small">Enter a URL (Required) <span c="danger">*</span></label>
 												<input id="demo-field-url-2" type="url" value="" placeholder="Enter a URL" required />
-												<p field-error c="danger" t="small">This value must be a valid URL, and is required.</p>
+												<ul><li>This value must be a valid URL, and is required.</li></ul>
 											</div>
 										</fieldset>
 									</section>
@@ -1498,12 +1498,12 @@
 											<div field>
 												<label for="demo-field-tel-1" t="small">Enter a telephone number (Exactly 10 characters, only numbers)</label>
 												<input id="demo-field-tel-1" type="tel" value="" pattern="\d{10}" maxlength="10" placeholder="Enter a telephone number" />
-												<p field-error c="danger" t="small">This value must be 10 characters long and contain only numbers.</p>
+												<ul><li>This value must be 10 characters long and contain only numbers.</li></ul>
 											</div>
 											<div field hasmargin="none">
 												<label for="demo-field-tel-2" t="small">Enter a telephone number as (###) ###-#### (Required) <span c="danger">*</span></label>
 												<input id="demo-field-tel-2" type="tel" value="" placeholder="Enter a telephone number" maxlength="14" pattern="[\(]\d{3}[\)][ ]\d{3}[\-]\d{4}" required />
-												<p field-error c="danger" t="small">This value must match the pattern (###) ###-####, and is required.</p>
+												<ul><li>This value must match the pattern (###) ###-####, and is required.</li></ul>
 											</div>
 										</fieldset>
 									</section>
@@ -1525,27 +1525,27 @@
 											<div field>
 												<label for="demo-field-password-1" t="small">Enter a password (Min 8 Characters, 1 number, 1 lowercase, 1 uppercase)</label>
 												<input id="demo-field-password-1" type="password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" minlength="8" placeholder="Enter a password" />
-												<p field-error c="danger" t="small">This value must be at least 8 characters and contain at least 1 number, 1 lowercase letter, and 1 uppercase letter.</p>
+												<ul><li>This value must be at least 8 characters and contain at least 1 number, 1 lowercase letter, and 1 uppercase letter.</li></ul>
 											</div>
 											<div field>
 												<label for="demo-field-password-2" t="small">Enter a password (Min 8 Characters, 1 number, 1 lowercase, 1 uppercase, Required) <span c="danger">*</span></label>
 												<input id="demo-field-password-2" type="password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" minlength="8" placeholder="Enter a password" required />
-												<p field-error c="danger" t="small">This value must be at least 8 characters and contain at least 1 number, 1 lowercase letter, and 1 uppercase letter, and is required.</p>
+												<ul><li>This value must be at least 8 characters and contain at least 1 number, 1 lowercase letter, and 1 uppercase letter, and is required.</li></ul>
 											</div>
 											<div field>
 												<label for="demo-field-password-3" t="small">Enter a password (Min 8 Characters, 1 number, 1 lowercase, 1 uppercase, 1 special character, Required) <span c="danger">*</span></label>
 												<input id="demo-field-password-3" type="password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W+)(?![.\n]).{8,}" minlength="8" placeholder="Enter a password" required />
-												<p field-error c="danger" t="small">This value must be at least 8 characters and contain at least 1 number, 1 lowercase letter, and 1 uppercase letter, one special character, and is required.</p>
+												<ul><li>This value must be at least 8 characters and contain at least 1 number, 1 lowercase letter, and 1 uppercase letter, one special character, and is required.</li></ul>
 											</div>
 											<div field>
 												<label for="demo-field-password-4" t="small">Enter a 4 digit PIN (Exactly 4 Characters, only numbers)</label>
 												<input id="demo-field-password-4" type="password" value="" pattern="\d{4}" minlength="4" maxlength="4" placeholder="Enter a 4 digit PIN" />
-												<p field-error c="danger" t="small">This value must be exactly 4 characters and contain only numbers.</p>
+												<ul><li>This value must be exactly 4 characters and contain only numbers.</li></ul>
 											</div>
 											<div field hasmargin="none">
 												<label for="demo-field-password-5" t="small">Enter a 6 digit PIN (Exactly 6 Characters, only numbers, required) <span c="danger">*</span></label>
 												<input id="demo-field-password-5" type="password" value="" pattern="\d{6}" minlength="6" maxlength="6" placeholder="Enter a 6 digit PIN" required />
-												<p field-error c="danger" t="small">This value must be exactly 6 characters and contain only numbers, and is required.</p>
+												<ul><li>This value must be exactly 6 characters and contain only numbers, and is required.</li></ul>
 											</div>
 										</fieldset>
 									</section>
@@ -1575,17 +1575,17 @@
 											<div field>
 												<label for="demo-field-textarea-3" t="small">Enter multiline text (Min 10 characters, Required) <span c="danger">*</span></label>
 												<textarea id="demo-field-textarea-3" rows="5" minlength="10" placeholder="Enter multiline text" required></textarea>
-												<p field-error c="danger" t="small">This value must be equal to or more than 10 characters, and is required.</p>
+												<ul><li>This value must be equal to or more than 10 characters, and is required.</li></ul>
 											</div>
 											<div field>
 												<label for="demo-field-textarea-4" t="small">Enter multiline text (Max 140 characters)</label>
 												<textarea id="demo-field-textarea-4" rows="2" maxlength="140" placeholder="Enter multiline text"></textarea>
-												<p field-error c="danger" t="small">This value must be equal to or less than 140 characters.</p>
+												<ul><li>This value must be equal to or less than 140 characters.</li></ul>
 											</div>
 											<div field hasmargin="none">
 												<label for="demo-field-textarea-5" t="small">Enter multiline text (Max 140 characters, Required) <span c="danger">*</span></label>
 												<textarea id="demo-field-textarea-5" rows="2" maxlength="140" placeholder="Enter multiline text" required></textarea>
-												<p field-error c="danger" t="small">This value must be equal to or less than 140 characters, and is required.</p>
+												<ul><li>This value must be equal to or less than 140 characters, and is required.</li></ul>
 											</div>
 										</fieldset>
 									</section>

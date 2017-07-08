@@ -147,19 +147,26 @@
 }
 
 /* Field Error */
-*[noclass] *[field] *[field-error] {
+*[noclass] *[field] > ul {
 	display: none;
 	color: red; color: var(--color-danger, red);
 	margin-top: 8px; margin-top: calc(var(--gutter, 16px) / 2);
 	margin-left: 0;
 	margin-right: 0;
 	margin-bottom: 0;
+	padding: 0;
+	list-style: none;
 }
 
-*[noclass] *[field] textarea:invalid + *[field-error], 
-*[noclass] *[field] select:invalid + *[field-error], 
-*[noclass] *[field] input:invalid + *[field-error], 
-*[noclass] *[field] input[type="checkbox"]:invalid + label + *[field-error], 
-*[noclass] *[field] input[type="radio"]:invalid + label + *[field-error] {
+*[noclass] *[field] > ul > li {
+	padding: 0;
+	margin: 0;
+}
+
+*[noclass] *[field] textarea:invalid + ul, 
+*[noclass] *[field] select:invalid + ul, 
+*[noclass] *[field] input:invalid + ul, 
+*[noclass] *[field] input[type="checkbox"]:invalid + label + ul, 
+*[noclass] *[field] input[type="radio"]:invalid + label + ul {
 	display: block;
 }
