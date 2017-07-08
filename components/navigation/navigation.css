@@ -72,19 +72,6 @@
 	width: 200px;
 }
 
-/* Tabs */
-*[noclass] input[tab-toggle] {
-	display: none;
-}
-
-*[noclass] input[tab-toggle] + section[tab] {
-	display: none;
-}
-
-*[noclass] input[tab-toggle]:checked + section[tab] {
-	display: block;
-}
-
 *[noclass] *[navigation="vertical"] {
 	margin: 0;
 }
