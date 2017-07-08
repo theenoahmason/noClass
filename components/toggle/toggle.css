@@ -1,7 +1,6 @@
 /* Default */
 *[noclass] input[toggle-trigger] + *[toggle-target] {
 	display: none;
-	overflow: hidden;
 }
 
 *[noclass] input[toggle-trigger]:checked + *[toggle-target] {
