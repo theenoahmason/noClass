@@ -26,7 +26,6 @@
 *[noclass] *[navigation] > ul > li > label, 
 *[noclass] *[navigation] > ul > li > a {
 	padding: 16px; padding: var(--gutter, 16px);
-	/*font-weight: bold;*/
 }
 
 *[noclass] *[navigation] > ul > li > ul {
