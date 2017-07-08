@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" noclass>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+		<link rel="stylesheet" type="text/css" href="../../noclass.css">
+		<title>Layout | noClass</title>
+	</head>
+	<body bg="light" c="light-contrast">
+		<!-- Header -->
+		<header header bg="primary" c="primary-contrast" level="4" sticky="top">
+			<section c="white">
+				<nav navigation>
+					<ul>
+						<li><label t="h3" for="drawer-trigger" hasmargin="none"><i icon>menu</i></label></li>
+						<li><a t="h3" href="#" hasmargin="none">Title</label></li>
+					</ul>
+				</nav>
+				<nav navigation style="margin-left:auto;">
+					<ul>
+						<li><a t="h3" href="#" hasmargin="none"><i icon>search</i></a></li>
+						<li><a t="h3" href="#" hasmargin="none"><i icon>notifications</i></a></li>
+						<li><a t="h3" href="#" hasmargin="none"><i icon>account_circle</i></a></li>
+					</ul>
+				</nav>
+			</section>
+			<section remove="mobile">
+				<nav navigation>
+					<ul>
+						<li>
+							<a href="#">Link</a>
+							<ul>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Link</a>
+							<ul>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Link</a></li>
+						<li><a href="#">Link</a></li>
+						<li><a href="#">Link</a></li>
+					</ul>
+				</nav>
+			</section>
+		</header>
+
+		<!-- Drawer -->
+		<input toggle-trigger id="drawer-trigger" type="checkbox" hidden />
+		<aside toggle-target drawer id="drawer" bg="light" c="light-contrast" level="6">
+			<header darken="inherit" bg="dark" c="white" style="background-image:url(images/demo-bg.jpg);">
+				<section>
+					<nav navigation>
+						<ul>
+							<li><label toggle-trigger for="drawer-trigger" t="h3" hasmargin="none"><i icon>arrow_back</i></label></li>
+						</ul>
+					</nav>
+				</section>
+				<section><h3 hasmargin="none">Title</h3></section>
+				<section><p hasmargin="none">Lorem ipsum dolor sit amet.</p></section>
+			</header>
+			<section>
+				<nav navigation="vertical">
+					<ul>
+						<li>
+							<a href="#">Link</a>
+							<ul>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Link</a>
+							<ul>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Link</a></li>
+						<li><a href="#">Link</a></li>
+						<li><a href="#">Link</a></li>
+					</ul>
+				</nav>
+			</section>
+		</aside>
+		<label drawer-overlay for="drawer-trigger" bg="black" c="white" level="5"></label>
+
+		<!-- Content -->
+		<main>
+			<section>
+				<div contain>
+					<h1>Hello World!</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer footer bg="dark" c="dark-contrast">
+			<section>
+				<div contain>
+					<div grid="stretch">
+						<div gridcell="3" gridcell-tablet="12" gridcell-phone="12">
+							<label t="h4" c="white" for="footer-tab-demo-1">Menu</label>
+							<input toggle-trigger="mobile" type="checkbox" name="footer-tabs-demo" id="footer-tab-demo-1" hidden/>
+							<section toggle-target>
+								<nav navigation="vertical">
+									<ul>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+									</ul>
+								</nav>
+							</section>
+						</div>
+						<div gridcell="3" gridcell-tablet="12" gridcell-phone="12">
+							<label t="h4" c="white" for="footer-tab-demo-2">Menu</label>
+							<input toggle-trigger="mobile" type="checkbox" name="footer-tabs-demo" id="footer-tab-demo-2" hidden/>
+							<section toggle-target>
+								<nav navigation="vertical">
+									<ul>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+									</ul>
+								</nav>
+							</section>
+						</div>
+						<div gridcell="3" gridcell-tablet="12" gridcell-phone="12">
+							<label t="h4" c="white" for="footer-tab-demo-3">Menu</label>
+							<input toggle-trigger="mobile" type="checkbox" name="footer-tabs-demo" id="footer-tab-demo-3" hidden/>
+							<section toggle-target>
+								<nav navigation="vertical">
+									<ul>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+									</ul>
+								</nav>
+							</section>
+						</div>
+						<div gridcell="3" gridcell-tablet="12" gridcell-phone="12">
+							<label t="h4" c="white" for="footer-tab-demo-4">Menu</label>
+							<input toggle-trigger="mobile" type="checkbox" name="footer-tabs-demo" id="footer-tab-demo-4" hidden/>
+							<section toggle-target>
+								<nav navigation="vertical">
+									<ul>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+									</ul>
+								</nav>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<nav navigation>
+					<ul>
+						<li><label for="tab-overview" onclick="window.scrollTo(0,0)">Overview</label></li>
+						<li><label for="tab-get-started" onclick="window.scrollTo(0,0)">Get Started</label></li>
+						<li><label for="tab-components" onclick="window.scrollTo(0,0)">Components</label></li>
+						<li><label for="tab-templates" onclick="window.scrollTo(0,0)">Templates</label></li>
+						<li><a target="_blank" href="https://github.com/theenoahmason/noClass">Source&nbsp;&nbsp;&nbsp;<i icon>open_in_new</i></a></li>
+					</ul>
+				</nav>
+			</section>
+		</footer>
+	</body>
+</html>
