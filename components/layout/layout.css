@@ -4,6 +4,15 @@
 	-webkit-tap-highlight-color: transparent;
 }
 
+/* HTML */ 
+html[noclass] {
+	position: relative;
+	height: auto;
+	width: auto;
+	overflow-x: hidden;
+}
+
+/* Border Box Defaults */
 *[noclass] blockquote, 
 *[noclass] footer, 
 *[noclass] header, 
@@ -17,6 +26,7 @@
 	box-sizing: border-box;
 }
 
+*[noclass] a, 
 *[noclass] label {
 	cursor: pointer;
 }
@@ -25,14 +35,6 @@
 *[noclass] address, 
 *[noclass] dfn {
 	font-style: inherit;
-}
-
-/* HTML */ 
-html[noclass] {
-	position: relative;
-	height: auto;
-	width: auto;
-	overflow-x: hidden;
 }
 
 /* Body */
@@ -47,7 +49,7 @@ html[noclass] {
 	background-attachment: fixed;
 }
 
-/* Main */
+/* Main & Main Sections */
 *[noclass] main {
 	position: relative;
 	display: -webkit-flex;
@@ -64,6 +66,21 @@ html[noclass] {
 	width: 100%;
 }
 
+/* Fieldsets & Legends */
+*[noclass] fieldset {
+	border: none;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 32px; margin-bottom: calc(var(--gutter, 16px) * 2);
+	margin-left: 0;
+	margin-right: 0;
+}
+
+*[noclass] legend {
+	margin-bottom: 32px; margin-bottom: calc(var(--gutter, 16px) * 2);
+}
+
+/* Figures & Figure Captions */
 *[noclass] figure {
 	margin: 0;
 }

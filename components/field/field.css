@@ -1,21 +1,5 @@
 /* Form Fields */
 
-/* Placeholders */
-*[noclass] ::-webkit-input-placeholder { color: inherit; opacity: 0.25; }
-*[noclass] ::-moz-placeholder          { color: inherit; opacity: 0.25; }
-*[noclass] :-ms-input-placeholder      { color: inherit; opacity: 0.25; }
-*[noclass] :-moz-placeholder           { color: inherit; opacity: 0.25; }
-
-/* Fieldsets */
-*[noclass] fieldset {
-	border: none;
-	padding: 0;
-	margin-top: 0;
-	margin-bottom: 32px; margin-bottom: calc(var(--gutter, 16px) * 2);
-	margin-left: 0;
-	margin-right: 0;
-}
-
 /* Field */
 *[noclass] *[field] {
 	position: relative;
@@ -35,9 +19,11 @@
 	padding: 0;
 }
 
-*[noclass] fieldset legend {
-	margin-bottom: 32px; margin-bottom: calc(var(--gutter, 16px) * 2);
-}
+/* Placeholders */
+*[noclass] *[field] ::-webkit-input-placeholder { color: inherit; opacity: 0.25; }
+*[noclass] *[field] ::-moz-placeholder          { color: inherit; opacity: 0.25; }
+*[noclass] *[field] :-ms-input-placeholder      { color: inherit; opacity: 0.25; }
+*[noclass] *[field] :-moz-placeholder           { color: inherit; opacity: 0.25; }
 
 /* Labels */
 *[noclass] *[field] label {
@@ -128,7 +114,7 @@
 *[noclass] *[field] textarea:valid,
 *[noclass] *[field] select:valid,
 *[noclass] *[field] input:valid {
-	border-color: limegreen; border-color: var(--color-success, limegreen);
+	/*border-color: limegreen; border-color: var(--color-success, limegreen);*/
 }
 
 *[noclass] *[field] select:active,
