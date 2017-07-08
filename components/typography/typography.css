@@ -1,7 +1,5 @@
 /* Google Fonts - Roboto */
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
-/* Google Fonts - Material Icons */
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 /* Typography */
 *[noclass] body {
@@ -118,23 +116,4 @@
 *[noclass] em {
 	font-style: italic;
 	font-family: 'Times New Roman', serif;
-}
-
-/* Icons */
-*[noclass] i[icon] {
-	font-family: 'Material Icons';
-	font-style: normal;
-	text-transform: none;
-	text-align: center;
-	line-height: 1;
-	font-size: inherit;
-	height: auto;
-	width: auto;
-	display: inline-block;
-	overflow: hidden;
-	vertical-align: middle;
-	text-rendering: optimizeLegibility;
-	font-feature-settings: 'liga' 1;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }

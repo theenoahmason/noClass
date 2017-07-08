@@ -1,0 +1,20 @@
+/* Google Fonts - Material Icons */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* Icons */
+*[noclass] i[icon] {
+	font-family: 'Material Icons';
+	font-style: normal;
+	text-transform: none;
+	text-align: center;
+	line-height: 1;
+	font-size: inherit;
+	height: auto;
+	width: auto;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

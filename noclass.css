@@ -1,6 +1,7 @@
 
 /* Imported Components */
 @import 'components/typography/typography.css';
+@import 'components/icon/icon.css';
 @import 'components/colors/colors.css';
 @import 'components/levels/levels.css';
 @import 'components/layout/layout.css';
@@ -13,6 +14,7 @@
 @import 'components/navigation/navigation.css';
 @import 'components/card/card.css';
 @import 'components/backdrop/backdrop.css';
+@import 'components/toggle/toggle.css';
 @import 'components/toggle/toggle.css';
 @import 'components/darken/darken.css';
 @import 'components/remove/remove.css';
