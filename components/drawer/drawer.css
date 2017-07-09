@@ -1,10 +1,10 @@
 *[noclass] *[drawer] {
-	display: -webkit-flex !important;
+    display: -webkit-flex !important;
     display: -ms-flexbox !important;
     display: flex !important;
     flex-flow: column;
-	justify-content: flex-start;
-	align-items: stretch;
+    align-items: flex-start;
+ 	justify-content: flex-start;
 	position: fixed;
 	left: -416px;
 	max-width: 400px;
@@ -21,10 +21,10 @@
 
 *[noclass] *[drawer] > footer, 
 *[noclass] *[drawer] > header {
-	position: relative;
 	display: inherit;
+	position: relative;
 	flex-flow: column;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	width: 100%;
 	background-size: cover;
 	background-position: center center;
@@ -33,16 +33,17 @@
 
 *[noclass] *[drawer] > header {
 	min-height: 256px;
+	justify-content: flex-end;
 }
 
 *[noclass] *[drawer] > section {
-	flex-grow: 1;
+	width: 100%;
+	position: relative;
 	display: inherit;
 	flex-flow: column;
-	justify-content: flex-start;
 	align-items: stretch;
-	width: 100%;
-	flex-basis: 100%;
+	justify-content: flex-start;
+	flex-grow: 1;
 }
 
 *[noclass] *[drawer] > footer > section, 
@@ -60,10 +61,6 @@
 
 *[noclass] *[drawer] > header > section:first-of-type {
 	margin-bottom: auto;
-}
-
-*[noclass] *[drawer] > header > section:last-of-type {
-	margin-bottom: 16px; margin-bottom: var(--gutter, 16px);
 }
 
 *[noclass] input[toggle-trigger]:checked + *[drawer] {
