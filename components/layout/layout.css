@@ -10,6 +10,7 @@ html[noclass] {
 	height: auto;
 	width: auto;
 	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 /* Border Box Defaults */
