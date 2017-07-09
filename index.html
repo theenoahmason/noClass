@@ -1652,7 +1652,15 @@
 							</article>
 						</div>
 						<div gridcell="9" gridcell-tablet="8" gridcell-phone="12">
-							<iframe src="components/layout/layout.html" width="1920" height="1080" style="max-height:80vh;"></iframe>
+							<label button for="iframe-full-layout-1">Fullscreen</label>
+							<input toggle-trigger id="iframe-full-layout-1" type="checkbox" hidden />
+							<div toggle-target="fullscreen" level="10">
+								<header header bg="dark" c="dark-contrast" style="height:64px;">
+									<section><label button for="iframe-full-layout-1">Close</label></section>
+								</header>
+								<iframe src="components/layout/layout.html" width="1920" height="1080" style="width:100%;height:calc(100% - 64px);"></iframe>
+							</div>
+							<iframe src="components/layout/layout.html" width="1920" height="1080" style="max-width:100%;max-height:80vh;"></iframe>
 							<script src="https://gist-it.appspot.com/https://github.com/theenoahmason/noclass/blob/master/components/layout/layout.html"></script>
 						</div>
 					</div>
