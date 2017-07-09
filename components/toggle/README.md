@@ -20,3 +20,9 @@
 
 > **Note:** When using `toggle-trigger="mobile"` or `toggle-trigger="desktop"`, using `remove="mobile"` and `remove="desktop"` respectfully on 
 > `toggle-trigger` and `toggle-target` blocks can show/hide either for desired layout.
+
+### Toggle Target Modifiers
+
+| Modifier   | Description                                                                                                                                                                            |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| fullscreen | Declares that the toggle target should open full screen, fixed and overlayed over the content, rather than inline and relative. Use in conjunction with `level` to control it's height |
