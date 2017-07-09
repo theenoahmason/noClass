@@ -7,17 +7,6 @@
 	display: block;
 }
 
-*[noclass] input[toggle-trigger]:checked + *[toggle-target="fullscreen"] {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: auto;
-    width: auto;
-    overflow: auto;
-}
-
 /* Mobile Only */
 @media screen and (min-width: 1000px) {
 	*[noclass] input[type="checkbox"][toggle-trigger="mobile"] + *[toggle-target] {

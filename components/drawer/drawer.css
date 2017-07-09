@@ -1,5 +1,10 @@
 *[noclass] *[drawer] {
-	display: block !important;
+	display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    flex-flow: column;
+	justify-content: flex-start;
+	align-items: stretch;
 	position: fixed;
 	left: -416px;
 	max-width: 400px;
@@ -17,16 +22,27 @@
 *[noclass] *[drawer] > footer, 
 *[noclass] *[drawer] > header {
 	position: relative;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
+	display: inherit;
 	flex-flow: column;
 	justify-content: flex-end;
 	width: 100%;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
+}
+
+*[noclass] *[drawer] > header {
 	min-height: 256px;
+}
+
+*[noclass] *[drawer] > section {
+	flex-grow: 1;
+	display: inherit;
+	flex-flow: column;
+	justify-content: flex-start;
+	align-items: stretch;
+	width: 100%;
+	flex-basis: 100%;
 }
 
 *[noclass] *[drawer] > footer > section, 
@@ -71,11 +87,35 @@
 	transition: opacity 0.25s ease-in-out;
 }
 
-*[noclass] input[toggle-trigger] + *[toggle-target] + *[drawer-overlay] {
+*[noclass] *[toggle-target] + *[drawer-overlay] {
 	opacity: 0.0;
 }
 
 *[noclass] input[toggle-trigger]:checked + *[toggle-target] + *[drawer-overlay] {
 	opacity: 0.8;
 	pointer-events: all;
+}
+
+/* Fullscreen */
+*[noclass] *[drawer="full"] {
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: unset;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    -webkit-transition: top 0.25s ease-in-out;
+    -moz-transition: top 0.25s ease-in-out;
+    -ms-transition: top 0.25s ease-in-out;
+    -o-transition: top 0.25s ease-in-out;
+    transition: top 0.25s ease-in-out;
+}
+
+*[noclass] *[drawer="full"] > header {
+	min-height: unset;
+}
+
+*[noclass] input[toggle-trigger]:checked + *[drawer="full"] {
+    top: 0;
 }
