@@ -19,7 +19,7 @@
 			<section c="white">
 				<nav navigation>
 					<ul>
-						<li><label t="h3" for="drawer-toggle" hasmargin="none"><i icon>menu</i></label></li>
+						<li><label t="h3" for="drawer-toggle" onclick="document.querySelector('html').style.overflowY = 'hidden';" hasmargin="none"><i icon>menu</i></label></li>
 						<li><label t="h3" for="tab-overview" onclick="window.scrollTo(0,0);" hasmargin="none">noClass</label></li>
 					</ul>
 				</nav>
@@ -73,7 +73,7 @@
 				<section>
 					<nav navigation>
 						<ul>
-							<li><label toggle-trigger for="drawer-toggle" t="h3" hasmargin="none"><i icon>arrow_back</i></label></li>
+							<li><label toggle-trigger for="drawer-toggle" t="h3" onclick="document.querySelector('html').style.overflowY = 'auto';" hasmargin="none"><i icon>arrow_back</i></label></li>
 						</ul>
 					</nav>
 				</section>
@@ -110,7 +110,7 @@
 				</nav>
 			</section>
 		</aside>
-		<label drawer-overlay for="drawer-toggle" bg="black" c="white" level="5"></label>
+		<label drawer-overlay for="drawer-toggle" bg="black" c="white" level="5" onclick="document.querySelector('html').style.overflowY = 'auto';"></label>
 
 		<main>
 			<input toggle-trigger hidden type="radio" name="page-tabs" id="tab-overview" checked/>
@@ -1652,20 +1652,20 @@
 							</article>
 						</div>
 						<div gridcell="9" gridcell-tablet="8" gridcell-phone="12">
-							<label button for="iframe-full-layout-1">Fullscreen</label>
+							<label button for="iframe-full-layout-1" onclick="document.querySelector('html').style.overflowY = 'hidden';">Fullscreen</label>
 							<input toggle-trigger id="iframe-full-layout-1" type="checkbox" hidden />
 							<aside drawer="full" toggle-target level="10">
 								<header bg="dark" c="dark-contrast">
-									<section><label button hasmargin="left-right" for="iframe-full-layout-1">Close</label></section>
+									<section><label button hasmargin="left-right" for="iframe-full-layout-1" onclick="document.querySelector('html').style.overflowY = 'auto';">Close</label></section>
 								</header>
 								<section>
 									<iframe src="components/layout/layout.html" width="1920" height="1080" style="width:100%;height:100%;"></iframe>
 								</section>
 								<header bg="dark" c="dark-contrast">
-									<section><label button hasmargin="left-right" for="iframe-full-layout-1">Close</label></section>
+									<section><label button hasmargin="left-right" for="iframe-full-layout-1" onclick="document.querySelector('html').style.overflowY = 'auto';">Close</label></section>
 								</header>
 							</aside>
-							<label drawer-overlay for="iframe-full-layout-1" bg="black" c="white" level="9"></label>
+							<label drawer-overlay for="iframe-full-layout-1" bg="black" c="white" level="9" onclick="document.querySelector('html').style.overflowY = 'auto';"></label>
 							<iframe src="components/layout/layout.html" width="1920" height="1080" style="max-width:100%;max-height:80vh;"></iframe>
 							<script src="https://gist-it.appspot.com/https://github.com/theenoahmason/noclass/blob/master/components/layout/layout.html"></script>
 						</div>
