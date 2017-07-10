@@ -1652,14 +1652,14 @@
 							</article>
 						</div>
 						<div gridcell="9" gridcell-tablet="8" gridcell-phone="12">
-							<label button for="iframe-full-layout-1" onclick="document.querySelector('html').style.overflowY = 'hidden';">Fullscreen</label>
+							<label button for="iframe-full-layout-1" bg="primary" c="primary-contrast" level="2" onclick="document.querySelector('html').style.overflowY = 'hidden';" hasmargin="bottom">Fullscreen&nbsp;&nbsp;&nbsp;<i icon>fullscreen</i></label>
 							<input toggle-trigger id="iframe-full-layout-1" type="checkbox" hidden />
 							<aside drawer="full" toggle-target level="10">
 								<header bg="dark" c="dark-contrast" level="4" sticky="top" style="height:64px;min-height:unset;">
 									<section>
 										<nav navigation style="margin-left:auto;">
 											<ul>
-												<li><span><label button for="iframe-full-layout-1" onclick="document.querySelector('html').style.overflowY = 'auto';">Close</label></span></li>
+												<li><span><label button for="iframe-full-layout-1" onclick="document.querySelector('html').style.overflowY = 'auto';">Close&nbsp;&nbsp;&nbsp;<i icon>fullscreen_exit</i></label></span></li>
 											</ul>
 										</nav>
 									</section>
@@ -1669,7 +1669,7 @@
 								</section>
 							</aside>
 							<label drawer-overlay for="iframe-full-layout-1" bg="black" c="white" level="9" onclick="document.querySelector('html').style.overflowY = 'auto';"></label>
-							<iframe src="components/layout/layout.html" width="1920" height="1080" style="max-width:100%;max-height:80vh;"></iframe>
+							<iframe src="components/layout/layout.html" width="1920" height="1080" style="max-width:100%;max-height:80vh;" hasmargin="bottom"></iframe>
 							<script src="https://gist-it.appspot.com/https://github.com/theenoahmason/noclass/blob/master/components/layout/layout.html"></script>
 						</div>
 					</div>
