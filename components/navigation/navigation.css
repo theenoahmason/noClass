@@ -7,7 +7,7 @@
 	display: -ms-flexbox;
 	display: flex;
 	flex-flow: row wrap;
-	align-items: flex-start;
+	align-items: center;
 	justify-content: flex-start;
 	margin: 0;
 	padding: 0;
@@ -38,6 +38,8 @@
 	list-style: none;
 	display: none;
 	border-radius: 2px;
+	max-height: 64vh;
+	overflow-y:auto;
 }
 
 *[noclass] *[navigation] > ul > li > ul li {
