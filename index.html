@@ -525,7 +525,7 @@
 						</div>
 						<div gridcell="9" gridcell-tablet="8" gridcell-phone="12">
 							<div hasmargin="bottom">
-								<footer footer bg="dark" c="dark-contrast">
+								<footer footer bg="dark" c="dark-contrast" haspadding="top-bottom">
 									<section>
 										<div contain>
 											<div grid="stretch">
@@ -535,11 +535,11 @@
 													<section toggle-target>
 														<nav navigation="vertical">
 															<ul>
-																<li><label for="tab-overview" onclick="window.scrollTo(0,0)">Overview</label></li>
-																<li><label for="tab-get-started" onclick="window.scrollTo(0,0)">Get Started</label></li>
-																<li><label for="tab-components" onclick="window.scrollTo(0,0)">Components</label></li>
-																<li><label for="tab-templates" onclick="window.scrollTo(0,0)">Templates</label></li>
-																<li><a target="_blank" href="https://github.com/theenoahmason/noClass">Source&nbsp;&nbsp;&nbsp;<i icon>open_in_new</i></a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
 															</ul>
 														</nav>
 													</section>
@@ -550,11 +550,11 @@
 													<section toggle-target>
 														<nav navigation="vertical">
 															<ul>
-																<li><label for="tab-overview" onclick="window.scrollTo(0,0)">Overview</label></li>
-																<li><label for="tab-get-started" onclick="window.scrollTo(0,0)">Get Started</label></li>
-																<li><label for="tab-components" onclick="window.scrollTo(0,0)">Components</label></li>
-																<li><label for="tab-templates" onclick="window.scrollTo(0,0)">Templates</label></li>
-																<li><a target="_blank" href="https://github.com/theenoahmason/noClass">Source&nbsp;&nbsp;&nbsp;<i icon>open_in_new</i></a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
 															</ul>
 														</nav>
 													</section>
@@ -565,11 +565,11 @@
 													<section toggle-target>
 														<nav navigation="vertical">
 															<ul>
-																<li><label for="tab-overview" onclick="window.scrollTo(0,0)">Overview</label></li>
-																<li><label for="tab-get-started" onclick="window.scrollTo(0,0)">Get Started</label></li>
-																<li><label for="tab-components" onclick="window.scrollTo(0,0)">Components</label></li>
-																<li><label for="tab-templates" onclick="window.scrollTo(0,0)">Templates</label></li>
-																<li><a target="_blank" href="https://github.com/theenoahmason/noClass">Source&nbsp;&nbsp;&nbsp;<i icon>open_in_new</i></a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
 															</ul>
 														</nav>
 													</section>
@@ -580,11 +580,11 @@
 													<section toggle-target>
 														<nav navigation="vertical">
 															<ul>
-																<li><label for="tab-overview" onclick="window.scrollTo(0,0)">Overview</label></li>
-																<li><label for="tab-get-started" onclick="window.scrollTo(0,0)">Get Started</label></li>
-																<li><label for="tab-components" onclick="window.scrollTo(0,0)">Components</label></li>
-																<li><label for="tab-templates" onclick="window.scrollTo(0,0)">Templates</label></li>
-																<li><a target="_blank" href="https://github.com/theenoahmason/noClass">Source&nbsp;&nbsp;&nbsp;<i icon>open_in_new</i></a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
+																<li><a href="#">Link</a></li>
 															</ul>
 														</nav>
 													</section>
@@ -1655,7 +1655,7 @@
 							<label button for="iframe-full-layout-1" onclick="document.querySelector('html').style.overflowY = 'hidden';">Fullscreen</label>
 							<input toggle-trigger id="iframe-full-layout-1" type="checkbox" hidden />
 							<aside drawer="full" toggle-target level="10">
-								<header bg="dark" c="dark-contrast" level="4" style="min-height:unset;">
+								<header bg="dark" c="dark-contrast" level="4" sticky="top" style="height:64px;min-height:unset;">
 									<section>
 										<nav navigation style="margin-left:auto;">
 											<ul>
@@ -1664,7 +1664,7 @@
 										</nav>
 									</section>
 								</header>
-								<section>
+								<section style="height:calc(100% - 64px);">
 									<iframe src="components/layout/layout.html" style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%;height:100%;"></iframe>
 								</section>
 							</aside>
@@ -1775,6 +1775,113 @@
 								</aside>
 								<label drawer-overlay for="demo-drawer-full-toggle" bg="black" c="white" level="3" style="position:absolute;"></label>
 							</div>
+
+							<!-- Drawer Actions -->
+							<div bg="light" c="light-contrast" level="2" hasmargin="bottom" style="position:relative;height:500px;overflow:hidden;">
+								<header header>
+									<section>
+										<nav navigation>
+											<ul>
+												<li><label toggle-trigger for="demo-drawer-actions-toggle" t="h3" hasmargin="none"><i icon>menu</i></label></li>
+											</ul>
+										</nav>
+									</section>
+								</header>
+								<input toggle-trigger id="demo-drawer-actions-toggle" type="checkbox" hidden checked />
+								<aside toggle-target drawer="full" bg="light" c="light-contrast" level="4" style="position:absolute;">
+									<header bg="white" c="black" level="4" sticky="top" style="min-height:0;">
+										<section>
+											<nav navigation>
+												<ul>
+													<li><label toggle-trigger for="demo-drawer-actions-toggle" t="h3" hasmargin="none"><i icon>arrow_back</i></label></li>
+													<li><span t="h3" hasmargin="none">Title</span></li>
+												</ul>
+											</nav>
+											<nav navigation style="margin-left:auto;">
+												<ul>
+													<li>
+														<a t="h3" hasmargin="none" href="#"><i icon>playlist_play</i></a>
+														<ul level="3" bg="white" style="left:unset;right:0;">
+															<li><a href="#">Link</a></li>
+															<li><a href="#">Link</a></li>
+															<li><a href="#">Link</a></li>
+															<li><a href="#">Link</a></li>
+															<li><a href="#">Link</a></li>
+														</ul>
+													</li>
+												</ul>
+											</nav>
+										</section>
+									</header>
+									<section>
+										<div contain>
+											<div grid>
+												<div gridcell="4" gridcell-tablet="6" gridcell-phone="6">
+													<article card bg="white" c="black" level="2">
+														<header style="background-image:url(images/demo-bg.jpg);"></header>
+														<section><p t="small" hasmargin="none">Lorem ipsum dolor sit amet.</p></section>
+													</article>
+												</div>
+												<div gridcell="4" gridcell-tablet="6" gridcell-phone="6">
+													<article card bg="white" c="black" level="2">
+														<header style="background-image:url(images/demo-bg.jpg);"></header>
+														<section><p t="small" hasmargin="none">Lorem ipsum dolor sit amet.</p></section>
+													</article>
+												</div>
+												<div gridcell="4" gridcell-tablet="6" gridcell-phone="6">
+													<article card bg="white" c="black" level="2">
+														<header style="background-image:url(images/demo-bg.jpg);"></header>
+														<section><p t="small" hasmargin="none">Lorem ipsum dolor sit amet.</p></section>
+													</article>
+												</div>
+												<div gridcell="4" gridcell-tablet="6" gridcell-phone="6">
+													<article card bg="white" c="black" level="2">
+														<header style="background-image:url(images/demo-bg.jpg);"></header>
+														<section><p t="small" hasmargin="none">Lorem ipsum dolor sit amet.</p></section>
+													</article>
+												</div>
+												<div gridcell="4" gridcell-tablet="6" gridcell-phone="6">
+													<article card bg="white" c="black" level="2">
+														<header style="background-image:url(images/demo-bg.jpg);"></header>
+														<section><p t="small" hasmargin="none">Lorem ipsum dolor sit amet.</p></section>
+													</article>
+												</div>
+												<div gridcell="4" gridcell-tablet="6" gridcell-phone="6">
+													<article card bg="white" c="black" level="2">
+														<header style="background-image:url(images/demo-bg.jpg);"></header>
+														<section><p t="small" hasmargin="none">Lorem ipsum dolor sit amet.</p></section>
+													</article>
+												</div>
+											</div>
+										</div>
+									</section>
+									<footer bg="white" c="accent" level="4" sticky="bottom">
+										<section>
+											<nav navigation style="margin-right:auto;">
+												<ul>
+													<li><a t="h3" hasmargin="none" href="#"><i icon>shuffle</i></a></li>
+												</ul>
+											</nav>
+											<nav navigation style="margin-left:auto;margin-right:auto;">
+												<ul>
+													<li><a t="h2" hasmargin="none" href="#"><i icon>replay_30</i></a></li>
+													<li><a t="h1" hasmargin="none" href="#"><i icon>fast_rewind</i></a></li>
+													<li><a t="h1" hasmargin="none" href="#"><i icon>play_circle_filled</i></a></li>
+													<li><a t="h1" hasmargin="none" href="#"><i icon>fast_forward</i></a></li>
+													<li><a t="h2" hasmargin="none" href="#"><i icon>forward_30</i></a></li>
+												</ul>
+											</nav>
+											<nav navigation style="margin-left:auto;">
+												<ul>
+													<li><a t="h3" hasmargin="none" href="#"><i icon>cast</i></a></li>
+												</ul>
+											</nav>
+										</section>
+									</footer>
+								</aside>
+								<label drawer-overlay for="demo-drawer-actions-toggle" bg="black" c="white" level="3" style="position:absolute;"></label>
+							</div>
+
 							<script src="https://gist-it.appspot.com/https://github.com/theenoahmason/noclass/blob/master/components/drawer/drawer.html"></script>
 						</div>
 					</div>
@@ -1935,7 +2042,7 @@
 
 		</main>
 
-		<footer footer bg="dark" c="dark-contrast">
+		<footer footer bg="dark" c="dark-contrast" haspadding="top-bottom">
 			<section>
 				<div contain>
 					<div grid="stretch">
