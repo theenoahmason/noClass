@@ -8,9 +8,10 @@
 
 ### Modifiers
 
-| Modifier | Description                                                      |
-| -------- | ---------------------------------------------------------------- |
-| vertical | Declares that the navigation items should be stacked vertically. |
+| Modifier | Description                                                             |
+| -------- | ----------------------------------------------------------------------- |
+| right    | Declares that the navigation sub-menus should be anchored to the right. |
+| vertical | Declares that the navigation items should be stacked vertically.        |
 
 ### Nodes
 

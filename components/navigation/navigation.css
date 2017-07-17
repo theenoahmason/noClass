@@ -69,6 +69,24 @@
 	position: absolute;
 	top: 100%;
 	left: 0;
+	right: unset;
+	width: 100%;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: 200px;
+}
+
+*[noclass] *[navigation="right"] > ul > li:focus > ul, 
+*[noclass] *[navigation="right"] > ul > li:active > ul, 
+*[noclass] *[navigation="right"] > ul > li:hover > ul {
+	position: absolute;
+	top: 100%;
+	left: unset;
+	right: 0;
 	width: 100%;
 	display: -webkit-flex;
 	display: -ms-flexbox;
