@@ -13,7 +13,7 @@
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	flex-basis: 100%;
+	align-self: stretch;
 }
 
 *[noclass] *[backdrop="stretch"] {
