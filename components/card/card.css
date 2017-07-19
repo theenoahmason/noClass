@@ -31,6 +31,10 @@
 	flex-grow: 1;
 }
 
+*[noclass] *[card] > footer {
+	margin-top: auto;
+}
+
 *[noclass] *[card] > footer > section, 
 *[noclass] *[card] > header > section {
 	position: relative;
