@@ -98,6 +98,19 @@ html[noclass] {
 	margin: 0;
 }
 
+/* Horizontal Rules */
+*[noclass] hr {
+	background-color: rgba(0, 0, 0, 0.1);
+	border: none;
+	height: 2px;
+	margin-top: 32px; margin-top: calc(var(--gutter, 16px) * 2);
+	margin-bottom: 32px; margin-bottom: calc(var(--gutter, 16px) * 2);
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	display: block;
+}
+
 /* Hidden */
 *[noclass] *[hidden] {
 	display: none !important;
