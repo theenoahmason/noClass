@@ -1,0 +1,26 @@
+/* Flex */
+*[noclass] *[flex] {
+	position: relative;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+*[noclass] *[flex] > section {
+	position: relative;
+	display: inherit;
+	flex-flow: row;
+	align-items: center;
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 16px;  padding-left: var(--gutter, 16px);
+	padding-right: 16px; padding-right: var(--gutter, 16px);
+}

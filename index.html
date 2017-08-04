@@ -15,7 +15,7 @@
 	<body bg="light" c="light-contrast">
 
 		<!-- Header -->
-		<header header bg="primary" c="primary-contrast" level="4" sticky="top">
+		<header flex bg="primary" c="primary-contrast" level="4" sticky="top">
 			<section c="white">
 				<nav navigation>
 					<ul>
@@ -58,6 +58,7 @@
 								<li><label for="tab-components--gutter" onclick="window.scrollTo(0,0)">Gutter</label></li>
 								<li><label for="tab-components--sticky" onclick="window.scrollTo(0,0)">Sticky</label></li>
 								<li><label for="tab-components--contain" onclick="window.scrollTo(0,0)">Contain</label></li>
+								<li><label for="tab-components--flex" onclick="window.scrollTo(0,0)">Flex</label></li>
 							</ul>
 						</li>
 						<li><label for="tab-templates" onclick="window.scrollTo(0,0)">Templates</label></li>
@@ -439,6 +440,22 @@
 							</article>
 						</div>
 
+						<div gridcell="3" gridcell-tablet="6" gridcell-phone="12">
+							<article card bg="primary" c="primary-contrast" level="2">
+								<header darken="inherit" bg="primary" c="white" style="background-image:url(images/demo-bg.jpg);">
+									<section><h3 hasmargin="none"><label for="tab-components--contain" onclick="window.scrollTo(0,0)">Flex</label></h3></section>
+								</header>
+								<section>
+									<p hasmargin="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</section>
+								<footer>
+									<section>
+										<label button for="tab-components--flex" level="2" onclick="window.scrollTo(0,0)">Expand</label>
+									</section>
+								</footer>
+							</article>
+						</div>
+
 					</div>
 				</div>	
 			</section>
@@ -466,7 +483,7 @@
 						</div>
 						<div gridcell="9" gridcell-tablet="8" gridcell-phone="12">
 							<div hasmargin="bottom">
-								<header header bg="primary" c="primary-contrast" level="2">
+								<header flex bg="primary" c="primary-contrast" level="2">
 									<section c="white">
 										<nav navigation>
 											<ul>
@@ -524,7 +541,7 @@
 						</div>
 						<div gridcell="9" gridcell-tablet="8" gridcell-phone="12">
 							<div hasmargin="bottom">
-								<footer footer bg="dark" c="dark-contrast" haspadding="top-bottom">
+								<footer flex bg="dark" c="dark-contrast" haspadding="top-bottom">
 									<section>
 										<div contain>
 											<div grid="stretch">
@@ -1700,7 +1717,7 @@
 						<div gridcell="9" gridcell-tablet="8" gridcell-phone="12">
 							<!-- Drawer -->
 							<div bg="light" c="light-contrast" level="2" hasmargin="bottom" style="position:relative;height:500px;overflow:hidden;">
-								<header header>
+								<header flex>
 									<section>
 										<nav navigation>
 											<ul>
@@ -1739,7 +1756,7 @@
 
 							<!-- Drawer Full -->
 							<div bg="light" c="light-contrast" level="2" hasmargin="bottom" style="position:relative;height:500px;overflow:hidden;">
-								<header header>
+								<header flex>
 									<section>
 										<nav navigation>
 											<ul>
@@ -1778,7 +1795,7 @@
 
 							<!-- Drawer Actions -->
 							<div bg="light" c="light-contrast" level="2" hasmargin="bottom" style="position:relative;height:500px;overflow:hidden;">
-								<header header>
+								<header flex>
 									<section>
 										<nav navigation>
 											<ul>
@@ -2033,6 +2050,35 @@
 				</div>
 			</section>
 
+			<input toggle-trigger hidden type="radio" name="page-tabs" id="tab-components--flex" />
+			<section toggle-target id="components-contain">
+				<section backdrop darken="inherit" bg="dark" c="white" style="background-image:url(images/demo-bg.jpg);"></section>
+				<div contain>
+					<h2 t="h1" c="dark-contrast"><i icon style="margin-top:-6px;">dashboard</i>&nbsp;<label for="tab-components">Components</label> > Flex</h2>
+					<div grid="stretch">
+						<div gridcell="3" gridcell-tablet="4" gridcell-phone="12">
+							<article card bg="primary" c="primary-contrast" level="2" sticky="top" style="top:138px;" hasmargin="bottom">
+								<header darken="inherit" bg="primary" c="white" style="background-image:url(images/demo-bg.jpg);">
+									<section><h3 hasmargin="none">Flex</h3></section>
+								</header>
+								<section>
+									<p hasmargin="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</section>
+								<footer>
+									<section>
+										<label button for="tab-components" level="2">Back</label>
+									</section>
+								</footer>
+							</article>
+						</div>
+						<div gridcell="9" gridcell-tablet="8" gridcell-phone="12">
+
+							<script src="https://gist-it.appspot.com/https://github.com/theenoahmason/noclass/blob/master/components/flex/flex.html"></script>
+						</div>
+					</div>
+				</div>
+			</section>
+
 			<input toggle-trigger hidden type="radio" name="page-tabs" id="tab-templates" />
 			<section toggle-target id="templates">
 				<div contain>
@@ -2042,7 +2088,7 @@
 
 		</main>
 
-		<footer footer bg="dark" c="dark-contrast" haspadding="top-bottom">
+		<footer flex bg="dark" c="dark-contrast" haspadding="top-bottom">
 			<section>
 				<div contain>
 					<div grid="stretch">
